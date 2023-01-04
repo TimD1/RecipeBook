@@ -11,13 +11,13 @@
     "recipeYield": "yield",
     "recipeIngredient": [
         "Mini square Party pretzels",
-        "M&m's",
+        "M and Ms",
         "Circle White chocolate wafers"
     ],
     "recipeInstructions": [
         {
             "@type": "HowToStep",
-            "text": "Preheat oven to 225 F. Place single layer of pretzels on cookie sheet. Place 1 wafer on center of each pretzel. Warm in oven for 3-5 minutes to soften wafer. Remove from oven and place 1 m&m in center of each wafer. Cool in fridge until wafer hardens."
+            "text": "Preheat oven to 225 F. Place single layer of pretzels on cookie sheet. Place 1 wafer on center of each pretzel. Warm in oven for 3-5 minutes to soften wafer. Remove from oven and place 1 M and M in center of each wafer. Cool in fridge until wafer hardens."
         }
     ],
     "image": [

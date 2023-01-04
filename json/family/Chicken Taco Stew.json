@@ -1,10 +1,10 @@
 {
     "@context": "https://schema.org",
     "@type": "Recipe",
-    "name": "Chicken Taco Stew-crock pot",
+    "name": "Chicken Taco Stew",
     "author": {
         "@type": "Person",
-        "name": ""
+        "name": "Sue Dunn"
     },
     "description": "description of recipe",
     "recipeCategory": "classic, pies",

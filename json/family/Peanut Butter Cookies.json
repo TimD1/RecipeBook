@@ -1,10 +1,10 @@
 {
     "@context": "https://schema.org",
     "@type": "Recipe",
-    "name": "Mom's Peanut Butter Cookies",
+    "name": "Peanut Butter Cookies",
     "author": {
         "@type": "Person",
-        "name": "Grandma Dunn"
+        "name": "Grandma Claire Dunn"
     },
     "description": "description of recipe",
     "recipeCategory": "classic, pies",
