@@ -1,0 +1,32 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Apple, Dried Cherry, and Walnut Salad Maple Dressing",
+    "author": {
+        "@type": "Person",
+        "name": "Linda Garner"
+    },
+    "description": "Dressing can be prepared up to 3 days ahead. Cover and refrigerate. Re-whisk before using.",
+    "recipeCategory": "salads",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+		"1/4 cup mayonnaise",
+		"1/4 cup pure maple syrup",
+		"3 Tbsp Champagne/white vinegar",
+		"2 tsp sugar",
+		"1/2 cup vegetable oil"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Whisk mayonnaise, maple syrup, vinegar, and sugar in medium bowl to blend."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Gradually whisk in oil until mixture thickens slightly. Season to taste with salt and pepper."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/"
+    ]
+}

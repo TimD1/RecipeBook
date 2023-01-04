@@ -7,15 +7,15 @@
         "name": "Sue Dunn"
     },
     "description": "description of recipe",
-    "recipeCategory": "classic, pies",
+    "recipeCategory": "cookies",
     "recipeYield": "yield",
     "recipeIngredient": [
-        "2 Cups Creamy peanut butter",
-        "3 Cups Rice Krispies cereal",
-        "1 lb powdered sugar",
+        "2 cups creamy peanut butter",
+        "3 cups Rice Krispies cereal",
+        "4 cups powdered sugar",
         "1/4 tsp vanilla extract",
-        "1 Cup chocolate chips",
-        "1/2 Cup Butter"
+        "1 cup chocolate chips",
+        "1/2 cup butter"
     ],
     "recipeInstructions": [
         {

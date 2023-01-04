@@ -4,42 +4,35 @@
     "name": "Pumpkin Waffles",
     "author": {
         "@type": "Person",
-        "name": "Carolyn Benjamin"
+        "name": "Aunt Carolyn Benjamin"
     },
     "description": "description of recipe",
-    "recipeCategory": "classic, pies",
-    "recipeYield": "yield",
+    "recipeCategory": "breakfasts",
+    "recipeYield": "8 waffles",
     "recipeIngredient": [
-        "1 Cup Flour",
-        "2 tsp Baking powder",
-        "3/4 tsp Ground Cinnamon",
-        "1/8 tsp Ground cloves",
-        "1 Cup Low fat milk",
-        "1/2 Cup Pumpkin puree",
-        "1/4 Cup Packed Dark Brown Sugar",
+        "1 cup flour",
+        "2 tsp baking powder",
+        "3/4 tsp ground cinnamon",
+		"1/8 tsp salt",
+        "1/8 tsp ground cloves",
+        "1 cup low fat milk",
+        "1/2 cup pumpkin puree",
+        "1/4 cup packed dark brown sugar",
         "1 Tbsp vegetable oil",
-        "1 Large Egg, slightly beaten"
+        "1 large egg, slightly beaten"
     ],
     "recipeInstructions": [
         {
             "@type": "HowToStep",
-            "text": "Spoon flour into measuring cup and level with a knife"
+            "text": "Combine flour and next four ingredients (through cloves) in a large bowl. Make a well in the center of the mixture."
         },
         {
             "@type": "HowToStep",
-            "text": "Combine flour and next 4 ingredients (through cloves) in a large bowl."
+            "text": "Combine milk and next four ingredients (through egg) in a bowl and add flour mixture. Stir until moist."
         },
         {
             "@type": "HowToStep",
-            "text": "Make a well in the center of the mixture"
-        },
-        {
-            "@type": "HowToStep",
-            "text": "Combine milk and next 4 ingredients (through egg) in a bowl and add flour mixture. Stir until moist."
-        },
-        {
-            "@type": "HowToStep",
-            "text": "Coat waffle iron with cooking spray (if necessary). Spoon about 1/4 cup batter per waffle into hot waffle iron spreading batter to edges"
+            "text": "Coat waffle iron with cooking spray (if necessary). Spoon about 1/4 cup batter per waffle into hot waffle iron, spreading batter to edges"
         }
     ],
     "image": [

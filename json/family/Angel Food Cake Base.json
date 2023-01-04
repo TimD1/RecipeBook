@@ -1,7 +1,7 @@
 {
     "@context": "https://schema.org",
     "@type": "Recipe",
-    "name": "Angel Food Cake",
+    "name": "Angel Food Cake Base",
     "author": {
         "@type": "Person",
         "name": ""
@@ -10,19 +10,19 @@
     "recipeCategory": "classic, pies",
     "recipeYield": "yield",
     "recipeIngredient": [
-        "1 1/4 Cups confectioners' sugar",
-        "1 Cup Cake flour",
-        "1 1/2 Cups Egg (Whites) at room temerature (12-14 egg whites)",
-        "1 1/2 tsp Cream of tartar",
+        "1 1/4 cups confectioners sugar",
+        "1 cup cake flour",
+        "1 1/2 cups egg (whites) at room temerature (12-14 egg whites)",
+        "1 1/2 tsp cream of tartar",
         "1 1/2 tsp vanilla extract",
-        "1/4 tsp Salt",
+        "1/4 tsp salt",
         "1/4 tsp almond extract",
-        "1 Cup Sugar"
+        "1 cup sugar"
     ],
     "recipeInstructions": [
         {
             "@type": "HowToStep",
-            "text": "Preheat oven to 375 F. In small bowl, stir confectioner's sugar and cake flour; set aside."
+            "text": "Preheat oven to 375F. In small bowl, stir confectioner's sugar and cake flour; set aside."
         },
         {
             "@type": "HowToStep",

@@ -1,0 +1,56 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Apple Wheat Bread",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "Shredded apple in this mild, wheaty bread adds an elusive flavor and keeps it moist.",
+    "recipeCategory": "breads",
+    "recipeYield": "2 loaves",
+    "recipeIngredient": [
+        "1 package active dry yeast",
+        "1 1/4 cups warm (105-115F) water",
+        "1/4 cup firmly packed brown sugar",
+        "1 cup warm (105-115F) milk",
+        "1 1/2 tsp salt",
+        "2 Tbsp salad oil",
+        "5 cups unbleached all-purpose flour",
+        "1 1/2 cups whole wheat flour",
+        "1 large apple, peeled, cored, and shredded"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Sprinkle yeast over 1/4 cup of the water in a large bowl or electric mixer. Add 1 tsp of the brown sugar. Let stand until soft (5 minutes)."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir in remaining water, milk, remaining brown sugar, salt, and oil."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add 3 1/2 cups of the unbleached flour. Mix to blend, then beat at medium speed until smooth and elastic (5 minutes). Stir in whole wheat flour and apple. Then stir in about 3/4 cup more unbleached flour to make a soft dough."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Turn dough out onto a board or pastry cloth coated with some of the remaining 3/4 cup unbleached flour. Knead until dough is smooth and springy and small bubbles form just under surface (12-15 minutes), adding just enough flour to prevent dough from being sticky."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Turn dough in a greased bowl. Cover with plastic wrap and a towel; let rise in a warm place until doubled in bulk (1 1/4 - 1 1/2 hours)."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Punch dough down and divide into two equal portions. Shape each into a loaf. Place loaves in greased 4 1/2 x 8 1/2 inch loaf pans. Let rise until almost doubled in bulk (40-45 minutes)."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 350F. Bake until loaves are well browned and sound hollow when tapped (40-45 minutes). Remove loaves from pans and let cool on wire racks."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/"
+    ]
+}

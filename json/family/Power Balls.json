@@ -7,28 +7,28 @@
         "name": "Sue Dunn"
     },
     "description": "description of recipe",
-    "recipeCategory": "classic, pies",
+    "recipeCategory": "appetizers",
     "recipeYield": "yield",
     "recipeIngredient": [
-        "2 Cups of oatmeal",
-        "1/2 Cup of peanut butter",
-        "1/3 Cup of honey",
-        "1/2 Cup Raisins or choc. Chips or nuts",
-        "1 tsp of vanilla",
-        "1/8 Cup Flax seed"
+        "2 cups oatmeal",
+        "1/2 cup peanut butter",
+        "1/3 cup honey",
+        "1/2 cup chocolate chips",
+        "1 tsp vanilla",
+        "1/8 cup ground flax seed"
     ],
     "recipeInstructions": [
         {
             "@type": "HowToStep",
-            "text": "In a large mixing bowl, add together the dry ingredients (oatmeal, flax seed, choc. Chips). Mix together."
+            "text": "In a large mixing bowl, add together the dry ingredients (oatmeal, flax seed, chocolate chips). Mix together."
         },
         {
             "@type": "HowToStep",
-            "text": "Then add in your peanut butter, honey, and vanilla. Mix together thoroughly and refrigerate for 45 minutes to make your dough a bit firmer."
+            "text": "Add in peanut butter, honey, and vanilla. Mix together thoroughly. Refrigerate to make your dough a bit firmer."
         },
         {
             "@type": "HowToStep",
-            "text": "After 45 minutes, roll bits of dough into balls however big or small you want them to be. Place in an air tight container and store in the refrigerator. (Remember how much pb and honey you added! That at room temperature is messy!!) It can be stored for up to a week."
+            "text": "Roll bits of dough into 1 inch balls. Place in an air tight container and store in the refrigerator. They can be stored for up to one week."
         }
     ],
     "image": [

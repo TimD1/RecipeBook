@@ -1,0 +1,32 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Apple, Dried Cherry, and Walnut Salad Base",
+    "author": {
+        "@type": "Person",
+        "name": "Linda Garner"
+    },
+    "description": "With maple dressing (next recipe)",
+    "recipeCategory": "salads",
+    "recipeYield": "serves 6",
+    "recipeIngredient": [
+		"5oz bag mixed baby greens (10 cups lightly packed",
+		"2 Granny Smith apples",
+		"1/2 cup dried tart cherries",
+		"1/2 cup chopped walnuts, toasted",
+		"1/4 cup crumbled Maytag bleu cheese"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Peel and core apples. Chop into matchstick-sized strips."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Toss greens, apples, cherries, and 1/4 cup walnuts in large bowl to combine. Toss with enough dressing to coat. Divide salad equally among all plates. Sprinkle remaining 1/4 cup walnuts and serve."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/"
+    ]
+}

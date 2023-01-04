@@ -7,31 +7,30 @@
         "name": "Nancy Wood"
     },
     "description": "description of recipe",
-    "recipeCategory": "classic, pies",
-    "recipeYield": "yield",
+    "recipeCategory": "desserts",
+    "recipeYield": "24 sticky buns",
     "recipeIngredient": [
-        "1 Cup Milk",
-        "1/2 Cup Sugar",
-        "1 tsp Salt",
-        "1/2 Cup Butter",
-        "1/4 Cup Warm Water",
-        "1 pkg Yeast",
-        "1 Egg",
-        "4 -4 1/2 cups Flour",
-        "1 Cup Light Brown Sugar",
-        "3/4 Cup Butter",
-        "1 Tbsp Water",
-        "1/2 Cup Chopped walnuts or pecans, optional",
-        "*I sometimes add a squirt of maple to the topping to give it a little extra flavor"
+        "1 cup milk",
+        "1/2 cup sugar",
+        "1 tsp salt",
+        "1/2 cup butter",
+        "1/4 cup warm water",
+        "1 pkg yeast",
+        "1 egg",
+        "4 cups flour",
+        "1 cup light brown sugar",
+        "3/4 cup butter",
+        "1 Tbsp water",
+        "some maple syrup"
     ],
     "recipeInstructions": [
         {
             "@type": "HowToStep",
-            "text": "Scald milk in saucepan, add salt, sugar and butter. Stir until butter is melted. Do not boil. Cool to 110 - 120 degrees. Meanwhile stir yeast into warm water to dissolve. Add to milk mixture and stir. Add egg. Place milk/yeast mixture in large bowl and add 2 cups of flour. Stir until smooth. Add remaining flour to make a stiff dough. Raise in the refrigerator for 2 hours (or up to 3 days)."
+            "text": "Scald milk in saucepan. Add salt, sugar and butter. Stir until butter is melted. Do not boil. Cool to 110-120F. Meanwhile, stir yeast into warm water to dissolve. Add to milk mixture and stir. Add egg. Place milk/yeast mixture in large bowl and add 2 cups of flour. Stir until smooth. Add remaining flour to make a stiff dough. Raise in the refrigerator for 2 hours (or up to 3 days)."
         },
         {
             "@type": "HowToStep",
-            "text": "To assemble:\nRemove dough to work area and roll 24x12 inch rectangle. Brush with melted butter and sprinkle with cinnamon or cinnamon sugar. Roll from long end and slice into 20-24 pieces. (I usually make 20 pieces if I use a 9x13 pan, 24 in a 10x14 pan). Pour topping in the bottom of your baking pan and sprinkle with nuts if desired. Place cut pieces of dough on top and let rise 1 hour or until the sticky buns are well risen. *to bake in the morning, place the pan in the fridge before the last rising, let come to room temperature and rise before baking. Bake @ 350 degrees for 30 minutes. Enjoy!!"
+            "text": "Remove dough to work area and roll 24x12 inch rectangle. Brush with melted butter and sprinkle with cinnamon or cinnamon sugar. Roll from long end and slice into 24 pieces. Pour topping in the bottom of your baking pan. Place cut pieces of dough on top and let rise 1 hour or until the sticky buns are well risen. To bake in the morning, place the pan in the fridge before the last rising, let come to room temperature and rise before baking. Bake at 350F for 30 minutes."
         }
     ],
     "image": [

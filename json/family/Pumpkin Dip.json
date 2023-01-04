@@ -4,31 +4,23 @@
     "name": "Pumpkin Dip",
     "author": {
         "@type": "Person",
-        "name": "(I usully make half this recipe)"
+        "name": "Donna Knights"
     },
-    "description": "description of recipe",
-    "recipeCategory": "classic, pies",
+    "description": "Half of this recipe is usually enough",
+    "recipeCategory": "dips, appetizers",
     "recipeYield": "yield",
     "recipeIngredient": [
-        "2 Cups confectioners' sugar",
-        "8 oz Cream cheese softened",
-        "15 oz Canned pumpkin",
-        "1 tsp Cinnamon",
-        "1/2 tsp Ginger",
-        "1 Dash Nutmeg"
+        "2 cups confectioners sugar",
+        "8 oz cream cheese, softened",
+        "15 oz canned pumpkin",
+        "1 tsp cinnamon",
+        "1/2 tsp ginger",
+        "1 dash nutmeg"
     ],
     "recipeInstructions": [
         {
             "@type": "HowToStep",
-            "text": "Beat sugar and cream cheese together."
-        },
-        {
-            "@type": "HowToStep",
-            "text": "Beat in remaining ingredients."
-        },
-        {
-            "@type": "HowToStep",
-            "text": "Refrigerate."
+            "text": "Beat all ingredients until smooth, and refrigerate."
         },
         {
             "@type": "HowToStep",

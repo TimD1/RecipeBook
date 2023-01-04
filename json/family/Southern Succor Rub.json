@@ -6,7 +6,7 @@
         "@type": "Person",
         "name": "Uncle Tim Dunn"
     },
-    "description": "pork rub",
+    "description": "description of recipe",
     "recipeCategory": "pork",
     "recipeYield": "enough rub for one pork butt, with some left over",
     "recipeIngredient": [
