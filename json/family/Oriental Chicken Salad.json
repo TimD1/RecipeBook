@@ -1,0 +1,46 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Oriental Chicken Salad",
+    "author": {
+        "@type": "Person",
+        "name": "Lynn Neff"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "1 # cooked Chicken -shredded",
+        "1/2 Package Wonton shells cut in 1/4\" strips and fried in peanut oil (2-3T in wok)",
+        "2 Heads Lettuce, shredded (romaine is fine)",
+        "8 Green Onions (sliced)",
+        "4 tsp Sliced almonds, toasted @ 350 for 8 minutes",
+        "4 Tbsp Sesame seeds",
+        "1/2 Cup White vinegar",
+        "1/2 Cup ketchup",
+        "1/2 Cup water",
+        "12 Tbsp Sugar",
+        "2 tsp Soy"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Tap and Hold image"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Touch 'Save Image' to save the image to your iPad"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Tap here to open app importer."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Once the app opens and imports the recipe, upload the picture you saved from the email (iPad app only)"
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/208306E3-ECAD-4693-8AA9-7461D5210B63.jpg"
+    ]
+}

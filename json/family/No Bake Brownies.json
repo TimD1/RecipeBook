@@ -1,0 +1,42 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "No Bake Brownies",
+    "author": {
+        "@type": "Person",
+        "name": "Nancy Feth (Grandma)"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "12 oz chocolate chips",
+        "1 Cup Evaporated milk",
+        "3 Cups Crushed vanilla wafers",
+        "2 Cups Miniature marshmallows",
+        "1 Cup chopped nuts",
+        "1 Cup powdered sugar",
+        "1/2 tsp Salt"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Stir chocolate chips and evaporated milk (save 2 tsp for later) on low heat until smooth. Remove from heat."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Mix together Vanilla wafers, marshmallows, chopped nuts, powdered sugar, salt and half of chocolate mixture (save rest for top)."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir 2 tsp of evaporated milk into rest of chocolate. Spread over mixture. Chill."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Use 9x9 glass pan."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/3E7638E8-6016-4515-B245-DC058DFAA008.jpg"
+    ]
+}

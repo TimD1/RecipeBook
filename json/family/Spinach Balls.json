@@ -1,0 +1,40 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Spinach Balls",
+    "author": {
+        "@type": "Person",
+        "name": "allrecipes.com"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "1 pkg frozen chopped spinach, thawed and drained (10 ounce)",
+        "2 Cups finely crushed herb - seasoned dry bread stuffing mix",
+        "1/2 Cup grated Parmesan cheese",
+        "2 tsp garlic powder",
+        "1/2 tsp ground black pepper",
+        "1 tsp Italian seasoning",
+        "1/4 Cup melted butter",
+        "3 eggs, beaten",
+        "3/4 Cup chopped onions"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 350 degrees F (175 degrees C)."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a large bowl combine spinach, stuffing mix, Parmesan cheese, garlic powder, black pepper, Italian seasoning, melted butter and eggs and onions. Shape into walnut-sized balls and place on a baking sheet."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake in preheated oven for 20 minutes, or until heated through and browned."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/13577261-2CCD-4BCD-BD18-734529F16541.jpg"
+    ]
+}

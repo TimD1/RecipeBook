@@ -1,0 +1,30 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Creamy Hot Cocoa",
+    "author": {
+        "@type": "Person",
+        "name": "allrecipes.com"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "1/3 Cup boiling water",
+        "1/3 Cup unsweetened cocoa powder",
+        "3/4 Cup white sugar",
+        "1 pinch salt",
+        "3 1/2 Cups milk",
+        "3/4 tsp vanilla extract",
+        "1/2 Cup half - and - half cream"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Combine the cocoa, sugar and pinch of salt in a saucepan. Blend in the boiling water. Bring this mixture to an easy boil while you stir. Simmer and stir for about 2 minutes. Watch that it doesn't scorch. Stir in 3 1/2 cups of milk and heat until very hot, but do not boil! Remove from heat and add vanilla. Divide between 4 mugs. Add the cream to the mugs of cocoa to cool it to drinking temperature."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/ADA5906A-9AB5-4D75-BBCF-9D4E1CB7855D.jpg"
+    ]
+}

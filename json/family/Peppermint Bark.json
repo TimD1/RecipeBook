@@ -1,0 +1,30 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Peppermint Bark",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "Crushed candy canes, to yield 1 cup",
+        "2 lb white chocolate",
+        "Peppermint flavorings, optional"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Place candy canes in a plastic bag and hammer into 1/4-inch chunks or smaller. Melt the chocolate in a double boiler. Combine candy cane chunks with chocolate (add peppermint flavoring at this point if desired.) Pour mixture onto a cookie sheet layered with parchment or waxed paper and place in the refrigerator for 45 minutes or until firm. Remove from cookie sheet and break into pieces (like peanut brittle.)"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Recipe courtesy Paula Deen"
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/43658F4A-0D1D-407D-9879-F76AD6FB686B.jpg"
+    ]
+}

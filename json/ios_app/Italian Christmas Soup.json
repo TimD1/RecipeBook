@@ -1,0 +1,26 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Italian Christmas Soup",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "2 Large (46 oz. ) Cans college in chicken broth",
+        "1 lb Tortellini with meat",
+        "1 (16 oz) package Stokleys (or other) Japanese vegetables (Gr. Beans, Broccoli, red peppers)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Boil each separately, add to broth after draining. Heat to boiling. Sprinkle with Parmesan cheese. Serve immediately."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/CAB607BB-47A8-4BC8-B270-ACC5C0510448.jpg"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Frangipan (Luxury Almond Cake)",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "1 Roll ODENSE Pure Almond Paste",
+        "7 oz Granulated Sugar",
+        "7 oz unsalted butter, softened",
+        "3 Medium eggs, room temp.",
+        "1/2 Cup Cake flour (sifted)",
+        "Pinch Salt"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Mix all the time at low speed. Blend almond paste, sugar and salt thoroughly in electric mixer. Add butter gradually until well mixed and eggs one at a time. Remove bowl from mixer. Fold in flour until just blended in. Grease and flour a 10'' pan and pour batter in. Bake at 325 F for 40 minutes or until golden and inserted toothpick comes out clean. Frost as desired. Makes one 10'' cake."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/1B8FEEED-D679-4377-9B27-ED588A1FE547.jpg"
+    ]
+}

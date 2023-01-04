@@ -1,0 +1,44 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Macadamia Nut Cheesecake",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "1 3/4 Cups Fine graham cracker crumbs (20 crackers)",
+        "1/4 Cup Finely chopped macadamia nuts (may substitute walnuts or pecans)",
+        "1/2 tsp Cinnamon",
+        "1/2 Cup butter, melted",
+        "3 Well beaten eggs",
+        "2 Pkgs 8 oz Philadelphia Brand Cream Cheese, soft",
+        "1 Cup Sugar",
+        "1/4 tsp Salt",
+        "2 tsp Vanilla",
+        "1/2 tsp almond extract",
+        "3 Cups Sour cream",
+        "1/4 Cup Finely chopped macadamia nuts (optional)",
+        "Glaze",
+        "1 Pint fresh strawberries",
+        "1 Cup Water",
+        "1 1/2 Tbsp Cornstarch",
+        "1/2 Cup Sugar"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Thoroughly mix ingredients for crust. Press on bottom and sides of 9 inch springform pan. Sides should be about 1 3/4 inches high. Eggs, cream cheese, sugar, salt, vanilla and almond extract. Beat until smooth. Blend in sour cream and nuts. Pour into crumb crust. Bake at 375 about 35 minutes or just until set. Cool. Chill. Thoroughly, about 4 to 5 hours (filling will be soft). "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Crush 1 cup strawberries. Add water and cook two minutes. Sieve. Mix cornstarch with sugar and stir into hot berry mixture. Bring to a boil, stirring constantly. Cook and stir until thick and clear (add a few drops of red food coloring if desired). Cool to room temperature. Place remaining strawberries on top of chilled cheesecake. Pour glaze over cake. Chill about 2 hours."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/89414FEC-14D0-41F8-AE21-0EDCF62611AF.jpg"
+    ]
+}

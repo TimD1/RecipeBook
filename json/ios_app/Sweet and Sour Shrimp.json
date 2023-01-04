@@ -1,0 +1,40 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Sweet and Sour Shrimp",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "18 Oz can Pineapple chunks in juice",
+        "1 tsp Cornstarch",
+        "3 Tbsp Chili sauce",
+        "1/2 tsp Garlic Powder",
+        "Cooking spray",
+        "2 tsp sesame oil or vegetable oil",
+        "1 Green pepper, sliced",
+        "1/2 Onion (sliced)",
+        "3/4 lb Peeled and deveined shrimp"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Drain pineapple, reserve juice, and set aside. Combine juice, cornstarch, chili sauce, soy sauce, and garlic powder. Set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cook large skillet or wok with cooking spray. Add green pepper and onion; Cook over med-high heat 2-3 minutes or until crisp-tender. Add shrimp; cook 2-3 minutes or until shrimp turns pink. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add cornstarch mixture and pineapple to shrimp mixture. Cook, stirring constantly, until mixture is bubbly and thickened."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/27C24F74-B2AC-462A-BB46-3D84672BF8B9.jpg"
+    ]
+}

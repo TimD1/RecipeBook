@@ -1,0 +1,19 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Pizza Bites",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+    ],
+    "recipeInstructions": [
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/A8B5D904-A163-40ED-A6AF-9CA1CFB88DE0.jpg"
+    ]
+}

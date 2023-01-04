@@ -1,0 +1,35 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Dark Chocolate Brownies",
+    "author": {
+        "@type": "Person",
+        "name": "Carolyn Benjamin"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "1 Cup margarine",
+        "1 Cup Cocoa powder (unsweetened)",
+        "4 Eggs",
+        "2 Cups Sugar",
+        "1/4 tsp Salt",
+        "1 tsp Vanilla",
+        "1 Cup Flour",
+        "1 Cup Chopped chocolate or chocolate chips"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Melt margarine and stir cocoa-set aside. Beat eggs with sugar, salt and vanilla. Combine with margarine cocoa mixture. Add flour and chopped chocolate. Bake in greased 9x13\" pan at 350 for 20 minutes and check. May need a few more minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Mix by hand! No mixer"
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/8C974ABB-FAF0-4069-ABC9-A068D28D8FCA.jpg"
+    ]
+}

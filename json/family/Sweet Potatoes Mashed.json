@@ -1,0 +1,34 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Sweet Potatoes Mashed",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "5 Medium (4 lb) Sweet potatoes (yams), peeled, 1 in. dice (10 cups)",
+        "1 1/4 Cups Whole milk",
+        "1 Stick (1/2 cup) Wegmans' unsalted butter",
+        "1/3 Cup Brown Sugar",
+        "1 1/2 tsp McCormick Ground Cinnamon",
+        "Salt and pepper to taste",
+        "You'll need: potato masher"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Place potatoes in stock pot; cover with cold water. Bring to boil on high; reduce heat to medium. Cover and simmer potatoes about 15 mins, until tender when pierced with knife tip. Drain; return to stockpot. Heat on low 3-5 mins, tossing gently, to remove excess moisture."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Combine potatoes, milk, butter, brown sugar, and cinnamon in stockpot. Mash with with handheld potato masher. Season to taste with salt and pepper. "
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/2E22A92B-794C-45CB-9160-95C5F86B3074.jpg"
+    ]
+}

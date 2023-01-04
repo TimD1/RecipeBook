@@ -1,0 +1,29 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Southern Succor Rub",
+    "author": {
+        "@type": "Person",
+        "name": "Uncle Tim Dunn"
+    },
+    "description": "pork rub",
+    "recipeCategory": "pork",
+    "recipeYield": "enough rub for one pork butt, with some left over",
+    "recipeIngredient": [
+        "1/4 cup ground black pepper",
+        "1/4 cup paprika",
+        "1/4 cup Turbinado/'Sugar in the Raw'/Demerara Sugar",
+        "2 Tbsp table salt",
+        "2 tsp dry mustard",
+        "1 tsp cayenne pepper"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Mix ingredients thoroughly."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/pork_rub.jpg"
+    ]
+}

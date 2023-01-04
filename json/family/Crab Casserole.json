@@ -1,0 +1,67 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Crab Casserole",
+    "author": {
+        "@type": "Person",
+        "name": "mom"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "1 Tbsp Margerine",
+        "2 Scallion (Chopped)",
+        "1 tsp Cornstarch",
+        "1/2 Cup half - and - half cream",
+        "2 tsp lemon juice",
+        "1/8 tsp Salt",
+        "1/8 tsp Pepper",
+        "2/3 Cup Cooked crabmeat",
+        "4 Mushrooms (Sliced)",
+        "2 Tbsp Dry Bread Crumbs",
+        "1 1/3 Tbsp grated Parmesan cheese",
+        "1 Tbsp Melted margerine"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Put margarine and onion in a bowl. Microwave uncovered until crisp."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Mix in cornstarch, stir in half&half, lemon juice, salt and pepper"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Microwave, uncovered 1 minute, stir"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Microwave 1 min"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir in crab and mushrooms"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Put in bowl"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Mix topping"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Sprinkle on top"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cover loosely, microwave until hot."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/AE88C0C2-4A05-4022-A9F4-C438F2053528.jpg"
+    ]
+}

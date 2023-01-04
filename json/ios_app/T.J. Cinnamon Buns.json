@@ -1,0 +1,54 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "T.J. Cinnamon Buns",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "1/4 Cup (50 ml) lukewarm water temp. (105 to 115F)",
+        "1/2 tsp (2 ml) sugar",
+        "2 Envelopes (1/4- ounce size) active dry yeast",
+        "4 -5 cups (1 to 1.25 liter) all - purpose flour",
+        "1/3 Cup (75 ml) Granulated Sugar",
+        "1 tsp (5 ml) salt",
+        "1/3 Cup (75 ml) vegetable oil",
+        "2 Eggs, at room temperature",
+        "1/2 Cup (125 ml) Milk, scalded, then heated to 110F",
+        "Filling- (see recipe)",
+        "Icing- optional (see recipe)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Combine water and 1/2 teaspoon (2 ml) sugar in small bowl, add yeast, stir and let stand 3-5 minutes. Mixture should bubble up on top."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a large mixing bowl, combine 3 cups of the flour with 1/3 cups sugar and 1 teaspoon salt. Make a well in the center of dry ingredients and add oil, eggs, scalded milk and yeast mixture. Blend well."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add flour, 1/2 cup at a time until dough is smooth and leaves the sides of the bowl. You may not need all of the flour."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "On a lightly floured surface, knead dough until elastic and satiny. Place in a large, lightly greased bowl, turning dough greased side up. Cover with a towel and let stand in a warm place until doubled in bulk."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Punch down dough and roll out on lightly floured surface into a rectangle about 10x18 inches. Spread evenly with filling."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Roll dough tightly into 18\" log. Cut into 14 even sections. Place one roll each in center of two greased, 8-inch round cake pans and set other around them. Cover with a towel and let stand in a warm place until doubled."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/5FE2B624-F42D-46FD-B26C-C027B4F94B4A.jpg"
+    ]
+}

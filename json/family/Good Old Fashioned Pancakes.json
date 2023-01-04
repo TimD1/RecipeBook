@@ -1,0 +1,34 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Good Old Fashioned Pancakes",
+    "author": {
+        "@type": "Person",
+        "name": "Aunt Carolyn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "1 1/2 Cups all - purpose flour",
+        "3 1/2 tsp baking powder",
+        "1 tsp salt",
+        "1 Tbsp white sugar",
+        "1 1/4 Cups milk",
+        "1 egg",
+        "3 Tbsp butter, melted"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large bowl, sift together the flour, baking powder, salt and sugar. Make a well in the center and pour in the milk, egg and melted butter; mix until smooth."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat a lightly oiled griddle or frying pan over medium high heat. Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake. Brown on both sides and serve hot."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/8345AC64-F6A9-48FE-ACE0-4D19E230A1B3.jpg"
+    ]
+}

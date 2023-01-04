@@ -1,0 +1,32 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Crepes",
+    "author": {
+        "@type": "Person",
+        "name": "allrecipes.com"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "2 eggs",
+        "1 Cup milk",
+        "2/3 Cup all - purpose flour",
+        "1 pinch salt",
+        "1 1/2 tsp vegetable oil"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a blender combine eggs, milk, flour, salt and oil. Process until smooth. Cover and refrigerate 1 hour."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat a skillet over medium-high heat and brush with oil. Pour 1/4 cup of crepe batter into pan, tilting to completely coat the surface of the pan. Cook 2 to 5 minutes, turning once, until golden. Repeat with remaining batter."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/1C7AAA26-B04D-4579-9687-5AAF7012E53F.jpg"
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Chocolate Brownies",
+    "author": {
+        "@type": "Person",
+        "name": "mom"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "1/4 Cup Water",
+        "2/3 Cup Vegetable oil",
+        "2 Eggs",
+        "1 Bag of Betty Crocker Fudge Brownie Mix"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "13\"x9\" - 350 - 24 to 26 minutes\n9\"x9\" - 350 - 38 to 40 minutes\n8\"x8\" - 325 - 52 to 54 minutes"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat oven as directed above. Grease or use cooking spray."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir brownie mix, water, oil and eggs, in medium bowl until well blended. Spread in pan."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake as directed above, or until toothpick inserted 2 inches from side of pan comes out almost clean; cool. To cut warm brownies easily, cut with plastic knife using short sawing motions. Store tightly covered."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/2C9BA575-680B-4B61-A6FE-35815E015DB6.jpg"
+    ]
+}

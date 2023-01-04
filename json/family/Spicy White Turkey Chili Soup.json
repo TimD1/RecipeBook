@@ -1,0 +1,41 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Spicy White Turkey Chili Soup",
+    "author": {
+        "@type": "Person",
+        "name": "Dunn Family"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "2 Tbsp Butter",
+        "3 Tbsp Olive Oil",
+        "1 1/2 Cups Diced celery and onions",
+        "3/4 Cup Flour (All Purpose)",
+        "3 Tbsp Chili Powder",
+        "1 tsp Cumin",
+        "1/8 tsp Cayenne pepper",
+        "2 Cartons s (32 oz. each) chicken culinary stock",
+        "1 Medium Sweet red pepper, diced small (about 1.5 cups)",
+        "2 Cans (15.5 oz. each) cannellini beans",
+        "1 Medium Green pepper, diced small (about 1.5 cups)",
+        "1 Cup (6 oz) cooked turkey, diced small (buy one thick slice of turkey off-the-bone at deli",
+        "1/4 Cup Heavy cream (light works fine too)",
+        "Salt and pepper to taste"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Melt butter and olive oil in large stockpot on Medium, until oil/butter mixture faintly smokes. Add celery and onions. Cool stirring occasionally, 4-5 min, until translucent but not brown. Stir in flour, chili powder, cumin and cayenne. Cook 1 min stirring continuously."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add stock. Bring to a simmer; simmer 10 minutes. Add cannellini beans, peppers, turkey and heavy cream. Season to taste with salt and pepper. Simmer 2-3 minutes until heated through. Ladle into warmed bowls."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Ham and Egg Casserole",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "12 Small slices white bread, crusts removed, torn into pieces",
+        "3 Cups cooked, cubed ham",
+        "3 Cups chopped frozen broccoli, thawed",
+        "8 oz shredded sharp Cheddar cheese",
+        "0.5 Cup milk",
+        "6 eggs, beaten",
+        "1 1/4 tsp salt",
+        "1 tsp dry mustard",
+        "tablespoons melted butter"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a 9x13x2-inch baking dish, put enough of the bread pieces into the bottom of the pan to make a thin layer. Make a layer of ham, broccoli, and cheese. Whisk together milk, eggs, salt, and dry mustard. Pour over top. Toss remaining bread with butter; sprinkle over the top of the casserole. Bake at 325 for 45 minutes. Let cool for about 20 minutes; cut into squares. Serves 10 to 12."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/D08AE61F-C771-49C4-8DD1-111FCF4EA38E.jpg"
+    ]
+}

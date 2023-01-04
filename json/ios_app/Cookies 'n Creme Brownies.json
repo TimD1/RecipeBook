@@ -1,0 +1,45 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Cookies 'n Creme Brownies",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "1 ",
+        "box Betty Crocker fudge brownie mix (1 lb 2.3 oz)",
+        "1/4 ",
+        "cup water",
+        "2/3 ",
+        "cup vegetable oil",
+        "2 ",
+        "eggs",
+        "10 ",
+        "creme - filled chocolate sandwich cookies, crushed (1 cup)",
+        "1/2 ",
+        "container Betty Crocker Rich & Creamy chocolate or vanilla frosting (2/3 cup) (16 - oz size)",
+        "5 ",
+        "creme - filled chocolate sandwich cookies, coarsely chopped (2/3 cup)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat oven to 350F. Grease bottom only of rectangular pan, 13x9x2 inches, or spray with cooking spray."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir brownie mix, water, oil and eggs in medium bowl until well blended. Stir in 1 cup crushed cookies. Spread in pan."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake 24 to 26 minutes or until toothpick inserted 2 inches from side of pan comes out clean or almost clean. Cool completely, about 1 hour. In small microwavable bowl, microwave frosting uncovered on High about 10 to 15 seconds or until drizzling consistency. Drizzle frosting over brownies. Sprinkle with 2/3 cup chopped cookies. For 20 brownies, cut into 5 rows by 4 rows."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/C97952C2-0F95-4E79-AAA2-59EB9E434D5F.jpg"
+    ]
+}

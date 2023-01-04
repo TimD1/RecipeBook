@@ -1,0 +1,44 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Sesame Chicken with Lo Mein & Green Beans",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "1 pkg Food You Feel Good About Cleaned & Cut Trimmed Green Beans (12 oz)",
+        "1 pkg box Asian Classics Lo Mein Noodles (Frozen Foods), thawed per directions (16 oz)",
+        "1 lb Wegmans Seasoned Chicken Breast Strips for Stir - Fry",
+        "3 Tbsp Wegmans Vegetable Oil, divided",
+        "2 cloves Food You Feel Good About Cleaned & Cut Peeled Garlic, minced",
+        "1 pkg Food You Feel Good About Cleaned & Cut Asian Slaw (12 oz)",
+        "Salt and pepper to taste",
+        "1 Cup Asian Classics Sesame Garlic Sauce (International Foods)",
+        "1 Tbsp JFC White Roasted Sesame Seeds (International Foods)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Blanch green beans in large pot of boiling salted water 3-4 min. Remove beans with slotted spoon; drain and set aside. Add noodles to blanching water; blanch 2 min. Drain and set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Drizzle 2 Tbsp oil around sides of stir-fry pan; tilt pan to distribute evenly. Heat oil in pan on HIGH until oil faintly smokes. (If oil smokes too much, pan is too hot.) Stir fry chicken 4-5 min; remove from pan and set aside. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Drizzle remaining Tbsp oil around sides of pan; tilt pan to distribute evenly. Heat oil in pan on HIGH until oil faintly smokes. Add garlic, Asian slaw, and green beans. Stir and toss, 2-3 min. Season to taste with salt and pepper."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add chicken, noodles, and sesame garlic sauce to stir-fry pan. Stir briefly to heat through, 2-3 min. Garnish with sesame seeds."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/C4DA5C56-7DBC-45AD-B917-30CD2579C7C2.jpg"
+    ]
+}

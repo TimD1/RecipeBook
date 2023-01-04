@@ -1,0 +1,52 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Best Coconut Chocolate Cake Recipe",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "2 Cups all purpose flour",
+        "2 Cups sugar",
+        "1 tsp baking soda",
+        "1/2 tsp salt",
+        "1 Cup butter, cubed",
+        "1 Cup water",
+        "1/4 Cup baking cocoa",
+        "2 eggs",
+        "1/2 Cup buttermilk",
+        "1 tsp vanilla extract",
+        "1 Can evaporated milk, divided (12 ounces)",
+        "1 1/4 Cups sugar, divided",
+        "20 Large marshmallows",
+        "1 pkg coconut (14 ounces)",
+        "2 Cups slivered almonds, toasted, divided",
+        "1/2 Cup butter, cubed",
+        "1 Cup semisweet chocolate chips"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large bowl, combine the flour, sugar, baking soda and salt. In a small saucepan, combine the butter, water and cocoa. Cook and stir until butter is melted; add to dry ingredients. Combine the eggs, buttermilk and vanilla; add to chocolate mixture and mix well. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": " Pour into a greased 15-in. x 10-in. x 1-in. baking pan. Bake at 350&deg< for 20-25 minutes or until a toothpick inserted near the center comes out clean. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": " Meanwhile, in a large saucepan, combine 1 cup evaporated milk, 3/4 cup sugar and marshmallows; cook and stir until marshmallows are melted. Remove from heat; stir in coconut. Immediately sprinkle 1 cup almonds over cake. Spread coconut mixture over top. Sprinkle with remaining almonds (pan will be full). "
+        },
+        {
+            "@type": "HowToStep",
+            "text": " In a small saucepan, combine butter with remaining milk and sugar. Cook and stir until butter is melted. Remove from the heat; stir in chocolate chips until melted. Drizzle over almonds. Cool on a wire rack. Yield: 35 servings."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/C35F4762-48EB-4295-92AB-93A9A438493B.jpg"
+    ]
+}

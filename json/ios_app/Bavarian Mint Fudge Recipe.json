@@ -1,0 +1,37 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Bavarian Mint Fudge Recipe",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "1 1/2 tsp plus 1 tablespoon butter, divided",
+        "2 Cups semisweet chocolate chips (12 ounces)",
+        "1 pkg milk chocolate chips (11 1/2 ounces)",
+        "1 Can sweetened condensed milk (14 ounces)",
+        "1 tsp peppermint extract",
+        "1 tsp vanilla extract"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Line an 11-in. x 7-in. pan with foil and grease the foil with 1-1/2 teaspoons butter; set aside. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": " In a microwave-safe bowl, melt chocolate chips and remaining butter; stir until smooth. Stir in milk and extracts until well blended. Spread into prepared pan. Refrigerate until set. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": " Using the foil, lift fudge out of the pan. Discard foil; cut fudge into 1-in. squares. Store in the refrigerator. Yield: about 2-1/2 pounds."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/0B09ED9A-979B-4076-8F26-A5451AC5AB1B.jpg"
+    ]
+}

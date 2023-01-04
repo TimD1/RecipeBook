@@ -1,0 +1,56 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Extreme Chocolate Cake",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "2 Cups white sugar",
+        "1 3/4 Cups all - purpose flour",
+        "3/4 Cup unsweetened cocoa powder",
+        "1 1/2 tsp baking soda",
+        "1 1/2 tsp baking powder",
+        "1 tsp salt",
+        "2 eggs",
+        "1 Cup milk",
+        "1/2 Cup vegetable oil",
+        "2 tsp vanilla extract",
+        "1 Cup boiling water",
+        " ",
+        "3/4 Cup butter",
+        "1 1/2 Cups unsweetened cocoa powder",
+        "5 1/3 Cups confectioners' sugar",
+        "2/3 Cup milk",
+        "1 tsp vanilla extract"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 350 degrees F (175 degrees C). Grease and flour two 9 inch cake pans."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Use the first set of ingredients to make the cake. In a medium bowl, stir together the sugar, flour, cocoa, baking soda, baking powder and salt. Add the eggs, milk, oil and vanilla, mix for 3 minutes with an electric mixer. Stir in the boiling water by hand. Pour evenly into the two prepared pans."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake for 30 to 35 minutes in the preheated oven, until a toothpick inserted comes out clean. Cool for 10 minutes before removing from pans to cool completely."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "To make the frosting, use the second set of ingredients. Cream butter until light and fluffy. Stir in the cocoa and confectioners' sugar alternately with the milk and vanilla. Beat to a spreading consistency."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Split the layers of cooled cake horizontally, cover the top of each layer with frosting, then stack them onto a serving plate. Frost the outside of the cake."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/A52E86A7-64B0-4BB1-BA54-F0C460F9DAB1.jpg"
+    ]
+}

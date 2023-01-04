@@ -1,0 +1,40 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Gooey Butterscotch Bars Recipe",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "1 pkg sugar cookie mix (17 1/2 ounces)",
+        "1 pkg instant butterscotch pudding mix (3.4 ounces)",
+        "1/2 Cup butter, softened",
+        "1 egg",
+        "14 oz caramels",
+        "1/2 Cup evaporated milk",
+        "2 Cups mixed nuts",
+        "1 tsp vanilla extract",
+        "1 Cup butterscotch chips"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large bowl, combine the sugar cookie mix, pudding mix, butter and egg. Press into an ungreased 13-in. x 9-in. baking pan. Bake at 350&deg< for 20-25 minutes or until set. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": " In a large saucepan, combine caramels and milk. Cook and stir over medium-low heat until melted. Remove from the heat. Stir in nuts and vanilla. Pour over crust. Sprinkle with butterscotch chips. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": " Cool completely. Cut into bars. Store in an airtight container. Yield: about 3 dozen."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/A68016B2-4669-442D-B384-D6A042141E05.jpg"
+    ]
+}

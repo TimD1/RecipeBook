@@ -1,0 +1,45 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Double Layer Pumpkin Cheesecake",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "2 pkg cream cheese, softened (8 ounce)",
+        "1/2 Cup white sugar",
+        "1/2 tsp vanilla extract",
+        "2 eggs",
+        "1 prepared graham cracker crust (9 inch)",
+        "1/2 Cup pumpkin puree",
+        "1/2 tsp ground cinnamon",
+        "1 pinch ground cloves",
+        "1 pinch ground nutmeg",
+        "1/2 Cup frozen whipped topping, thawed"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 325 degrees F (165 degrees C)."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a large bowl, combine cream cheese, sugar and vanilla. Beat until smooth. Blend in eggs one at a time. Remove 1 cup of batter and spread into bottom of crust; set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add pumpkin, cinnamon, cloves and nutmeg to the remaining batter and stir gently until well blended. Carefully spread over the batter in the crust."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake in preheated oven for 35 to 40 minutes, or until center is almost set. Allow to cool, then refrigerate for 3 hours or overnight. Cover with whipped topping before serving."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/E6F502AC-5B4B-4DF3-A847-9DA4B3B3B529.jpg"
+    ]
+}

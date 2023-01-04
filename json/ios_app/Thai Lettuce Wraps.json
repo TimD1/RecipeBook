@@ -1,0 +1,56 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Thai Lettuce Wraps",
+    "author": {
+        "@type": "Person",
+        "name": "Recipe Book Selections"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "1 lb Thin cut chicken breast",
+        "Grill Seasoning",
+        "2 Tbsp Olive Oil",
+        "2 Tbsp Minced Ginger",
+        "4 Cloves Garlic (Minced)",
+        "1 Large Red Bell Pepper (Seeded, Thin Slice)",
+        "1 Cup Shredded Cabbage and Carrot",
+        "3 Scallions (Chopped on angle)",
+        "1/2 Cup Plum Sauce",
+        "2 Cups Basil Leaves",
+        "1 Tbsp Fish Sauce",
+        "1/2 head Iceberg Lettuce (Cut in half)",
+        "1/2 Seedless Cucumber (Chopped)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Sprinkle sliced chicken with grill seasoning."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat a large skillet, add oil then chicken - cook until chicken is golden, stirring occasionally."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add ginger, garlic, peppers, cabbage, carrot, and scallions. Stir-fry another 2 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add plum sauce, toss, then add basil. Add fish sauce and mix. Transfer to a bowl."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Fill pieces of lettuce with a spoonful of mixture and cover with a slice of cucumber."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Fold over wrap and enjoy!"
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/88387F6E-97FD-4D62-BA52-DCF53DC0807F.jpg"
+    ]
+}

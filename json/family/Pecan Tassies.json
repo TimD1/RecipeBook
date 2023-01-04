@@ -1,0 +1,36 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Pecan Tassies",
+    "author": {
+        "@type": "Person",
+        "name": "Nancy Feth"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "1/2 Cup butter, softened",
+        "3 oz Cream cheese",
+        "1 Cup Flour",
+        "2 Eggs",
+        "7/8 Cup Brown Sugar",
+        "1 tsp Vanilla",
+        "1 Tbsp butter, melted",
+        "1 Dash salt",
+        "1/2 Cup Coarsely chopped pecans"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Combine crust ingredients together. Form into large ball. Fill cups with dough and press around edges of each cup."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Combine filling ingredients together. Fill cups to top with filling. Bake in oven for 15 minutes at 350. Then turn oven down to 250 for 10 minutes. "
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/26548101-DDEF-4ED9-B599-CD98B04BBCDC.jpg"
+    ]
+}

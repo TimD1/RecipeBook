@@ -1,0 +1,38 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Cranberry Punch",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "2 Cans Jellied cranberry sauce",
+        "1 1/2 Cups Orange Juice",
+        "1/2 Cup lemon juice",
+        "2 L Ginger ale",
+        "1 Bag Whole strawberries",
+        "(Optional) sliced oranges",
+        "(Optional) champagne"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Mix the first three ingredients in blender as base."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "When ready to serve, add ginger ale, strawberries, champagne and oranges."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add ice ring or ice cubes to punch bow."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/3E1B3FB4-DA51-4761-AA1B-FA279DE59B52.jpg"
+    ]
+}

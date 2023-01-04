@@ -1,0 +1,36 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Chocolate Mousse",
+    "author": {
+        "@type": "Person",
+        "name": "Cafe Elise"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "1 1/2 lb Semisweet Chocolate",
+        "3/4 lb Butter",
+        "8 Yolks",
+        "16 Whites",
+        "3 Tbsp Sugar"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Melt chocolate and butter over hot water. Whip in yolks."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Beat whites with sugar. (Firm, not stiff)"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Fold together. Makes 30 portions. (4 ounces)"
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/CC62DD46-9DF3-41E6-A455-99D21A28B627.jpg"
+    ]
+}
