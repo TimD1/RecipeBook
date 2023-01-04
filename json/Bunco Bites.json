@@ -1,0 +1,26 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Bunco Bites",
+    "author": {
+        "@type": "Person",
+        "name": "Mary Reynolds"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "Mini square Party pretzels",
+        "M&m's",
+        "Circle White chocolate wafers"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 225 F. Place single layer of pretzels on cookie sheet. Place 1 wafer on center of each pretzel. Warm in oven for 3-5 minutes to soften wafer. Remove from oven and place 1 m&m in center of each wafer. Cool in fridge until wafer hardens."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/E80AF034-6CDF-4993-A223-474B6DFBA2BA.jpg"
+    ]
+}

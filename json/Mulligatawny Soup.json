@@ -1,0 +1,44 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Mulligatawny Soup",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "1 Cup carrot, grated",
+        "1 Cup Chopped Onion",
+        "2 Cups Chopped celery",
+        "2 -3 diced, cookeds Chicken",
+        "1 Quart Milk (can use half & half)",
+        "1 Quart Chicken Broth (and broth from cooked chicken)",
+        "1 Cup Uncooked rice",
+        "1 tsp Curry powder",
+        "Salt and pepper"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Cook chicken"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cool and remove from bone"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cook vegetables in broth until tender."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add remaining ingredients and heat through. (You can combine everything except milk. Freeze. Then thaw, heat and add milk)"
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/B95A7E69-0BCC-45B4-A1D5-F8607959F36A.jpg"
+    ]
+}

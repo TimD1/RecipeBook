@@ -1,0 +1,51 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Broccoli, Cheddar and Ham Strata",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "1 tsp Olive Oil",
+        "1 Medium Onion (Diced)",
+        "16 oz Bag of thawed chopped broccoli",
+        "1 Loaf Italian Bread (14 oz.) but into cubes",
+        "1/2 lb Sliced low-sodium deli ham, chopped",
+        "6 Large Eggs",
+        "1 1/2 Cups Milk",
+        "2 tsp Chives",
+        "1 tsp Dijon Mustard",
+        "1/2 tsp Salt",
+        "1/4 tsp pepper",
+        "1 1/2 Cups shredded Cheddar cheese"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat oven to 375. Coat 2 quart oval baking sheet dish with nonstick spray"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat oil in a large nonstick skillet over medium heat. Add onion and cook 5 minutes. Add broccoli and cook another 3 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place bread cubes in a large bowl. Stir in onion and broccoli mixture and the ham. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a medium bowl, whick together eggs, milk, chives, mustard, salt and pepper. Pour over great mixture, stirring to mix. Transfer to prepared dish, and top evenly with cheese. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake at 375 for 40-45 minutes, or until strata registers 160 on thermometer."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/"
+    ]
+}

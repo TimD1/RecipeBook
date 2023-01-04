@@ -1,0 +1,36 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Chicken Gumbo",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "16 oz frozen gumbo style vegetables, okra, pepper and onion",
+        "1 Tbsp all purpose flour",
+        "29 oz canned diced tomatoes, with mild chilies",
+        "3 Cups roasted skinless chicken breast, cubed",
+        "1 tsp Creole seasoning"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Coat a large skillet with nonstick cooking spray. Add vegetables and saute over high heat, stirring frequently, for 2 minutes. Stir in flour and cook 1 minute more. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir in tomatoes, chicken and Creole seasoning. Cook over medium heat, stirring frequently, until hot, about 6 minutes. Yields about 1 1/2 cups per serving."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "For a soupier consistency, add a small amount of water or broth to the recipe."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/766E3DCA-550E-45AB-83F3-628D3C2AF411.jpg"
+    ]
+}

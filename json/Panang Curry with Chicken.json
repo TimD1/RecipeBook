@@ -1,0 +1,32 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Panang Curry with Chicken",
+    "author": {
+        "@type": "Person",
+        "name": "allrecipes.com"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "5 Tbsp Panang curry paste",
+        "cooking oil",
+        "4 Cups coconut milk",
+        "2/3 lb skinless, boneless chicken breast, cubed",
+        "2 Tbsp palm sugar",
+        "2 Tbsp fish sauce, or to taste",
+        "6 kaffir lime leaves, torn",
+        "2 fresh red chile peppers, sliced",
+        "1/4 Cup fresh Thai basil leaves"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Fry the curry paste in the oil in a large skillet or wok over medium heat until fragrant. Stir the coconut milk into the curry paste and bring to a boil. Add the chicken; cook and stir until the chicken is nearly cooked through, 10 to 15 minutes. Stir the palm sugar, fish sauce, and lime leaves into the mixture; simmer together for 5 minutes. Taste and adjust the saltiness by adding more fish sauce if necessary. Garnish with sliced red chile peppers and Thai basil leaves to serve."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/DF0B6211-5074-40B2-B1F1-22041F9B5B51.jpg"
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Blueberry Kuchen Recipe",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "1 Cup Flour",
+        "1/8 tsp salt",
+        "2 Tbsp Sugar",
+        "1/2 Cup butter, slightly softened and cut into small pieces (8 tablespoons)",
+        "1 Tbsp white vinegar",
+        "5 Cups fresh blueberries (725 grams)",
+        "1/2 Cup sugar",
+        "1/8 tsp cinnamon",
+        "2 Tbsp Flour"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 350 F. In medium bowl, mix 1 cup flour, salt and 2 tablespoons sugar. Cut in butter until it resembles coarse crumbs. Sprinkle with vinegar and shape into dough. With lightly floured fingers, press dough into 9-inch springform pan about 1/4 inch thickness on bottom, less thick and 1 inch high around the sides."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Mix 3 cups blueberries, 2 tablespoon flour, 1/2 cup sugar and cinnamon. Pour and spread the blueberries onto the crust and bake on the middle rack for 20 minutes or until crust is golden brown and filling bubbles. Remove from oven and place on cooling rack. Sprinkle with remaining 2 cups blueberries. Cool for at least 30 minutes. Run a pairing knife around the crust edge to separate from the pan before opening springform.\u00a0 Serve with a scoop of vanilla ice cream."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/F3625974-C436-4C8A-B7FB-4B55F0391AEF.jpg"
+    ]
+}

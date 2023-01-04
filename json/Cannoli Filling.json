@@ -1,0 +1,27 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Cannoli Filling",
+    "author": {
+        "@type": "Person",
+        "name": "Norpro"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "2 Cups Ricotta Cheese - well drained",
+        "1 tsp Vanilla Extract",
+        "1/2 Cup Powdered sugar - to taste",
+        "1/2 Cup Grated semi-sweet chocolate or chocolate chips"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Mix all together. (1/2 to 3/4 cups powdered sugar)"
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/792EDACE-C8D8-4BB2-90DA-CB6BAC835649.jpg"
+    ]
+}

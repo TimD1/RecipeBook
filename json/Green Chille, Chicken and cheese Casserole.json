@@ -1,0 +1,58 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Green Chille, Chicken and cheese Casserole",
+    "author": {
+        "@type": "Person",
+        "name": "Andrew Kulawic"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "12 - 16 s Small flour tortillas",
+        "16 oz sour cream",
+        "2 Cans condensed cream of chicken soup",
+        "1 lb Cooked chicken",
+        "2 Small cans of chopped green chilies",
+        "1 + blocks Extra Sharp Cheddar Cheese",
+        "Monterey jack cheese (optional)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Layer Twice:"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Tortillas to cover bottom of 9x13 pan."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cream of chicken soup"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Chicken "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Sour cream"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Chilles"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cheese"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake at 325 for 25 minutes. Then turn to 350 until golden brown."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/F6769DDE-B871-4966-97FC-4D0ABF315688.jpg"
+    ]
+}

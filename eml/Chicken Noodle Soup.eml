@@ -1,0 +1,172 @@
+Delivered-To: timdunn@go.mail.umich.edu
+Received: by 2002:a05:7300:610c:b0:73:c371:183d with SMTP id h12csp1596609dyb;
+        Sun, 25 Dec 2022 13:48:07 -0800 (PST)
+X-Google-Smtp-Source: AMrXdXslY94R5G+VssR5k+X2k0hMpn+Fr2UvYYlTBVq2ICNMdifALahmTwMpIo4BawA2BtHN4rtM
+X-Received: by 2002:a05:6a20:e61a:b0:ac:a4fd:f5bf with SMTP id my26-20020a056a20e61a00b000aca4fdf5bfmr21994229pzb.50.1672004887733;
+        Sun, 25 Dec 2022 13:48:07 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1672004887; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=A1inkQhUe8meGKHwgzCdtvlhEg6oUCqQwS+KD6mjxwKcyoWaW5fDutCatxEn9E9Gu/
+         WD1A9XMFh8ubfQ0F3Mw+UNfj0NMDD7ZaWMh3lOA7sThvKwkrbocXp2vFpXmkUJZC7QfZ
+         dKV067TV8jsnFxDHIyd244ZQvKCLBEHBpyJZ+Z4pzIPW8Rb8XQypUiGE1vPi+wYBkxc8
+         G3RKbahExBozHCMJTIMqKOcVo9ra2l/yIY+8Z2j3nn+rav0IgEq+Xq1XlWShhvDj5KK/
+         46sm/FIDCVzmeU65mQTLk4Zrf6DrEQK8C0200Cw00jQoagu+gP+PF99o84Rg10VtD2QL
+         HMcw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:message-id:subject:date:mime-version:from
+         :content-transfer-encoding:dkim-signature;
+        bh=22pmjNcMsEz1ps9cMQWJ3YKCU5Ybq+0+/39KpaXNx3A=;
+        b=q5cOwja+eystDapOuUfUnAyymEANnOl/n9YG1wa2Xid5BYAgLH+t43GZOQHyC+9I5R
+         qC9CqYYtwqQWRT2xkH+mUoiajPhdIFoQjhM7+AT0qGlewtsYDgXAzJSl0IE3s90vIwYz
+         yScsnUwmlOiJ8+hXgkeN/h3s97uosFql5tuCSR456iZzL6fXa0qpBmNKTGnpChYdfNW8
+         R9wJMoDbBZbs4z4cbjwmX5C580GZPrmdGOmZdBgRQik5TqE34IRPVGWsNK0J0KvrocV/
+         kBetWNckr3XSXfeR6ScSXZC8SVjk3gWQnypTbH05JrxQoVx0kSm44W/LFMi0LjgO07bc
+         pvZA==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20210112 header.b=TSlgZnqB;
+       arc=pass (i=2 spf=pass spfdomain=umich.edu dkim=pass dkdomain=gmail.com dmarc=pass fromdomain=gmail.com);
+       spf=pass (google.com: domain of srs0=0c6le=4x=gmail.com=dunnfamilysix@umich.edu designates 52.37.117.118 as permitted sender) smtp.mailfrom="SRS0=0c6le=4x=gmail.com=dunnfamilysix@umich.edu"
+Return-Path: <SRS0=0c6le=4x=gmail.com=dunnfamilysix@umich.edu>
+Received: from mailstream-west.mxrecord.io (mailstream-uswest-egress002.mxrecord.io. [52.11.209.211])
+        by mx.google.com with ESMTPS id e14-20020a63d94e000000b00496731929d6si6797367pgj.780.2022.12.25.13.48.07
+        for <timdunn@go.mail.umich.edu>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sun, 25 Dec 2022 13:48:07 -0800 (PST)
+Received-SPF: pass (google.com: domain of srs0=0c6le=4x=gmail.com=dunnfamilysix@umich.edu designates 52.37.117.118 as permitted sender) client-ip=52.37.117.118;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20210112 header.b=TSlgZnqB;
+       arc=pass (i=2 spf=pass spfdomain=umich.edu dkim=pass dkdomain=gmail.com dmarc=pass fromdomain=gmail.com);
+       spf=pass (google.com: domain of srs0=0c6le=4x=gmail.com=dunnfamilysix@umich.edu designates 52.37.117.118 as permitted sender) smtp.mailfrom="SRS0=0c6le=4x=gmail.com=dunnfamilysix@umich.edu"
+Received: from mailstreamwest023.production.area1.internal (localhost [127.0.0.1])
+	by mailstream-west.mxrecord.io (Postfix) with ESMTP id 4NgF073rKgz6vB3
+	for <timdunn@go.mail.umich.edu>; Sun, 25 Dec 2022 21:48:07 +0000 (UTC)
+ARC-Seal: i=2; cv=pass; t=1672004887; a=rsa-sha256;
+	 d=mxrecord.io; s=arc202004;
+	 b=lLaTTWJJtD4ybIpW4uWMpBldgnX1M5i2k6NGOBTV+Bl77XGEmxNdFk5B84NJ2ntIGzXAmMeqg
+	  ZU6unHELvfxtBlro890z8ppaXpUBQ//GJAhSCEXm0z8nBTkiOyVGmm++yGu9elyL1SaqB0kZdNe
+	  Lz+u3Zui1buPzHsvJNvFXC+rginEzCwb2zn+Ry+fAqSFcKoZo2ajnV0WrmGal77lOAWeaegqOv2
+	  NEiAWqGy8P68LSwYVcOScjEmp4NELOk2tyZg2ElBi6CRht8n70PL7q7LBFCZiEmXFwK9i5pKjEZ
+	  yCRCIXPw9rRL9NNOZOmoNMdY8B2313Oz550gRuvpDY5Q==;
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=mxrecord.io; s=arc202004;
+	 h=from:from:reply-to:reply-to:subject:subject:date:date:message-id:message-id:to:to:cc
+	  :mime-version:mime-version:content-type:content-type:x-area1security-disposition
+	  :x-area1security-disposition;
+	 bh=22pmjNcMsEz1ps9cMQWJ3YKCU5Ybq+0+/39KpaXNx3A=;
+	 b=W9NfaPa/oEfCDcIeCX3V0NlCyHwS2G92C8Cw1e1AN+tQeTDUoi7mSCwjjfwo4hACWxBsTY3Lp
+	  efIspX4ZlYMpRNkS+FH5pwsAH/w/Wh2pyemyIWn1m9EEg88aarwcTDW93Zdi93JhFSJC0FCFKR+
+	  AW6f+CksYdqxCMN/NJceeaVA98GoLaBfGhAClCrPrSfxmFwR8yM30o3bBda8rZJYb/LX5yZG/rN
+	  59DljQBvwzKBzU1yy7aShly6VEHr2Muv5eW/ptKNFMT/BwC9hliyqBf2aWersfv84NYudMWqjgm
+	  4BM8VDaJZ67jd4LNGq6ECyjEK+qqn0kLWRQNhRKzL/XQ==;
+ARC-Authentication-Results: i=2; mailstream-west.mxrecord.io;
+	 dmarc=pass (p=none) header.from=gmail.com;
+	 spf=pass smtp.mailfrom=umich.edu;
+	 dkim=pass header.i=@gmail.com header.s=20210112 header.b=TSlgZnqB;
+	 arc=pass (i=1 spf=pass spfdomain=gmail.com dkim=pass dkdomain=gmail.com dmarc=pass fromdomain=gmail.com)
+Received-SPF: pass (mailstream-west.mxrecord.io: umich.edu designates 52.37.117.118 as permitted sender) client-ip=52.37.117.118; envelope-from=srs0=0c6le=4x=gmail.com=dunnfamilysix@umich.edu; helo=egress-host.us-west-2.a.mail.umich.edu;
+Authentication-Results: mailstream-west.mxrecord.io;
+	 dmarc=pass (p=none) header.from=gmail.com;
+	 spf=pass smtp.mailfrom=umich.edu;
+	 dkim=pass header.i=@gmail.com header.s=20210112 header.b=TSlgZnqB;
+	 arc=pass (i=1 spf=pass spfdomain=gmail.com dkim=pass dkdomain=gmail.com dmarc=pass fromdomain=gmail.com)
+Received: from mailstream-west.mxrecord.io (localhost. [127.0.0.1])
+        by localhost
+        with SMTP (Area1Security-Mailstream 2.165.1) id LC3WISKY
+        for timdunn@go.mail.umich.edu;
+        Sun, 25 Dec 2022 21:48:07 +0000 (GMT)
+Received: from brass-lutin.egress.a.mail.umich.edu (egress-host.us-west-2.a.mail.umich.edu [52.37.117.118])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits))
+	(No client certificate requested)
+	by mailstream-west.mxrecord.io (Postfix) with ESMTPS id 4NgF072b9Dz6vGp
+	for <timdunn@go.mail.umich.edu>; Sun, 25 Dec 2022 21:48:07 +0000 (UTC)
+Received: from striking-grindylow.mx.a.mail.umich.edu (ip-172-31-19-20.us-west-2.compute.internal [172.31.19.20])
+	by brass-lutin.egress.a.mail.umich.edu with ESMTPS
+	id 63A8C517.8180724.44214E4A.1278379;
+	Sun, 25 Dec 2022 16:48:07 -0500
+ARC-Authentication-Results:i=1; striking-grindylow.mx.a.mail.umich.edu; 
+	iprev=pass policy.iprev=209.85.160.178 (mail-qt1-f178.google.com);
+	spf=pass smtp.mailfrom=dunnfamilysix@gmail.com;
+	dkim=pass header.d=@gmail.com;
+	dmarc=pass header.from=dunnfamilysix@gmail.com;
+	arc=none
+ARC-Message-Signature:i=1; a=rsa-sha256; d=umich.edu; s=arc-2017-08-04;
+	t=1672004880; c=relaxed/relaxed;
+	bh=22pmjNcMsEz1ps9cMQWJ3YKCU5Ybq+0+/39KpaXNx3A=;
+	h=From:Date:Subject:To; b=gaCfgzT39rctSWrBbnihIFOJFAu6B3lMg4DXddQJFz661OBI6+WArms5FwPm5utrWheB0/QytWN5PJydxwqPB9AIkKfNVO5Mb4JMXZZd4qMapzAOFD/67DG8+Do53dDYQz/E3zNM2SIdhFAa8wnpRwAHkZCPbZRZZ60fbk8FPqjVGx3zvOUVWWhgIdNyKp7xhUdM3OQpBKrk36IyhsVBz3i/Tceb42w89qO/LXtrZyeeMpGyp+vtaYzWo9pygwHUmipHhuAsSoSm5LgmaH2PpjWHB8zSMokOtZ831OlhniRg5O/IuphDpFYLfyh4SGYzPzthk9y2jpvqX67RRJE0bw==
+ARC-Seal:i=1; a=rsa-sha256; d=umich.edu; s=arc-2017-08-04; t=1672004880;
+	cv=none; b=MOOc8kuSRxBf4nb7sEDIj5Km2vmEg6STSXNBkhwWPHTUdE1ahrbKTsvEihdzDbD+qVZ29519ytqvbGZ9xqxoDnUaw705n4+prlTRi0SylxXo1SoVGI4EUcuY66X8ir6LDA8f2ieWRLaHQNb5h7+IcBvStdTziJgUXt8LoEzdEIXfxWLtMSL5tVtpSdE88ogSdjcpoaYlKSe7Eh+QtlV1Cv7RCTocA4QxHBFjgshJ5xCU64fYqFtyx9285x+DKqNr3AtQkhburhUIKYavIn5bxHNvIdWsfEXTFWu2Dx7/6VhQ5uWG3GaUaOv0huIM3lLdUg/zWdhozRvoAKkcC8iETw==
+Received: from mail-qt1-f178.google.com (mail-qt1-f178.google.com [209.85.160.178])
+	by striking-grindylow.mx.a.mail.umich.edu with ESMTPS
+	id 63A8C510.1993DF3F.4C1E14F8.977128;
+	Sun, 25 Dec 2022 16:48:00 -0500
+Received: by mail-qt1-f178.google.com with SMTP id h21so7449336qta.12
+        for <timdunn@umich.edu>; Sun, 25 Dec 2022 13:48:00 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=to:message-id:subject:date:mime-version:from
+         :content-transfer-encoding:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=22pmjNcMsEz1ps9cMQWJ3YKCU5Ybq+0+/39KpaXNx3A=;
+        b=TSlgZnqBkrCseQr9iRqezTbJtcTXyxCpOjqcBcy0JHWuaRefvq0iOjh0/TPT5FtO+e
+         zVZ07FpRN+ZsiDzMf4vyBNHUUEQoikyd/ENh5TxebDfaYK4dqc9TEBABNAsBuks+A2JG
+         dTBnVhXBwCthaiPxLfVP54AgecDDa/IZoDsrPEmImmF+ArW76D3UTK704onnvFo8dnLa
+         fg7UKh+hkA2JHqNTqjuOTceYMyHslMZbcpZ2R+sQ5F6OapnTTxxejy0sV8I0xI4QAUvV
+         OrMqddYpjr5/STfKg40CdbSx992kB8HtRhMIID/p8+Y7Uo1XQf/V/a4COrJOMWl2c9kP
+         ppbw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=to:message-id:subject:date:mime-version:from
+         :content-transfer-encoding:x-gm-message-state:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=22pmjNcMsEz1ps9cMQWJ3YKCU5Ybq+0+/39KpaXNx3A=;
+        b=VTqdj+YnHkETT/Rf6ihZcL2L0h008Y8WKESkqWUpjDea4k9AjXFbVvQ9K+7GWEV/Pz
+         jWL6gLgZ9haeQstVtpcZQ+v1WZUx34BAfPVQ6o2s1WFv6TlijJXm8clPO97dfZsHUlHM
+         ZrdB1MG/mzhGBPI2PrGIfS/XsNuQPc2YslSvl46jcQ3x+Y00X9ohKzBt8dEWHbqYuCEH
+         mN9qh4HWLJ1Uqiw5pCBK98/sJ3wSVnDvY1U53XHEntQy0BBrvdY318pHHOzT2XDHqXDO
+         zfpAvTR6WXEilAb46J4hfqlphRpBCA6W8ihz6TwZdf1tvNvDCmYAxxdNMA6YfnP5J/NY
+         4I+Q==
+X-Gm-Message-State: AFqh2ko57PY5KuUP0U2kq/GPzqR6soJGw1uRxh7ctcNc5HuIZd5rfBSY
+	vLCiMasbg7u82yMamy1v4og2k9U1ZyM=
+X-Received: by 2002:ac8:7598:0:b0:3a5:63ef:cf4e with SMTP id s24-20020ac87598000000b003a563efcf4emr23885032qtq.16.1672004879390;
+        Sun, 25 Dec 2022 13:47:59 -0800 (PST)
+Received: from smtpclient.apple ([8.47.103.227])
+        by smtp.gmail.com with ESMTPSA id p16-20020a05620a057000b00704c1f4e756sm6446447qkp.14.2022.12.25.13.47.58
+        for <timdunn@umich.edu>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Sun, 25 Dec 2022 13:47:58 -0800 (PST)
+Content-Type: multipart/alternative; boundary=Apple-Mail-79D0E9F7-D034-4D25-9099-544C2FE50DE9
+Content-Transfer-Encoding: 7bit
+From: Susan Dunn <dunnfamilysix@gmail.com>
+Mime-Version: 1.0 (1.0)
+Date: Sun, 25 Dec 2022 16:47:58 -0500
+Subject: Chicken Noodle Soup
+Message-Id: <B1ECBD0D-F345-4AA3-B0CB-3D8C8E3319FA@gmail.com>
+To: "Dunn Tim (James)" <timdunn@umich.edu>
+X-Mailer: iPhone Mail (20B101)
+X-Area1Security-Origin: EXTERNAL 
+X-Area1Security-Processed: 3a7ef36424661498777d090b9c78c692;2;NONE;2022-12-25T21:48:07;debde90d-ce8e-4ed9-9e33-12230c740db2
+
+
+--Apple-Mail-79D0E9F7-D034-4D25-9099-544C2FE50DE9
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto"><div dir=3D"ltr"><br><br><br>I thought you w=
+ould enjoy this recipe that I keep in the <a href=3D"http://itunes.apple.com=
+/us/app/id375811859">My Recipe Book</a> app on my iPhone.<br>You can import i=
+t directly into your My Recipe Book app on your iPad by following the instru=
+ctions at the bottom of the email.<hr><b><u><center>Chicken Noodle Soup</cen=
+ter></u></b><br>I got this recipe from <br><br><b>Ingredients</b><ul><li>Chi=
+cken</li><li>Salt</li><li>Pepper</li><li>Canola oil</li><li>Garlic</li><li>C=
+hicken broth</li><li>Celery ribs</li><li>Carrots</li><li>Bay leaves</li><li>=
+Thyme</li><li>Egg noodles</li><li>Parslet</li><li>Lemon juice</li></ul><hr>A=
+pp Store Link: <a href=3D"http://itunes.apple.com/us/app/id375811859">Recipe=
+Book</a><br><br><b><u>Easy Email Import</u></b><br>Tap <a href=3D"https://sy=
+nc.myrecipebookapp.com//share/get?key=3D3eafa08348a82578cf665912b1525210">he=
+re</a> to open app importer.<br><br>If the above link doesn't work please co=
+py-and-paste this link into Safari: <b>https://sync.myrecipebookapp.com//sha=
+re/get?key=3D3eafa08348a82578cf665912b1525210</b></div><br><br><div dir=3D"l=
+tr">Sent from my iPhone</div></body></html>=
+
+--Apple-Mail-79D0E9F7-D034-4D25-9099-544C2FE50DE9--

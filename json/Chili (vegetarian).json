@@ -1,0 +1,38 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Chili (vegetarian)",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "1 1/2 Cups Vegetable broth",
+        "2 Cups Onions, fresh, chopped (6 oz)",
+        "4 tsp Garlic, fresh, chopped",
+        "2 Cups Carrots, sliced or diced (6 oz)",
+        "2 Cups Sweet potatoes, diced (6 oz)",
+        "1 1/3 Cups Red pepper, diced (3 oz)",
+        "4 tsp Chipotle peppers, minced",
+        "1 Cup Corn, frozen",
+        "5 tsp Chili Powder",
+        "4 Cups Quinoa, cooked",
+        "5 tsp Ground cumin",
+        "2 Cups Tomato sauce, canned",
+        "1/2 Cup Cilantro, chopped",
+        "3 1/2 Cups Black beans, canned",
+        "4 Cups Tomatoes, diced, canned in juice"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat half the broth and steam/saute onions and garlic. Add carrots and all peppers; simmer for ten minutes. Cook quinoa according to package directions. Add other half of broth, quinoa, diced tomatoes, sauce, cilantro and spices. Allow to thicken and the flavors to blend. Add beans, corn and sweet potatoes; allow to simmer again."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/4CAEE3B2-90A2-4877-A65D-538C7C63E363.jpg"
+    ]
+}

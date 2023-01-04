@@ -1,0 +1,38 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "White Thin Mints",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "1 Box Vanilla Wafer Cookies (such as Nilla Wafers)",
+        "2 Cups mint white chocolate candy melts",
+        "Sprinkles (optional)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Melt chocolate in microwave (Use about 1 Tablespoon shortening or vegetable oil to thin it out if it is too think for dipping.)"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Dip cookies into mint white chocolate. Garnish with sprinkles if desired. Let cool."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "You can find mint white chocolate at most craft/baking supply stores (JoAnne's, Pat Catan's, Michaels)."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "You can substitute regular white chocolate with about 1/2 teaspoon peppermint extract."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/98E9104A-8DEE-4B51-8465-C4ADE77BF39B.jpg"
+    ]
+}

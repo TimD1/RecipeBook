@@ -1,0 +1,218 @@
+Delivered-To: timdunn@go.mail.umich.edu
+Received: by 2002:a05:7300:610c:b0:73:c371:183d with SMTP id h12csp1595126dyb;
+        Sun, 25 Dec 2022 13:41:54 -0800 (PST)
+X-Google-Smtp-Source: AMrXdXvfZwKq3lKCYATR+NJTv6E31Mc1put0YFKLzhLWcu1sm+OSkmbFxQjeaEmxbPewZooO4MCg
+X-Received: by 2002:a17:902:7042:b0:189:6a5a:7289 with SMTP id h2-20020a170902704200b001896a5a7289mr22702023plt.52.1672004514815;
+        Sun, 25 Dec 2022 13:41:54 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1672004514; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=q3AkB4ADCbnSZbfM/pM/kyAumyo+Oo65m2hQxosw6AuM6FdOyVU+qRknBtrYTKmQx0
+         B7UthQ2DfioGDssYKERtabj6Z/0X8pNfHaBhG8DdHYMUziHofgLZJqSAd4GsHb7a1CkM
+         kEGrQ7qo5Hku++OtssB8puhfhlDzc/TKIA3JVwFp9m8xvLiGxroGNYv/7XSoWLrehtcn
+         eY63Iu79CQ+SfZnC8Zjhv/OoxFLNBuKaRlBHTt6kuXYmnMRb4PCOMHnvXA6owxwu7XQE
+         TwurF+Lv5Q0frLuAOx2TuuuRKgxCxoIbvPMreKxupXfeX7taNrUK6NcPkjBjsVMwxWOT
+         BxEA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:message-id:subject:date:mime-version:from
+         :content-transfer-encoding:dkim-signature;
+        bh=le7EjE/5ZCvpd6KvOK/eucvD32dFCOp7UTPN8b0iBRw=;
+        b=IQR4gDVGP6FD+wC7b8zmDtNf4sE8zajAR1RtawO4CdcPYNLnkuwAXGSru6xdG039Bw
+         QOX5WhqxptYSWtXuyDaf82EAqnD2L/SvswOCNGEb8E612mB3qRS7z2Rkxl+FAI7uSx5V
+         I1JAkSB20YMe2hIh8kENoZIts7aeYZoXLMmkHwhKiaA05WfTcxFxuZIRYYNkBxEvPlgS
+         4sS+MIBYXaAX+hqHryRUlitDGogtP4yaqXE7uNjZfiHgG4ZhWh5kXvdIgKA2TSw+Mtwx
+         RG4qAUcdl13JUvXwgLK45SyBwBK1gsQinY/4KYTUjSLsDGjxgcQuwkixM4fmO6/tK2or
+         nuaw==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20210112 header.b=DnOqoyLr;
+       arc=pass (i=2 spf=pass spfdomain=umich.edu dkim=pass dkdomain=gmail.com dmarc=pass fromdomain=gmail.com);
+       spf=pass (google.com: domain of srs0=0c6le=4x=gmail.com=dunnfamilysix@umich.edu designates 35.162.59.88 as permitted sender) smtp.mailfrom="SRS0=0c6le=4x=gmail.com=dunnfamilysix@umich.edu"
+Return-Path: <SRS0=0c6le=4x=gmail.com=dunnfamilysix@umich.edu>
+Received: from mailstream-west.mxrecord.io (mailstream-uswest-egress001.mxrecord.io. [52.89.255.11])
+        by mx.google.com with ESMTPS id p2-20020a170903248200b001926061d39fsi6689551plw.581.2022.12.25.13.41.54
+        for <timdunn@go.mail.umich.edu>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sun, 25 Dec 2022 13:41:54 -0800 (PST)
+Received-SPF: pass (google.com: domain of srs0=0c6le=4x=gmail.com=dunnfamilysix@umich.edu designates 35.162.59.88 as permitted sender) client-ip=35.162.59.88;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20210112 header.b=DnOqoyLr;
+       arc=pass (i=2 spf=pass spfdomain=umich.edu dkim=pass dkdomain=gmail.com dmarc=pass fromdomain=gmail.com);
+       spf=pass (google.com: domain of srs0=0c6le=4x=gmail.com=dunnfamilysix@umich.edu designates 35.162.59.88 as permitted sender) smtp.mailfrom="SRS0=0c6le=4x=gmail.com=dunnfamilysix@umich.edu"
+Received: from mailstreamwest003.production.area1.internal (localhost [127.0.0.1])
+	by mailstream-west.mxrecord.io (Postfix) with ESMTP id 4NgDry3m1ZzLn4D
+	for <timdunn@go.mail.umich.edu>; Sun, 25 Dec 2022 21:41:54 +0000 (UTC)
+ARC-Seal: i=2; cv=pass; t=1672004514; a=rsa-sha256;
+	 d=mxrecord.io; s=arc202004;
+	 b=jc04WD1eZQGD/1TI3qyIxho5X9++RsaSi6tNSpswN6b33JD08wZqKNamTxYpnB6YCfZk0wu49
+	  zYfGNonP0zVNGb+dRoIoQArw5ncwBAkWz++RpMv4L42zkmOhsP+PyLOFyT1wZ+RXcwFnLT+eqfX
+	  MeSwaarzWWdDeccnSIC8J2gIQt/hDaUzd3rjTaxeCAEok1cJae6IaQzAe6ve1RoDDwf47PWj9Px
+	  3dSLFhEh+fHi0kr2PGhZK8CqlmrKdEEHxCGZWs3jqCJ78w36DuZFIikUMtSw/bHF4I8mfEYW8J+
+	  oWTtChOZRN9C7uctvPTIxR+26nw8R9tukkrRThvh/Qjw==;
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=mxrecord.io; s=arc202004;
+	 h=from:from:reply-to:reply-to:subject:subject:date:date:message-id:message-id:to:to:cc
+	  :mime-version:mime-version:content-type:content-type:x-area1security-disposition
+	  :x-area1security-disposition;
+	 bh=le7EjE/5ZCvpd6KvOK/eucvD32dFCOp7UTPN8b0iBRw=;
+	 b=i7RjZMkMmZ3AeijQYKeqde0+uCjNmqSw+9xLCBUbvRsZT+7ww93leaZduWpiW2WsKr495ERHx
+	  qE3r7aNUP6BqKwo6+La9preIbFhwnjLDsbEll0L/W4YKyQNgZRojRsh3q3V2eYUpMij0uTtG/1Y
+	  AJ21orda2WOeUF/0seJRyEfItzi27gJWgSGLGOera+G5vcE9HXrEEnP4GPRRA6zY5kAVwMOtSWp
+	  1j29S/IHguo33Ft7F17/NQnkT0uaYj/n3HDdbAz73nsLXQnfldrSmdPNNrnJ2a62Bb2owkCuK0Z
+	  OBAiFH8TEbDozcR2ILtqfBYojt6Z2fJPGUe/vy0nYEBQ==;
+ARC-Authentication-Results: i=2; mailstream-west.mxrecord.io;
+	 dmarc=pass (p=none) header.from=gmail.com;
+	 spf=pass smtp.mailfrom=umich.edu;
+	 dkim=pass header.i=@gmail.com header.s=20210112 header.b=DnOqoyLr;
+	 arc=pass (i=1 spf=pass spfdomain=gmail.com dkim=pass dkdomain=gmail.com dmarc=pass fromdomain=gmail.com)
+Received-SPF: pass (mailstream-west.mxrecord.io: umich.edu designates 35.162.59.88 as permitted sender) client-ip=35.162.59.88; envelope-from=srs0=0c6le=4x=gmail.com=dunnfamilysix@umich.edu; helo=egress-host.us-west-2.a.mail.umich.edu;
+Authentication-Results: mailstream-west.mxrecord.io;
+	 dmarc=pass (p=none) header.from=gmail.com;
+	 spf=pass smtp.mailfrom=umich.edu;
+	 dkim=pass header.i=@gmail.com header.s=20210112 header.b=DnOqoyLr;
+	 arc=pass (i=1 spf=pass spfdomain=gmail.com dkim=pass dkdomain=gmail.com dmarc=pass fromdomain=gmail.com)
+Received: from mailstream-west.mxrecord.io (localhost. [127.0.0.1])
+        by localhost
+        with SMTP (Area1Security-Mailstream 2.165.1) id LC3WAGSF
+        for timdunn@go.mail.umich.edu;
+        Sun, 25 Dec 2022 21:41:53 +0000 (GMT)
+Received: from intrepid-vodianoi.egress.a.mail.umich.edu (egress-host.us-west-2.a.mail.umich.edu [35.162.59.88])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits))
+	(No client certificate requested)
+	by mailstream-west.mxrecord.io (Postfix) with ESMTPS id 4NgDrx6QSpzLn1g
+	for <timdunn@go.mail.umich.edu>; Sun, 25 Dec 2022 21:41:53 +0000 (UTC)
+Received: from striking-grindylow.mx.a.mail.umich.edu (ip-172-31-19-20.us-west-2.compute.internal [172.31.19.20])
+	by intrepid-vodianoi.egress.a.mail.umich.edu with ESMTPS
+	id 63A8C3A1.270C52D6.6F2FF471.2211238;
+	Sun, 25 Dec 2022 16:41:53 -0500
+ARC-Authentication-Results:i=1; striking-grindylow.mx.a.mail.umich.edu; 
+	iprev=pass policy.iprev=209.85.160.170 (mail-qt1-f170.google.com);
+	spf=pass smtp.mailfrom=dunnfamilysix@gmail.com;
+	dkim=pass header.d=@gmail.com;
+	dmarc=pass header.from=dunnfamilysix@gmail.com;
+	arc=none
+ARC-Message-Signature:i=1; a=rsa-sha256; d=umich.edu; s=arc-2017-08-04;
+	t=1672004506; c=relaxed/relaxed;
+	bh=le7EjE/5ZCvpd6KvOK/eucvD32dFCOp7UTPN8b0iBRw=;
+	h=From:Date:Subject:To; b=JggkUMrHwhEKH0MMsu6n3VQmGgi7XPQnyG9lJBdiLpbtftgVXTCX29abVy+1XqpFBLZ2Yu1KZ6f7BfBA42sXDPX46EuS0dSXC3fAANeAcIF4WujGomosBB/nsNDReRx6Gk8iaN/0NjTVqGhb16H+J5pbZxwrSzzCYFTiYsWq70/n3gVWGSVO40N++/D7Px1Mmk/4B0AnwAR8Amxql43t9v0Q7Aa2TXOasaGcnCCSBbxc+XFuB36no5ygdYodR4zM1C+X7a6i6+QInzKwOdm7NpcXFIgjLGlON4uBWE3DR7Lb3gMn21MF2lYstllFgdhfb4YD2Jeia4Z3Lk+vGTJYQw==
+ARC-Seal:i=1; a=rsa-sha256; d=umich.edu; s=arc-2017-08-04; t=1672004506;
+	cv=none; b=AfWQRF0yyNl5pWWhHhBpmggcSAVR+PobD2v+FiVSfijdHjNadMvsX8ttXISDXVG1F2tMn+hR9eRtFVJdTf/N6a9IPmI/zJaMzf+EpqmhpGvs0Rm8dtKItHssqtj+He09TyNsS3ZwPe5NEqbcjAu4Wj9ygHsF8D/60WAMGORCJreNdq4WAgn4Ex6VyFp3q1XIjdoy3frH/hJWaSWnIZ8j4LoXka9Znc9SkOZje0EIcEDJq4/1XAcdvMnFuZxMfkSxWowM/bccZgziiJDM9SSjdLSb4HicwQhrCtICzP8vJvsNYTr9H6H68PJPklDAng1Kh/FsiQOjRp8lnb8cdFggZw==
+Received: from mail-qt1-f170.google.com (mail-qt1-f170.google.com [209.85.160.170])
+	by striking-grindylow.mx.a.mail.umich.edu with ESMTPS
+	id 63A8C39A.D56D1F8.4A596CB2.924394;
+	Sun, 25 Dec 2022 16:41:46 -0500
+Received: by mail-qt1-f170.google.com with SMTP id a16so7455885qtw.10
+        for <timdunn@umich.edu>; Sun, 25 Dec 2022 13:41:45 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=to:message-id:subject:date:mime-version:from
+         :content-transfer-encoding:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=le7EjE/5ZCvpd6KvOK/eucvD32dFCOp7UTPN8b0iBRw=;
+        b=DnOqoyLrCxzhGZTuLkPQXjgR3g82e3orBJT3LBcgFxtcp7b1W9QLI3owlJsxvOtSYg
+         8uvKn6pZXeiIdH4GDkof4hTmvMdQAGqWlSPquSfZagh9cT9Ahmwrm30VgUgP4AVMhHkl
+         2c7yTxKKcYzC5JgK4XDBDrilqbUw4BlsMYao+KEbxcUAYVg9yjvXoSISFlhr4/gthFNB
+         CMNPvQDobLFtk2pxMccfOmL6yFZkRLuPfHoCW7w0xatKe1bleIdT0KjjCqXV4PtrTtOp
+         14hEVpeqgfyZfElCb261HW5+yCNabAm0HMRVPZ8UsMUJDeArZ9QKGxOta0hSj/EsLhBR
+         ELZg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=to:message-id:subject:date:mime-version:from
+         :content-transfer-encoding:x-gm-message-state:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=le7EjE/5ZCvpd6KvOK/eucvD32dFCOp7UTPN8b0iBRw=;
+        b=lHDdYlGIlqBqg7ZC4GChsrEhhhXQEdnJFpYtKlGlxyQPfR6oXJHtpGs7y56zWyafda
+         o7fGFa/fOykyS6aUmbHmGMB/Pq7tQLbW8g2HPMlmHkimZvD5WArIIOQIjklVEJaNeIzi
+         A+FBcT/Mi2faevsU6iOV3WD7v1f94bQnEVT1E8j4MBiYsYz5w2bCMgSiL5wsAZmb8DCG
+         acjRXxF3qHojEcKBloSqEvmY6VBPW2YymegZO9B7fj/MRSt1XrercIgYB9DF8aFADrWt
+         Y+Z1e94uzXBr098HUiEiNhxHRGv8cS7RrEhoBsFW5HG9Qi14SnE475RB8JnZO93P5xFp
+         fPKQ==
+X-Gm-Message-State: AFqh2kpr7nPQMPcH+1PBLYozQGTqJOjpkozi8kthu0uHxFuMNZP7gUz9
+	dPq4bMfTpqObWKz+MS1uKH+UHONJx2Y=
+X-Received: by 2002:a05:622a:2291:b0:3a5:2704:d4c0 with SMTP id ay17-20020a05622a229100b003a52704d4c0mr22340977qtb.31.1672004502514;
+        Sun, 25 Dec 2022 13:41:42 -0800 (PST)
+Received: from smtpclient.apple ([8.47.103.227])
+        by smtp.gmail.com with ESMTPSA id cm27-20020a05622a251b00b0035d432f5ba3sm5650466qtb.17.2022.12.25.13.41.41
+        for <timdunn@umich.edu>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Sun, 25 Dec 2022 13:41:42 -0800 (PST)
+Content-Type: multipart/alternative; boundary=Apple-Mail-CFFD28E6-496E-4A68-BB11-B1B8339C6F78
+Content-Transfer-Encoding: 7bit
+From: Susan Dunn <dunnfamilysix@gmail.com>
+Mime-Version: 1.0 (1.0)
+Date: Sun, 25 Dec 2022 16:41:41 -0500
+Subject: Amish Cinnamon Bread (Friendship Bread)
+Message-Id: <062BD681-7644-465A-8529-D674FC90BA8F@gmail.com>
+To: "Dunn Tim (James)" <timdunn@umich.edu>
+X-Mailer: iPhone Mail (20B101)
+X-Area1Security-Origin: EXTERNAL 
+X-Area1Security-Processed: aa74458a62ac3a41a70a92c846fb0b90;2;NONE;2022-12-25T21:41:54;debde90d-ce8e-4ed9-9e33-12230c740db2
+
+
+--Apple-Mail-CFFD28E6-496E-4A68-BB11-B1B8339C6F78
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto"><div dir=3D"ltr"><br><br><br>I thought you w=
+ould enjoy this recipe that I keep in the <a href=3D"http://itunes.apple.com=
+/us/app/id375811859">My Recipe Book</a> app on my iPhone.<br>You can import i=
+t directly into your My Recipe Book app on your iPad by following the instru=
+ctions at the bottom of the email.<hr><b><u><center><a href=3D"http://www.fo=
+od.com/recipe/amish-cinnamon-bread-friendship-bread-233539">Amish Cinnamon B=
+read (Friendship Bread) (Website Link)</a></center></u></b><br>I got this re=
+cipe from <br><br><b>Ingredients</b><ul><li>2 1/2 Cups milk</li><li>3  Cups s=
+ugar</li><li>4  Cups flour</li><li>1 Cup vegetable oil</li><li>1/2 Cup milk<=
+/li><li>3  eggs</li><li>1 tsp vanilla</li><li>2  tsp cinnamon</li><li>1 box v=
+anilla instant pudding mix (6 ounce)</li><li>1/2 Cup nuts (optional)</li><li=
+>1/2 Cup raisins (optional)</li></ul><br><b>Directions</b><ol><li>Day One: Fo=
+r those making the starter from scratch: combine 1 cup milk, 1 cup sugar, an=
+d 1 cup flour in a large zip lock bag and mush to mix ingredients. For those=
+ receiving the fermented batter in a gallon zip lock bag: Do nothing. Leave i=
+t to sit on the counter.</li><li>On days 2-4: Squeeze the bag several times d=
+uring the day. (If air builds up in the bag, open the zip lock slightly and r=
+emove the air). I took mine to work, laid it on my desk, and to relieve stre=
+ss squeezed the bag several times during the day. Ha ha ha!</li><li>On day 5=
+: add 1 cup milk, 1 cup sugar, and 1 cup self-rising flour to the bag. Squee=
+ze the bag several times during the day.</li><li>On days 6-8: Squeeze the ba=
+g several times during the day.(remove air).</li><li>On day 9: Add 1 cup mil=
+k, 1 cup sugar, and 1 cup self-rising flour into the bag. Close zip lock. Sq=
+ueeze the bag several times during the day.</li><li>Day 10: Pour 1/2 cup "st=
+arter" in four (4) separate gallon zip lock bags. These starters replace the=
+ milk, flour, and sugar used to start the very first batch from scratch. Giv=
+e the four bags to friends along with the steps on how to finish making thei=
+r own starters and bread, or freeze the starters for future use if desired, j=
+ust be sure that once you take a starter out of the freezer, you let it sit o=
+ut one day before starting your steps.</li><li>In a large glass bowl add 2 c=
+ups self-rising flour, 1 cup of sugar, 3 eggs, 1 cup oil, 2 tsp cinnamon, 1/=
+2 cup milk, 1 tsp vanilla, 1 large box (or 2 small boxes) of instant vanilla=
+ pudding, 1/2 cup of either raisins, nuts, chocolate chips or fruit (optiona=
+l) or 1/4 cup of any two of these ingredients; mix well.</li><li>Spray well 2=
+ large loaf pans with cooking spray.</li><li>In a small bowl or cup, mix 1 t=
+sp cinnamon and 2 tbsp sugar. Sprinkle about 1/2 to 2/3 in loaf pans, reserv=
+ing about 1/3 to 1/2 of the mix.</li><li>Pour batter into pans.</li><li>Spri=
+nkle remaining cinnamon and sugar mix across the tops of the batter.(You may=
+ choose to sprinkle the remaining mix after baking the bread).</li><li>Bake a=
+t 325 degrees for 1 hour.</li><li>IMPORTANT NOTES:</li><li>You may also make=
+ small loaves. If you do, bake at the same temperature, but for 25-30 minute=
+s.</li><li>Do not use metal spoon or metal bowl for mixing.</li><li>Do not r=
+efrigerate at any time during the process. Keep on the counter.</li><li>If a=
+ir builds up in the zip lock. Open the zipper slightly and squeeze the air o=
+ut, being careful not to let any of the batter out. Quickly reseal.</li><li>=
+It is normal for the batter to thicken and bubble during the time it sits on=
+ the counter. This is called the fermentation process.</li><li>You may repla=
+ce the nuts or the raisins with chocolate chips or dried fruit (or fresh, no=
+t canned or frozen). Or you can eliminate them and just leave it plain. It's=
+ great any way you slice it. ;0).</li><li>Also, the bread will yield more th=
+an four serving. If you do the two large loafs, it will yield how ever large=
+ a slice you want it to be. So if sliced about the size of a normal slice of=
+ bread, one loaf could yield about 16-18 slices. The serving size listed cam=
+e off the paper I got with the recipe. I'm not sure why they say four servin=
+gs. Each of four servings would be 1/2 a loaf.</li></ol><hr>App Store Link: <=
+a href=3D"http://itunes.apple.com/us/app/id375811859">RecipeBook</a><br><br>=
+<b><u>Easy Email Import</u></b><br>Tap <a href=3D"https://sync.myrecipebooka=
+pp.com//share/get?key=3D0bb00e91cce75d1a70c34b8802c65bc6">here</a> to open a=
+pp importer.<br><br>If the above link doesn't work please copy-and-paste thi=
+s link into Safari: <b>https://sync.myrecipebookapp.com//share/get?key=3D0bb=
+00e91cce75d1a70c34b8802c65bc6</b></div><br><br><div dir=3D"ltr">Sent from my=
+ iPhone</div></body></html>=
+
+--Apple-Mail-CFFD28E6-496E-4A68-BB11-B1B8339C6F78--

@@ -1,0 +1,45 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Banana Bread",
+    "author": {
+        "@type": "Person",
+        "name": "Alpha Bakery Children's Book"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "3/4 Cup Sugar",
+        "1 1/2 Cups Mashed bananas (3 large)",
+        "3/4 Cup Vegetable Oil",
+        "2 Eggs",
+        "2 Cups all - purpose flour",
+        "1/2 Cup chocolate chips (or nuts)",
+        "1 tsp Baking soda",
+        "2 tsp Vanilla",
+        "1/2 tsp Baking powder",
+        "1/2 tsp Salt"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat the oven to 350."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Grease a loaf pan, either 9x5x3 or 8 1/2 x4 1/2 x2 1/2 inches, with shortening, using a pastry brush."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Mix sugar, bananas, oil and eggs in a large bowl with a wooden spoon. Stir in remaining ingredients. Pour into pan."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake until a wooden pick inserted in the center of the bread comes out clean (60-70 minutes). Let cool 10 minutes, then loosen sides of loaf from pan and remove from pan. Let cool completely before slicing. "
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/A1DC5656-FAA8-460B-9E34-05D4EEAB7F19.jpg"
+    ]
+}

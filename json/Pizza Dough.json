@@ -1,0 +1,49 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Pizza Dough",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "1 Pack Active Dry Yeast",
+        "1 Cup Warm Water",
+        "1/2 tsp Salt",
+        "1 tsp Sugar",
+        "2 tsp Olive Oil",
+        "3 Cups Flour"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Dissolve yeast in warm water(less than 100 degrees) in a large bowl."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add salt, oil and 3 cups flour. Stir well."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add flour until bowl is clean. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Knead for 2 minutes or more."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cover with a damp cloth or oiled plastic wrap and let rise for 1 hour."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Brush 14 inch pan with oil and bake at 450 degrees for 15 - 20 minutes. Tip: bake for five minutes, take out and put topping on, then bake for 15 minutes."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/A8B5D904-A163-40ED-A6AF-9CA1CFB88DE0.jpg"
+    ]
+}

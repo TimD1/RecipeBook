@@ -1,0 +1,38 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Mango Berry Fruit Salad",
+    "author": {
+        "@type": "Person",
+        "name": "allrecipes.com"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "2 mangos - peeled, seeded, and diced",
+        "1 Cup reduced fat raspberry vinaigrette salad dressing",
+        "8 Cups mixed torn salad greens",
+        "1/4 Cup chopped cilantro",
+        "1/4 Cup sliced red onion",
+        "1/2 Cup fresh raspberries",
+        "1/2 Cup fresh blackberries",
+        "1/2 Cup fresh strawberries, halved",
+        "1/2 Cup fresh blueberries",
+        "1/2 Cup toasted hazelnuts",
+        "4 oz freshly grated Parmesan cheese"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Place 1 mango and the raspberry vinaigrette dressing in a blender, and blend until liquefied."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a bowl, toss the remaining mango, salad greens, cilantro, and onion. Drizzle with the dressing mixture. Top each serving with equal amounts of raspberries, blackberries, strawberries, blueberries, and hazelnuts. Sprinkle with Parmesan cheese."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/42BEEE14-07B8-481F-9F7C-FC3B7DD502E0.jpg"
+    ]
+}

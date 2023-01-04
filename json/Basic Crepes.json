@@ -1,0 +1,37 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Basic Crepes",
+    "author": {
+        "@type": "Person",
+        "name": "allrecipes.com"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "1 Cup all - purpose flour",
+        "2 eggs",
+        "1/2 Cup milk",
+        "1/2 Cup water",
+        "1/4 tsp salt",
+        "2 Tbsp butter, melted"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large mixing bowl, whisk together the flour and the eggs. Gradually add in the milk and water, stirring to combine. Add the salt and butter; beat until smooth."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat a lightly oiled griddle or frying pan over medium high heat. Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each crepe. Tilt the pan with a circular motion so that the batter coats the surface evenly."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cook the crepe for about 2 minutes, until the bottom is light brown. Loosen with a spatula, turn and cook the other side. Serve hot."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/FD7839F1-1D5C-4C27-9BA2-0E15CD258A65.jpg"
+    ]
+}

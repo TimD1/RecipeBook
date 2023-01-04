@@ -1,0 +1,46 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Crispy Crunchy Chocolate Chip Cookies",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "1 Cup Ghirardelli Semi - Sweet Chocolate Chips",
+        "1 1/3 Cups all purpose flour",
+        "1/2 tsp baking soda",
+        "1/2 tsp salt",
+        "10 Tbsp unsalted butter, melted and cooled (1 1/4 sticks)",
+        "1/3 Cup lightly packed light brown sugar",
+        "1/4 Cup granulated sugar",
+        "2 Tbsp light corn syrup",
+        "2 Tbsp milk",
+        "1 tsp vanilla extract",
+        "3/4 to 1 cup chopped pecans or walnuts"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Directions"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Position racks in the upper and lower thirds of the oven. Preheat the oven to 325F. Line two large baking sheets with foil, dull side up. Mix the flour, baking soda, and salt together thoroughly. Set aside. In a large bowl, combine the butter, both sugars, corn syrup, milk, and vanilla. Mix until smooth. Stir in the flour mixture. Stir in the nuts and chocolate chips. The dough will be very soft."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Divide the dough in half. Divide one half of the dough into 10 equal pieces (each a scant 1/4 cup). Place 5 pieces of dough least 3 inches apart on each lined baking sheet. Use your fingers covered with a piece of plastic wrap to flatten each scoop until it is 3 inches in diameter. (Cookies will spread even more as they bake)."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake the two sheets for 8 minutes. Rotate the sheets from the top rack to the bottom and from front to back. Bake for 7-10 more minutes, watching closely, until the cookies are evenly dark golden brown all over. (Pale cookies will not be crispy). Let cool on pan for 5 minutes. Slide the foil with cookies onto racks. When the baking sheets are cool, repeat with the remaining dough. Cool cookies completely before stacking or storing. Cookies keep, in an airtight container for at least 5 days."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/733A7250-2033-41F5-BE08-06DD7EF25077.jpg"
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Mini Cheesecakes - Grandma Dunn",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "1 pkg vanilla wafers (12 ounce)",
+        "2 pkg cream cheese (8 ounce)",
+        "3/4 Cup white sugar",
+        "2 eggs",
+        "1 tsp vanilla extract",
+        "1 Can cherry pie filling (21 ounce)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 350 degrees F (175 degrees C). Line miniature muffin tins (tassie pans) with miniature paper liners."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Crush the vanilla wafers, and place 1/2 teaspoon of the crushed vanilla wafers into each paper cup."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a mixing bowl, beat cream cheese, sugar, eggs and vanilla until light and fluffy. Fill each miniature muffin liner with this mixture, almost to the top."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake for 15 minutes. Cool. Top with a teaspoonful of cherry pie filling."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/25366BCB-A3E5-4589-ACF1-B4B19443572D.jpg"
+    ]
+}

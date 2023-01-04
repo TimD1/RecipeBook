@@ -1,0 +1,43 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Blueberry Muffins",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "3 Cups Flour",
+        "1 Cup Sugar",
+        "4 tsp Baking powder",
+        "1 tsp Salt",
+        "2 Eggs, lightly beaten",
+        "1/2 Cup Oil",
+        "1 Cup Milk",
+        "1 1/2 Cups Blueberries"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 400"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Mix together flour, sugar, baking powder and salt. Combine eggs and milk and stir into dry ingredients until moistened."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add and stir the berries through the mixture. Spoon into muffin tins about half full."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake for 20 minutes"
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/C369CD3B-128B-453F-8459-2D584B138E81.jpg"
+    ]
+}

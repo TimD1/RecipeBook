@@ -1,0 +1,38 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Mom's Peanut Butter Cookies",
+    "author": {
+        "@type": "Person",
+        "name": "Grandma Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "1/2 Cup Margarine",
+        "1 Cup Peanut Butter",
+        "3/4 Cup Brown Sugar",
+        "3/4 Cup White Sugar",
+        "2 Eggs",
+        "2 Cups Sifted flour",
+        "2 tsp Baking Soda"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 375."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Combine all ingredients and line on ungreased cookie sheets."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake for 10 minutes."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/8FDB8D74-041F-4A11-8008-C299FAD4835A.jpg"
+    ]
+}

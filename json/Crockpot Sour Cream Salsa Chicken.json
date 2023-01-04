@@ -1,0 +1,48 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Crockpot Sour Cream Salsa Chicken",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "4 boneless skinless chicken breasts",
+        "1/2 -1 pkg Taco Seasoning Mix",
+        "1 Cup Salsa",
+        "2 Tbsp Corn Starch",
+        "1/4 Cup Lite sour cream"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Spray pot with cooking spray and line with chicken"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Sprinkle taco mix on top and top with salsa"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cook on low for 6-8 hours"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Remove chicken from pot, mix corn starch with a little water and add to salsa"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir in sour cream "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Return chicken to pot for 30-45 minutes or until hot again"
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/"
+    ]
+}

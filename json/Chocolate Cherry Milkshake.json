@@ -1,0 +1,32 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Chocolate Cherry Milkshake",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "4 scoops vanilla ice cream or frozen yogurt (about 2 cups)",
+        "3/4 Cup cold milk",
+        "1/4 Cup HERSHEY'S Syrup",
+        "8 maraschino cherries, stems removed",
+        "Whipped topping & additional cherry (optional)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Place ice cream, milk, syrup and cherries in blender container. Cover; blend until smooth."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Garnish with whipped topping and cherry, if desired. Two 10-oz. servings."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/0A51010C-1D44-4BF3-924D-DAED421C55DD.jpg"
+    ]
+}

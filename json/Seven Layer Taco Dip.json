@@ -1,0 +1,42 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Seven Layer Taco Dip",
+    "author": {
+        "@type": "Person",
+        "name": "allrecipes.com"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "1 pkg taco seasoning mix (1 ounce)",
+        "1 Can refried beans (16 ounce)",
+        "1 pkg cream cheese, softened (8 ounce)",
+        "1 container sour cream (16 ounce)",
+        "1 jar salsa (16 ounce)",
+        "1 Large tomato, chopped",
+        "1 green bell pepper, chopped",
+        "1 bunch chopped green onions",
+        "1 Small head iceberg lettuce, shredded",
+        "1 Can sliced black olives, drained (6 ounce)",
+        "2 Cups shredded Cheddar cheese"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a medium bowl, blend the taco seasoning mix and refried beans. Spread the mixture onto a large serving platter."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Mix the sour cream and cream cheese in a medium bowl. Spread over the refried beans."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Top the layers with salsa. Place a layer of tomato, green bell pepper, green onions and lettuce over the salsa, and top with Cheddar cheese. Garnish with black olives."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/7F6379BA-8535-4AB3-A2A2-E1B87DEABB24.jpg"
+    ]
+}

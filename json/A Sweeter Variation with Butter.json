@@ -1,0 +1,33 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "A Sweeter Variation with Butter",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "6 Eggs",
+        "1 Cup Butter",
+        "2 Cups Sugar",
+        "2 tsp Vanilla extract",
+        "4 Cups All-purpose flour",
+        "3 tsp Baking powder"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Beat the eggs until smooth. Melt the butter and allow to cool briefly while you blend and mix the sugar and vanilla into the eggs. Then add the melted butter into the mix, sift the flour and baking powder onto the mix and blend vigorously to ensure uniformity. The batter will be sticky and stiff. As needed, adjust the mixture with a few tablespoons of water or flour to slightly thin or stiffen the batter so it flows ribbon-like off of a tablespoon."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake for approximately 20 seconds, opening the lid briefly to examine the color and baking longer as desired to create a darker/browner surface."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/FC319651-2B65-4E77-9F33-0858D6C2F97D.jpg"
+    ]
+}

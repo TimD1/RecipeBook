@@ -1,0 +1,34 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Monster Cookies",
+    "author": {
+        "@type": "Person",
+        "name": "Carolyn benjamin"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "3 Eggs",
+        "1 Cup Brown Sugar",
+        "3/4 tsp Vanilla",
+        "1 Cup Granulated Sugar",
+        "2 tsp Baking Soda",
+        "1/2 Cup Butter",
+        "2 Cups Peanut Butter",
+        "4 1/2 Cups Oatmeal",
+        "1/2 Cup Chocolate Chips (Chocolate Chunks)",
+        "1/2 Cup M&Ms",
+        "1/8 Cup Chopped Nuts"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Combine all ingredients. Use an ice cream scoop to form balls of dough, then gently flatten dough on cookie sheet. Bake at 350 for 10-12 minutes."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/338BA54A-1A96-4D53-B39E-7AD0183F00F2.jpg"
+    ]
+}

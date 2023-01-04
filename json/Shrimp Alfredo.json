@@ -1,0 +1,32 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Shrimp Alfredo",
+    "author": {
+        "@type": "Person",
+        "name": "Terry Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "8 - 12 oz Cream cheese",
+        "1 Cup Chicken Broth",
+        "2 Tbsp Balsamic vinagrette dressing (terry uses more)",
+        "3 Garlic (Cloves)",
+        "1 # Shrimp"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Saute shrimp in balsamic vinagrette. Add garlic and cook for 3 more minutes. Add more balsamic if desired. Remove shrimp and keep warm. Add broth to same pan, add cream cheese till melted."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Serve over fettuccini or pasta"
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/9E6506D8-8AA1-42A5-98CD-DCA5194C5531.jpg"
+    ]
+}

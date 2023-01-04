@@ -1,0 +1,842 @@
+Delivered-To: timdunn@go.mail.umich.edu
+Received: by 2002:a05:7300:610c:b0:73:c371:183d with SMTP id h12csp1599093dyb;
+        Sun, 25 Dec 2022 13:59:44 -0800 (PST)
+X-Google-Smtp-Source: AMrXdXsyOHsmMUHtg9TiqjSq4pE0mZb14xwlWP1B53SHEr1850EXkUKI31KNzXuCMxrK38PkaTZV
+X-Received: by 2002:ad4:4f85:0:b0:4d7:45fb:f5ab with SMTP id em5-20020ad44f85000000b004d745fbf5abmr20373820qvb.51.1672005583808;
+        Sun, 25 Dec 2022 13:59:43 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1672005583; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=E8cY2exfWuOdI2sEAG8GZbjb70WBmdHLVt0W8nA88iTzUPPdFLzx3jrdhJB+oS4lv9
+         sqLJ1cu56LxUZaL2T/8cWI7ICQV3Bukru83T369DNY/fzhlstnNitauwHFeymNtadl2g
+         Ec/RAuE/bU6cbquJoceVSiqd7tKBvDzgVGOjhNfEI+4vr/QdgAZEbbNqg++zjdXn2xWu
+         L5ASoDaNVgqHw7jv6y4vF/fyCCy7aN7G0/KBYYbe4ZlH0EG86NvWB2ooABGa3stP/3gk
+         qqGew6ePWSHR+jvR8DZsOqGlp9QYPKAGbKLVICrdUknj8q8JmtOXgmiWwPVjZdmElic/
+         HlxA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:message-id:subject:date:mime-version:from
+         :content-transfer-encoding:dkim-signature;
+        bh=SOk+kvR7B5dET/os7GF+x1eEA3ow2D0a6+jO2tBweqU=;
+        b=j8nX74LMwLXIw3obm3osdZMM+GLvkWrIRFEqGcWfaGgByEL2M5rSkbuYON413/GHQX
+         ts5OBGw9U7YE0Cf1O81jAfuZHp6qHT0i1Qos8KuFEpAqeam99720pJCmnhsFyNRJSV77
+         CHAc+6sguWKqxvb1NyAUAsmOXeq7VC/nGk1cdanIlKc8E2TFVr1I9z5l/CG6MqwhG5z0
+         jVpFM5aUWjg/iWUcn27sS0FCLEbhcKUmJCJu9MFuL5kafZjdV0NUwf0OWIAt+7xQSPlU
+         A2QY4VZ2O1lxon6HKRYF0c99SNm5xRk2yL5EVkIzL+bkgCroyxhn8uCC3poBd51F1wGy
+         2JKw==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20210112 header.b=HPhQfumh;
+       arc=pass (i=2 spf=pass spfdomain=umich.edu dkim=pass dkdomain=gmail.com dmarc=pass fromdomain=gmail.com);
+       spf=pass (google.com: domain of srs0=0c6le=4x=gmail.com=dunnfamilysix@umich.edu designates 35.160.237.124 as permitted sender) smtp.mailfrom="SRS0=0c6le=4x=gmail.com=dunnfamilysix@umich.edu"
+Return-Path: <SRS0=0c6le=4x=gmail.com=dunnfamilysix@umich.edu>
+Received: from mailstream-east.mxrecord.io (mailstream-useast-egress001.mxrecord.io. [52.0.67.109])
+        by mx.google.com with ESMTPS id ge9-20020a05621427c900b004c6e019487bsi3425571qvb.547.2022.12.25.13.59.43
+        for <timdunn@go.mail.umich.edu>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sun, 25 Dec 2022 13:59:43 -0800 (PST)
+Received-SPF: pass (google.com: domain of srs0=0c6le=4x=gmail.com=dunnfamilysix@umich.edu designates 35.160.237.124 as permitted sender) client-ip=35.160.237.124;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20210112 header.b=HPhQfumh;
+       arc=pass (i=2 spf=pass spfdomain=umich.edu dkim=pass dkdomain=gmail.com dmarc=pass fromdomain=gmail.com);
+       spf=pass (google.com: domain of srs0=0c6le=4x=gmail.com=dunnfamilysix@umich.edu designates 35.160.237.124 as permitted sender) smtp.mailfrom="SRS0=0c6le=4x=gmail.com=dunnfamilysix@umich.edu"
+Received: from mailstreameast019.production.area1.internal (localhost [127.0.0.1])
+	by mailstream-east.mxrecord.io (Postfix) with ESMTP id 4NgFFW4mrJzwPZN
+	for <timdunn@go.mail.umich.edu>; Sun, 25 Dec 2022 21:59:43 +0000 (UTC)
+ARC-Seal: i=2; cv=pass; t=1672005583; a=rsa-sha256;
+	 d=mxrecord.io; s=arc202004;
+	 b=Q+adyYUIDOl9qhbjgkMfeo2LUHHVLG4QnbJPNYpicfkLaqtH8xS+1NrLsa+DqWzlvrW2YffhO
+	  Kh792JbjPwxzpBlNUUf+isuZ/yXP9i9zGSK8P/x/7lFncj1xdBZ0WkB4AzEK3AKIMHRaDzDojCR
+	  7xMvGDO6istHuL2m6aGR4zPxxz/yEw1Oy0ZfoPxWl4pxOOsN/LBsLYynQZSVtNL52rzWm5GIo6i
+	  CQuQsf5U9kBsOPYxmPteGHwg1+8pckKadDu8VcspjrBBlZw0DPg+CKiYPXSpsbYKvEWmsk1g0kW
+	  YzPh0pU+fkDzfVckNXlLVafa1pliFo8xDL7uDOYOxSSw==;
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=mxrecord.io; s=arc202004;
+	 h=from:from:reply-to:reply-to:subject:subject:date:date:message-id:message-id:to:to:cc
+	  :mime-version:mime-version:content-type:content-type:x-area1security-disposition
+	  :x-area1security-disposition;
+	 bh=SOk+kvR7B5dET/os7GF+x1eEA3ow2D0a6+jO2tBweqU=;
+	 b=EL9xiV/+x3Afnl9BfJ8QqerxwSrFXUzaUz+rGI7u5M+rhIGBSL0PThkTbwMqMdoYjT+6iEGNV
+	  ioXwhfk74iXRumn7A/vMqhxrOTpkBXK7a7GWRVBndETkh0A8wONV637MlbKieeKpFEjqb4pXOfr
+	  /Y6e5x+TnIJ5hpRBr9D2H09RjGkVX4l+pXB25oMdPIir0vBBl0TnuhSO70DuGIwBI11Po9yCVFx
+	  76mZ05aRHgjU5mpKJCYf58v2eM1/5qqwEaUTIFHscxLCxP5UY5Vjqxu/4SvAewHdqVlMSyzlcNy
+	  TJe8LmaLmcCvjedqqVAapfaKQZJiHNnlM71OLSdN+r2A==;
+ARC-Authentication-Results: i=2; mailstream-east.mxrecord.io;
+	 dmarc=pass (p=none) header.from=gmail.com;
+	 spf=pass smtp.mailfrom=umich.edu;
+	 dkim=pass header.i=@gmail.com header.s=20210112 header.b=HPhQfumh;
+	 arc=pass (i=1 spf=pass spfdomain=gmail.com dkim=pass dkdomain=gmail.com dmarc=pass fromdomain=gmail.com)
+Received-SPF: pass (mailstream-east.mxrecord.io: umich.edu designates 35.160.237.124 as permitted sender) client-ip=35.160.237.124; envelope-from=srs0=0c6le=4x=gmail.com=dunnfamilysix@umich.edu; helo=egress-host.us-west-2.a.mail.umich.edu;
+Authentication-Results: mailstream-east.mxrecord.io;
+	 dmarc=pass (p=none) header.from=gmail.com;
+	 spf=pass smtp.mailfrom=umich.edu;
+	 dkim=pass header.i=@gmail.com header.s=20210112 header.b=HPhQfumh;
+	 arc=pass (i=1 spf=pass spfdomain=gmail.com dkim=pass dkdomain=gmail.com dmarc=pass fromdomain=gmail.com)
+Received: from mailstream-east.mxrecord.io (localhost. [127.0.0.1])
+        by localhost
+        with SMTP (Area1Security-Mailstream 2.165.1) id LC3WY88B
+        for timdunn@go.mail.umich.edu;
+        Sun, 25 Dec 2022 21:59:43 +0000 (GMT)
+Received: from fluent-gwyllion.egress.a.mail.umich.edu (egress-host.us-west-2.a.mail.umich.edu [35.160.237.124])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits))
+	(No client certificate requested)
+	by mailstream-east.mxrecord.io (Postfix) with ESMTPS id 4NgFFV5PpVzwPcN
+	for <timdunn@go.mail.umich.edu>; Sun, 25 Dec 2022 21:59:42 +0000 (UTC)
+Received: from sympathetic-unicorn.mx.a.mail.umich.edu (ip-172-31-26-125.us-west-2.compute.internal [172.31.26.125])
+	by fluent-gwyllion.egress.a.mail.umich.edu with ESMTPS
+	id 63A8C7CE.221947B.7F586C64.495650;
+	Sun, 25 Dec 2022 16:59:42 -0500
+ARC-Authentication-Results:i=1; sympathetic-unicorn.mx.a.mail.umich.edu; 
+	iprev=pass policy.iprev=209.85.160.181 (mail-qt1-f181.google.com);
+	spf=pass smtp.mailfrom=dunnfamilysix@gmail.com;
+	dkim=pass header.d=@gmail.com;
+	dmarc=pass header.from=dunnfamilysix@gmail.com;
+	arc=none
+ARC-Message-Signature:i=1; a=rsa-sha256; d=umich.edu; s=arc-2017-08-04;
+	t=1672005575; c=relaxed/relaxed;
+	bh=SOk+kvR7B5dET/os7GF+x1eEA3ow2D0a6+jO2tBweqU=;
+	h=From:Date:Subject:To; b=BMR/zVKgOBwFrVRos/dz/lLL/h7GOJhTQjiTnXVADRWxdykCEkO88IfZOwEw8jcG8gcNoutmPazAMrGEwZW5MXYqKBCKKbLIfn6AFT/eVV/s2qbmDV1/iZN4QVAwtOu78vNvx7PoGnxzQIDmcRXUrPsbuVtXxP+vh3fx3LVf3viL0wG/xsn7vcR3WTdrR+kcOBbTx/NtNY8n9OpuSNO4mQc2OuQctjIf6obf5dwbHWaNCiYj106rwLlZKJXYMkg54ZSysQxq+t85Xg2hBNsNYPjmBehN7H9cVWm28G87VTmD0qWZhEc3Nh7KlfGMrUgkGbzMrT8VQxSWDTW57iMTlQ==
+ARC-Seal:i=1; a=rsa-sha256; d=umich.edu; s=arc-2017-08-04; t=1672005575;
+	cv=none; b=OgOlngyWvlVge5Tas2sBz+EApB5xhFWERpIDhQCthnot/eWaIuaXO02WJh+53VRuwOTT8jW/fdWNZwshOstnD/uvH0P0UvbvOzU0qUX/P9oYKK1uyv+uLTcQZ7uSBs6jujswBD7lzrB5xkXYnSg2xlK5BmR0mFHr3NmoUavTCZ5mbSNxkEbkb3ytpAM4mNDF8XXEQtXkhGtNCf8Fo5eGLuOHZhHX11k4TUpukMCtb7JEPC7ttaKCnB6d2Ui/mqiYk1KE1wsNEOpzgZE/BKRk3zxpkNMrPADoNkqQkyGdtkjtDaxeFG68g+I+oXrfYLz0GiiaM9jX6N4HrrloZE4S/A==
+Received: from mail-qt1-f181.google.com (mail-qt1-f181.google.com [209.85.160.181])
+	by sympathetic-unicorn.mx.a.mail.umich.edu with ESMTPS
+	id 63A8C7C6.1AE411E0.624E2C80.2645429;
+	Sun, 25 Dec 2022 16:59:35 -0500
+Received: by mail-qt1-f181.google.com with SMTP id c7so7479008qtw.8
+        for <timdunn@umich.edu>; Sun, 25 Dec 2022 13:59:33 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=to:message-id:subject:date:mime-version:from
+         :content-transfer-encoding:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=SOk+kvR7B5dET/os7GF+x1eEA3ow2D0a6+jO2tBweqU=;
+        b=HPhQfumhhkakSamfDPUELqCxvu5s7gyZ7MeqLXwf19W/ir3oLSEgok7if492ssA3Ec
+         Ne3yzH2wE5spjS4svDpI4ja47LWa8XL7y0utirksu1V4Q4+wd+i2r0aBPe+rX+kj8m1B
+         Nn90dqfIJgQ8aYzna0PP0+NQilbdFASPVellhAIM4Y/Neda/r4ezY9YC8zhPxUsknfZ2
+         vVwnvODeaH314XFLecBq8s4iJdzd6O/asly3N1kbw2wagCslSr+Ks0XNnalv7SIcrYD4
+         igiRTmgpAofDjXcah//xL+KcEJt3X5AiarDNfqe3PS2UsgGvaZVsKahWHxeE60vC7a5v
+         IOfg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=to:message-id:subject:date:mime-version:from
+         :content-transfer-encoding:x-gm-message-state:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=SOk+kvR7B5dET/os7GF+x1eEA3ow2D0a6+jO2tBweqU=;
+        b=URHnrgKTxlsra35THyfq8tAU5jNjHM4cMJE/2gfn5DfWgB9bx0MQ2HnTEemDG8RXYL
+         zYCYIiBvBVRdbLrUaszyG5HXozjSEPvLTa1ywWPyHMB/Et0aZha/atMo3kD6CPQV2qlF
+         X/mbpmp/Hmt2fhYJZB2oxo0aCMDOoD9XhDUp7m1+8WjKgoM/WQ/4aYoNZh7lBEZ0fhWb
+         UlZGG8nsPX85Y2U92m48fbj/q5QtcQ1YOlketwK9RDTcGiMmF1MiUAez31nYKIQhZzkv
+         596GOChkKK8PYp/UmG/MUlEPY7INi8HgRa8ThKNDfgz8zFAjl+kWKpMFKXKVwSL4PuhJ
+         DP9g==
+X-Gm-Message-State: AFqh2kqKHGkKGmEB5ap709YeHe1DjK+sSKr5QPrBrSvqO6GyDwQlP0dQ
+	njB3AAYDeeXCtKf2MWgloewIh3JeeEw=
+X-Received: by 2002:ac8:73c7:0:b0:3a7:f3e7:5149 with SMTP id v7-20020ac873c7000000b003a7f3e75149mr20187423qtp.61.1672005570562;
+        Sun, 25 Dec 2022 13:59:30 -0800 (PST)
+Received: from smtpclient.apple ([8.47.103.227])
+        by smtp.gmail.com with ESMTPSA id ay34-20020a05620a17a200b006b929a56a2bsm6648853qkb.3.2022.12.25.13.59.29
+        for <timdunn@umich.edu>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Sun, 25 Dec 2022 13:59:29 -0800 (PST)
+Content-Type: multipart/alternative; boundary=Apple-Mail-AAA689C9-2305-4875-9DBF-0B4AFFB3DFEB
+Content-Transfer-Encoding: 7bit
+From: Susan Dunn <dunnfamilysix@gmail.com>
+Mime-Version: 1.0 (1.0)
+Date: Sun, 25 Dec 2022 16:59:29 -0500
+Subject: Moms Chicken Enchiladas
+Message-Id: <01BADEB1-0074-43AA-8A3E-B619E2F80F72@gmail.com>
+To: "Dunn Tim (James)" <timdunn@umich.edu>
+X-Mailer: iPhone Mail (20B101)
+X-Area1Security-Origin: EXTERNAL 
+X-Area1Security-Processed: 968aad4a5d67c70260d590df24b5631d;2;NONE;2022-12-25T21:59:43;debde90d-ce8e-4ed9-9e33-12230c740db2
+
+
+--Apple-Mail-AAA689C9-2305-4875-9DBF-0B4AFFB3DFEB
+Content-Type: multipart/related;
+	type="text/html";
+	boundary=Apple-Mail-01EDA2E1-1229-4418-BA1E-0B568107D8D1
+Content-Transfer-Encoding: 7bit
+
+
+--Apple-Mail-01EDA2E1-1229-4418-BA1E-0B568107D8D1
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto"><div dir=3D"ltr"><br><br><br>I thought you w=
+ould enjoy this recipe that I keep in the <a href=3D"http://itunes.apple.com=
+/us/app/id375811859">My Recipe Book</a> app on my iPhone.<br>You can import i=
+t directly into your My Recipe Book app on your iPad by following the instru=
+ctions at the bottom of the email.<hr><b><u><center><a href=3D"http://www.si=
+mplyrecipes.com/recipes/moms_chicken_enchiladas/">Moms Chicken Enchiladas (W=
+ebsite Link)</a></center></u></b><br>I got this recipe from <br><br><b>Ingre=
+dients</b><ul><li>1 Small onion, chopped (about a cup)</li><li>Vegetable oil=
+ - grapeseed or olive</li><li>2  Small cloves garlic, minced</li><li>15 1/2 o=
+z - can tomatoes, preferably fire - roasted if you can get it</li><li>2  Tbs=
+p red chili powder</li><li>1 tsp sugar</li><li>1/2 to a cup of water</li><li=
+>12  corn tortillas</li><li>Grapeseed oil, peanut oil or canola oil - a high=
+ smoke point vegetable oil</li><li>2  Cups of cooked chicken, shredded or ch=
+opped</li><li>Salt</li><li>2  Cups grated cheese (about 1/3 lb)</li></ul><br=
+><b>Directions</b><ol><li>1 Preheat the oven to 350=C2=B0F.</li><li>2 Prepar=
+e the sauce. Coat a large skillet with oil and saut the onions on medium hea=
+t until translucent, a few minutes. Add the garlic for a minute more. While t=
+he onions are cooking, pur e the canned tomatoes in a blender. Add the tomat=
+oes to the onions and garlic. Bring to a low simmer. Start adding the chili p=
+owder, one teaspoon at a time, tasting after each addition, until you get to=
+ the desired level of heat and chili flavor. For us that's around 2 Tablespo=
+ons. But it depends on your taste and how strong the chili powder is that yo=
+u are using. Note that the tortillas and chicken will absorb some of the hea=
+t, so allow for that and let it be a little bit spicier than what you want i=
+n the finished dish. Add a teaspoon of sugar if necessary to cut down on the=
+ acid from the tomatoes. You want more of the taste of the chili and less of=
+ the tomatoes for this sauce. As the sauce simmers, dilute it with water to k=
+eep it from getting too thick as it simmers. Remove from heat.</li><li>Alter=
+natively, use a prepared canned enchilada sauce, which can be perfectly fine=
+.</li><li>3 Mix in 1/4 cup of the sauce with the cooked chicken, and a 1/4 c=
+up of the cheese. Sprinkle with a little salt. Set aside.</li><li>4 Prepare t=
+he tortillas. There are 2 basic ways to prepare the tortillas - the traditio=
+nal way of dipping them in the sauce and heating them individually, and my m=
+om's way when she is trying to cut down on the fat.</li><li> First the tradi=
+tional way. Heat a small light skillet on med-high heat. Add a teaspoon of o=
+il (high smoke point oil as indicated above, we use grapeseed oil) to coat t=
+he pan. Dip a tortilla in the sauce to coat the tortilla with sauce on both s=
+ides. Place the tortilla in the skillet and heat for a few seconds, until th=
+e tortilla begin to show some air bubbles. Use a metal spatula to flip to th=
+e other side for a few more seconds. Set aside on a plate. Repeat with remai=
+ning tortillas. Proceed to the step 5.</li><li> For my mom's low-fat method o=
+f heating up the tortillas, she places a small amount of oil in the skillet t=
+o coat the pan. Add a tortilla, flip it to its other side. Then add another t=
+ortilla on top of the first to soak up some of the excess oil. Flip them bot=
+h together and add yet another tortilla. Keep adding them wherever there see=
+ms to be some excess oil. The idea is to heat the tortillas and soften them w=
+ith the minimum amount of oil. As the tortillas become soft and heated, remo=
+ve them to a paper towel to soak up even more excess oil. If you find you ne=
+ed more oil in the pan, add it. With this method, you do NOT get the chili f=
+lavor infused in the tortillas. It is a matter of preference. I prefer the f=
+irst method, excess oil or not, because it has a much richer and spicier fla=
+vor. But as my mom says, "Anything goes. This is just a guideline; do what y=
+ou want." </li><li>Note that because we made this batch the low-fat way, the=
+ following photos show tortillas not coated in chili sauce, but the method i=
+s the same for if you did.</li><li> </li><li>5 Assemble the enchiladas. Use a=
+n 8x12 inch pyrex baking dish. Place a couple spoonfuls of the chicken mixtu=
+re in the center of a tortilla and roll it up. Place in the baking dish and r=
+epeat until all dozen of your tortillas are neatly placed in rows in the cas=
+serole dish. Cover the tortillas rolls with the remaining sauce. Sprinkle wi=
+th the remaining grated cheese. Note that I recall often eating these chicke=
+n enchiladas with very little cheese on them. Instead we had probably 2/3 cu=
+p of chopped fresh onion that had been soaked in vinegar sprinkled over the t=
+op. (My mom, bless her soul, has no recollection of the chicken enchiladas w=
+ithout the sprinkled cheese. But she's in her 70s and sometimes doesn't reme=
+mber these things. Or she remembers later and doesn't remember that she ever=
+ forgot them in the first place. But heck, I'm in my 40s and my memory isn't=
+ what it used to be either.)</li><li>6 Place in the oven and cook for 10 min=
+utes, or until cheese is bubbly.</li><li>Use a metal spatula to serve.</li><=
+li>Serve with thinly sliced iceberg lettuce that has been seasoned with vine=
+gar and salt (no oil), guacamole or avocado slices, and sour cream. Garnish w=
+ith cilantro.</li><li>Serves 4.</li></ol><hr>App Store Link: <a href=3D"http=
+://itunes.apple.com/us/app/id375811859">RecipeBook</a><br><br><b><u>Easy Ema=
+il Import</u></b><br><ol><li>Tap and Hold image</li><li>Touch 'Save Image' t=
+o save the image to your iPad</li><li>Tap <a href=3D"myrecipebook://%3AeisL3=
+9KJaowLdksK23%3A%7B%22hasImage%22%3Atrue%2C%22categories%22%3A%5B%5D%2C%22co=
+okTime%22%3A0%2C%22servingsScale%22%3A1%2C%22directions%22%3A%5B%221%20Prehe=
+at%20the%20oven%20to%20350%C2%B0F.%22%2C%222%20Prepare%20the%20sauce.%20Coat=
+%20a%20large%20skillet%20with%20oil%20and%20saut%20the%20onions%20on%20mediu=
+m%20heat%20until%20translucent%2C%20a%20few%20minutes.%20Add%20the%20garlic%=
+20for%20a%20minute%20more.%20While%20the%20onions%20are%20cooking%2C%20pur%2=
+0e%20the%20canned%20tomatoes%20in%20a%20blender.%20Add%20the%20tomatoes%20to=
+%20the%20onions%20and%20garlic.%20Bring%20to%20a%20low%20simmer.%20Start%20a=
+dding%20the%20chili%20powder%2C%20one%20teaspoon%20at%20a%20time%2C%20tastin=
+g%20after%20each%20addition%2C%20until%20you%20get%20to%20the%20desired%20le=
+vel%20of%20heat%20and%20chili%20flavor.%20For%20us%20that's%20around%202%20T=
+ablespoons.%20But%20it%20depends%20on%20your%20taste%20and%20how%20strong%20=
+the%20chili%20powder%20is%20that%20you%20are%20using.%20Note%20that%20the%20=
+tortillas%20and%20chicken%20will%20absorb%20some%20of%20the%20heat%2C%20so%2=
+0allow%20for%20that%20and%20let%20it%20be%20a%20little%20bit%20spicier%20tha=
+n%20what%20you%20want%20in%20the%20finished%20dish.%20Add%20a%20teaspoon%20o=
+f%20sugar%20if%20necessary%20to%20cut%20down%20on%20the%20acid%20from%20the%=
+20tomatoes.%20You%20want%20more%20of%20the%20taste%20of%20the%20chili%20and%=
+20less%20of%20the%20tomatoes%20for%20this%20sauce.%20As%20the%20sauce%20simm=
+ers%2C%20dilute%20it%20with%20water%20to%20keep%20it%20from%20getting%20too%=
+20thick%20as%20it%20simmers.%20Remove%20from%20heat.%22%2C%22Alternatively%2=
+C%20use%20a%20prepared%20canned%20enchilada%20sauce%2C%20which%20can%20be%20=
+perfectly%20fine.%22%2C%223%20Mix%20in%201%5C/4%20cup%20of%20the%20sauce%20w=
+ith%20the%20cooked%20chicken%2C%20and%20a%201%5C/4%20cup%20of%20the%20cheese=
+.%20Sprinkle%20with%20a%20little%20salt.%20Set%20aside.%22%2C%224%20Prepare%=
+20the%20tortillas.%20There%20are%202%20basic%20ways%20to%20prepare%20the%20t=
+ortillas%20-%20the%20traditional%20way%20of%20dipping%20them%20in%20the%20sa=
+uce%20and%20heating%20them%20individually%2C%20and%20my%20mom's%20way%20when=
+%20she%20is%20trying%20to%20cut%20down%20on%20the%20fat.%22%2C%22%20First%20=
+the%20traditional%20way.%20Heat%20a%20small%20light%20skillet%20on%20med-hig=
+h%20heat.%20Add%20a%20teaspoon%20of%20oil%20(high%20smoke%20point%20oil%20as=
+%20indicated%20above%2C%20we%20use%20grapeseed%20oil)%20to%20coat%20the%20pa=
+n.%20Dip%20a%20tortilla%20in%20the%20sauce%20to%20coat%20the%20tortilla%20wi=
+th%20sauce%20on%20both%20sides.%20Place%20the%20tortilla%20in%20the%20skille=
+t%20and%20heat%20for%20a%20few%20seconds%2C%20until%20the%20tortilla%20begin=
+%20to%20show%20some%20air%20bubbles.%20Use%20a%20metal%20spatula%20to%20flip=
+%20to%20the%20other%20side%20for%20a%20few%20more%20seconds.%20Set%20aside%2=
+0on%20a%20plate.%20Repeat%20with%20remaining%20tortillas.%20Proceed%20to%20t=
+he%20step%205.%22%2C%22%20For%20my%20mom's%20low-fat%20method%20of%20heating=
+%20up%20the%20tortillas%2C%20she%20places%20a%20small%20amount%20of%20oil%20=
+in%20the%20skillet%20to%20coat%20the%20pan.%20Add%20a%20tortilla%2C%20flip%2=
+0it%20to%20its%20other%20side.%20Then%20add%20another%20tortilla%20on%20top%=
+20of%20the%20first%20to%20soak%20up%20some%20of%20the%20excess%20oil.%20Flip=
+%20them%20both%20together%20and%20add%20yet%20another%20tortilla.%20Keep%20a=
+dding%20them%20wherever%20there%20seems%20to%20be%20some%20excess%20oil.%20T=
+he%20idea%20is%20to%20heat%20the%20tortillas%20and%20soften%20them%20with%20=
+the%20minimum%20amount%20of%20oil.%20As%20the%20tortillas%20become%20soft%20=
+and%20heated%2C%20remove%20them%20to%20a%20paper%20towel%20to%20soak%20up%20=
+even%20more%20excess%20oil.%20If%20you%20find%20you%20need%20more%20oil%20in=
+%20the%20pan%2C%20add%20it.%20With%20this%20method%2C%20you%20do%20NOT%20get=
+%20the%20chili%20flavor%20infused%20in%20the%20tortillas.%20It%20is%20a%20ma=
+tter%20of%20preference.%20I%20prefer%20the%20first%20method%2C%20excess%20oi=
+l%20or%20not%2C%20because%20it%20has%20a%20much%20richer%20and%20spicier%20f=
+lavor.%20But%20as%20my%20mom%20says%2C%20%5C%22Anything%20goes.%20This%20is%=
+20just%20a%20guideline%3B%20do%20what%20you%20want.%5C%22%20%22%2C%22Note%20=
+that%20because%20we%20made%20this%20batch%20the%20low-fat%20way%2C%20the%20f=
+ollowing%20photos%20show%20tortillas%20not%20coated%20in%20chili%20sauce%2C%=
+20but%20the%20method%20is%20the%20same%20for%20if%20you%20did.%22%2C%22%20%2=
+2%2C%225%20Assemble%20the%20enchiladas.%20Use%20an%208x12%20inch%20pyrex%20b=
+aking%20dish.%20Place%20a%20couple%20spoonfuls%20of%20the%20chicken%20mixtur=
+e%20in%20the%20center%20of%20a%20tortilla%20and%20roll%20it%20up.%20Place%20=
+in%20the%20baking%20dish%20and%20repeat%20until%20all%20dozen%20of%20your%20=
+tortillas%20are%20neatly%20placed%20in%20rows%20in%20the%20casserole%20dish.=
+%20Cover%20the%20tortillas%20rolls%20with%20the%20remaining%20sauce.%20Sprin=
+kle%20with%20the%20remaining%20grated%20cheese.%20Note%20that%20I%20recall%2=
+0often%20eating%20these%20chicken%20enchiladas%20with%20very%20little%20chee=
+se%20on%20them.%20Instead%20we%20had%20probably%202%5C/3%20cup%20of%20choppe=
+d%20fresh%20onion%20that%20had%20been%20soaked%20in%20vinegar%20sprinkled%20=
+over%20the%20top.%20(My%20mom%2C%20bless%20her%20soul%2C%20has%20no%20recoll=
+ection%20of%20the%20chicken%20enchiladas%20without%20the%20sprinkled%20chees=
+e.%20But%20she's%20in%20her%2070s%20and%20sometimes%20doesn't%20remember%20t=
+hese%20things.%20Or%20she%20remembers%20later%20and%20doesn't%20remember%20t=
+hat%20she%20ever%20forgot%20them%20in%20the%20first%20place.%20But%20heck%2C=
+%20I'm%20in%20my%2040s%20and%20my%20memory%20isn't%20what%20it%20used%20to%2=
+0be%20either.)%22%2C%226%20Place%20in%20the%20oven%20and%20cook%20for%2010%2=
+0minutes%2C%20or%20until%20cheese%20is%20bubbly.%22%2C%22Use%20a%20metal%20s=
+patula%20to%20serve.%22%2C%22Serve%20with%20thinly%20sliced%20iceberg%20lett=
+uce%20that%20has%20been%20seasoned%20with%20vinegar%20and%20salt%20(no%20oil=
+)%2C%20guacamole%20or%20avocado%20slices%2C%20and%20sour%20cream.%20Garnish%=
+20with%20cilantro.%22%2C%22Serves%204.%22%5D%2C%22wasImported%22%3A1%2C%22ti=
+tle%22%3A%22Moms%20Chicken%20Enchiladas%22%2C%22recipeURL%22%3A%22http%3A%5C=
+/%5C/www.simplyrecipes.com%5C/recipes%5C/moms_chicken_enchiladas%5C/%22%2C%2=
+2ingredients%22%3A%5B%7B%22isSection%22%3A0%2C%22value%22%3A1%2C%22measureme=
+nt%22%3A%22Small%22%2C%22name%22%3A%22onion%2C%20chopped%20(about%20a%20cup)=
+%22%2C%22orderNumber%22%3A0%7D%2C%7B%22isSection%22%3A0%2C%22value%22%3A0%2C=
+%22measurement%22%3A%22%22%2C%22name%22%3A%22Vegetable%20oil%20-%20grapeseed=
+%20or%20olive%22%2C%22orderNumber%22%3A1%7D%2C%7B%22isSection%22%3A0%2C%22va=
+lue%22%3A2%2C%22measurement%22%3A%22Small%22%2C%22name%22%3A%22cloves%20garl=
+ic%2C%20minced%22%2C%22orderNumber%22%3A2%7D%2C%7B%22isSection%22%3A0%2C%22v=
+alue%22%3A15.5%2C%22measurement%22%3A%22oz%22%2C%22name%22%3A%22-%20can%20to=
+matoes%2C%20preferably%20fire%20-%20roasted%20if%20you%20can%20get%20it%22%2=
+C%22orderNumber%22%3A3%7D%2C%7B%22isSection%22%3A0%2C%22value%22%3A2%2C%22me=
+asurement%22%3A%22Tbsp%22%2C%22name%22%3A%22red%20chili%20powder%22%2C%22ord=
+erNumber%22%3A4%7D%2C%7B%22isSection%22%3A0%2C%22value%22%3A1%2C%22measureme=
+nt%22%3A%22Tsp%22%2C%22name%22%3A%22sugar%22%2C%22orderNumber%22%3A5%7D%2C%7=
+B%22isSection%22%3A0%2C%22value%22%3A0.5%2C%22measurement%22%3A%22%22%2C%22n=
+ame%22%3A%22to%20a%20cup%20of%20water%22%2C%22orderNumber%22%3A6%7D%2C%7B%22=
+isSection%22%3A0%2C%22value%22%3A12%2C%22measurement%22%3A%22%22%2C%22name%2=
+2%3A%22corn%20tortillas%22%2C%22orderNumber%22%3A7%7D%2C%7B%22isSection%22%3=
+A0%2C%22value%22%3A0%2C%22measurement%22%3A%22%22%2C%22name%22%3A%22Grapesee=
+d%20oil%2C%20peanut%20oil%20or%20canola%20oil%20-%20a%20high%20smoke%20point=
+%20vegetable%20oil%22%2C%22orderNumber%22%3A8%7D%2C%7B%22isSection%22%3A0%2C=
+%22value%22%3A2%2C%22measurement%22%3A%22Cup%22%2C%22name%22%3A%22of%20cooke=
+d%20chicken%2C%20shredded%20or%20chopped%22%2C%22orderNumber%22%3A9%7D%2C%7B=
+%22isSection%22%3A0%2C%22value%22%3A0%2C%22measurement%22%3A%22%22%2C%22name=
+%22%3A%22Salt%22%2C%22orderNumber%22%3A10%7D%2C%7B%22isSection%22%3A0%2C%22v=
+alue%22%3A2%2C%22measurement%22%3A%22Cup%22%2C%22name%22%3A%22grated%20chees=
+e%20(about%201%5C/3%20lb)%22%2C%22orderNumber%22%3A11%7D%5D%2C%22prepTime%22=
+%3A0%2C%22servings%22%3A0%2C%22recipeOrigin%22%3A%22%22%7D%3Aeisl39sLISJ2ksl=
+lsjaJ%3A">here</a> to open app importer.</li><li>Once the app opens and impo=
+rts the recipe, upload the picture you saved from the email (iPad app only)<=
+/li></ol><br><br><b>Picture</b></div><div dir=3D"ltr"><br><br><img id=3D"26C=
+818D2-73D2-4378-83FE-C6FADB2BAC85" alt=3D"FF7A35FC-D2F8-4181-B882-42AA5ADC81=
+79.jpg" src=3D"cid:26C818D2-73D2-4378-83FE-C6FADB2BAC85"></div><br><br><div d=
+ir=3D"ltr">Sent from my iPhone</div></body></html>=
+
+--Apple-Mail-01EDA2E1-1229-4418-BA1E-0B568107D8D1
+Content-Type: image/png;
+	name=FF7A35FC-D2F8-4181-B882-42AA5ADC8179.jpg;
+	x-apple-part-url=26C818D2-73D2-4378-83FE-C6FADB2BAC85
+Content-Disposition: inline;
+	filename=FF7A35FC-D2F8-4181-B882-42AA5ADC8179.jpg
+Content-Transfer-Encoding: base64
+Content-Id: <26C818D2-73D2-4378-83FE-C6FADB2BAC85>
+
+/9j/4AAQSkZJRgABAQAASABIAAD/4QBMRXhpZgAATU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAA
+A6ABAAMAAAABAAEAAKACAAQAAAABAAABQKADAAQAAAABAAABQAAAAAD/7QA4UGhvdG9zaG9wIDMu
+MAA4QklNBAQAAAAAAAA4QklNBCUAAAAAABDUHYzZjwCyBOmACZjs+EJ+/8AAEQgBQAFAAwEiAAIR
+AQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAAB
+fQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5
+OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeo
+qaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMB
+AQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYS
+QVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNU
+VVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5
+usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/bAEMAAgICAgICAwICAwUDAwMF
+BgUFBQUGCAYGBgYGCAoICAgICAgKCgoKCgoKCgwMDAwMDA4ODg4ODw8PDw8PDw8PD//bAEMBAgIC
+BAQEBwQEBxALCQsQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQ
+EBAQEP/dAAQAFP/aAAwDAQACEQMRAD8A+fiOKkjOBUG7PFSrX8x1ea5+8E+c08dKh57U9WAGD1qP
+eCxOOKdgde9ReatIJB3ppO+oWJUqfdhgKqBsU7fk1tyX1AuM+UxUifKuagQg4zUue1XHYa3J9+el
+SLyM1VwD1NTIcLgVUWEydaWoVJHWrC4NWZWJI+oqzu28VANo6daYzk0AWHfIxT0PA9qqK2TipgxA
+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
+
+--Apple-Mail-01EDA2E1-1229-4418-BA1E-0B568107D8D1--
+
+--Apple-Mail-AAA689C9-2305-4875-9DBF-0B4AFFB3DFEB--

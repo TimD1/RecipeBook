@@ -1,0 +1,64 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Chili",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "1 (8 oz) package Of bacon",
+        "1 Diced red onion",
+        "1 Tbsp Worcestershire sauce",
+        "1 Can Chipotle peppers (cut up (diced/chop whatever))",
+        "Peppers (any that you desire, not necessary) diced into small pieces",
+        "2 lb Ground beef",
+        "1 lb Spicy sausage",
+        "4 (14.5 oz) cans of Diced tomatoes (chili flavored)",
+        "2 -3 cans ofs Beans (kidney preferred, light/dark, shake before opening and do not drain/rinse)",
+        "1 (8 oz) Can of tomato paste ",
+        "2 Tbsp Chili Powder",
+        "1 tsp garlic powder",
+        "1 tsp Salt",
+        "1 tsp Pepper",
+        "1 tsp Curry powder",
+        "1 -2 Tablespoon cinnamon",
+        "4 -10 drops ofs Dave's Insanity Sauce (any more and it gets really hot)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Get a big pot that is capable of holding all of the ingredients. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Fry the bacon in the pot and remove when done. Cut up the bacon and save for later."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Saute the onion. Add the can of chipotle peppers in the bacon fat. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the Worcestershire sauce and any other peppers that you decided to use."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the beef and sausage and brown it."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the canned tomatoes, spices, beans, and cut up bacon. Stir until mixed, then add drops of insanity sauce."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Simmer on low heat for 3-4+ hours or until satisfied with consistency."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/DF640EE8-1F70-457D-A7DF-FDA0F190F6B5.jpg"
+    ]
+}

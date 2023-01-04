@@ -1,0 +1,73 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Bourbon Bacon Scallops",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "6 slices bacon (4 - 5 ounces, long strips of bacon)",
+        "3 Tbsp minced scallions (green onions)",
+        "2 Tbsp Bourbon",
+        "2 Tbsp maple syrup",
+        "1 Tbsp soy sauce",
+        "1 Tbsp Dijon mustard",
+        "1/4 tsp fresh ground black pepper or 1/4 teaspoon fresh ground tricolor pepper 24 large sea scallops cooking spray (about 1 1/2 pounds)",
+        "24 Large sea scallops (about 1 1/2 pounds)",
+        "cooking spray",
+        "4 metal skewers or 4 water - soaked bamboo skewers (12 inch)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "1 Heat a skillet over high temperature and saut&eacute< the bacon for 4-5 minutes, until limp and partially browned; remove from skillet, drain, and set aside to cool. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "2 In a bowl, combine the green onions, bourbon, maple syrup, soy sauce, mustard, and pepper, and stir well; remove about 2 tablespoons of marinade to another container and set aside. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "3 Add the sea scallops to the marinade in the bowl and toss gently to coat. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "4 Cover and place in refrigerator to marinate for 1 hour, stirring occasionally. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "5 Preheat your oven broiler; pan spray a broiler pan. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "6 Cut the partially cooked bacon strips into 4 sections apiece. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "7 Remove the scallops from the marinade (reserve marinade) and wrap a piece of cut bacon around each scallop - if the scallops are very large, they might only reach halfway around. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "8 Thread the wrapped scallops onto the skewers (going through each end of bacon strips if they only reach halfway around), making sure to leave space between each scallop so that the bacon will cook well. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "9 Place the completed skewers on the pan-sprayed boiler pan and broil for 8 minutes or until the bacon is crisp and the scallops are opaque, occasionally basting with the marinade used with the scallops (how long they need to cook depends on the size of the scallops). "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "10 Remove skewers from broiler, place them on a serving platter, and brush or drizzle with the reserved marinade (that which was not combined with the scallops in the refrigerator). "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "11 Note: these can also be cooked on the grill if you watch them carefully so that the scallops do not overcook."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/7BA081E5-C2CE-4A48-A94B-73154236B71B.jpg"
+    ]
+}

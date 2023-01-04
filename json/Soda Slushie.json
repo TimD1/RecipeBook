@@ -1,0 +1,33 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Soda Slushie",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "500 ml Soda bottle",
+        "Fridge"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Shake up the soda to build up a lot of pressure inside of it."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Put in the freezer for 3 hours and 15 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Chose one of the following:\n1. Take out of freezer, turn bottle upside down repeatedly for 10 seconds until it becomes a Slushie. Pour into cup\n2. Put slightly wet cup in freezer, 1 hour before removing soda. Take both out at the same time. Slowly release the cap without spilling soda or turning upside down. Pour the soda into the iced cup for instant-Slushie.\n3. Pour soda into a non-frozen bowl. Drop ice cube into the bowl and watch it slowly turn into a Slushie.\n4. Pour soda into a bowl and stir it slowly with a frozen straw. Watch it turn into a Slushie."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/C69AC04A-055F-40A9-8A2E-258F4E9F9A22.jpg"
+    ]
+}

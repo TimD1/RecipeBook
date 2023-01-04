@@ -1,0 +1,40 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Egg Drop Soup",
+    "author": {
+        "@type": "Person",
+        "name": "Carolyn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "3 Cups Chicken stock (college inn)",
+        "1 Egg (Beaten)",
+        "1 Scallion (Chopped)",
+        "1 Tbsp cornstarch",
+        "1 Tbsp Water"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Put stock on high heat."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "While boiling, stir in cornstarch until stock thickens and becomes clear."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Slowly pour in egg and stir once gently."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Turn off heat. Pour in bowls and top with chopped scallions."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/FD6D1C2E-051B-4FA3-98AC-2E4FF82BBA09.jpg"
+    ]
+}

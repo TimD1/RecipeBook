@@ -1,0 +1,49 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Peppermint Brownies",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "4 oz Ghirardelli 100 Cacao Unsweetened Chocolate Baking Bar",
+        "16 Tbsp unsalted butter",
+        "3 eggs",
+        "2 Cups sugar",
+        "1 tsp vanilla extract",
+        "1/2 tsp peppermint extract",
+        "1/4 tsp salt",
+        "1 Cup flour",
+        "12 Ghirardelli Dark & Mint SQUARES chocolates",
+        "1/4 Cup crushed candy canes (about 4 small)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Directions"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat oven to 350F. Spray 9\" square baking pan with cooking spray; dust with flour, tapping out excess. In double boiler over hot water, melt chocolate and butter. Cool to room temperature. In large bowl with electric mixer or whisk, beat eggs, sugar, vanilla, peppermint extract and salt until combined. Beat in chocolate mixture; gently stir in flour. Pour batter into prepared pan."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake about 45 minutes or until knife inserted into brownies comes out clean. Arrange mint squares on top in one layer; place brownies in oven 1 minute."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Spread melted mint squares with spatula to frost brownies evenly; sprinkle with crushed candy canes. Cool completely; cut into 16 squares."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Tip: Cut brownies into 36 squares. Place each mini-brownie in paper candy cup."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/F328E4B8-9152-4B0F-99FB-7C8FB63F76EA.jpg"
+    ]
+}

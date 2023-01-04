@@ -1,0 +1,62 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Bran Muffins",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "3 1/2 Cups Bran",
+        "1/2 Large box Raisins",
+        "1 Cup Boiling water",
+        "1/2 Cup Honey",
+        "1/2 Cup Corn oil",
+        "3/4 Cup Molasses",
+        "2 Eggs",
+        "2 Cups Buttermilk",
+        "1 1/2 Cups Whole wheat flour",
+        "2 1/2 tsp Baking soda",
+        "1/2 tsp Salt"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 400"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "2 cups of bran and raisins and add boiling water"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Measure oil first, then mix with honey, molasses, eggs and buttermilk in separate bowl"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add flour, rest of bran, soda and salt to above"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir in bran raisin mixture"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Spoon into muffin cups about 2/3 full. (They rise)"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cook for 20 minutes"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Keep leftover mixture in fridge, since it keeps for several weeks. Can make instant muffins with microwave."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/DA1F4361-D9DD-4F32-A670-078982804C92.jpg"
+    ]
+}

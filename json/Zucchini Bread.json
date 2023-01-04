@@ -1,0 +1,46 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Zucchini Bread",
+    "author": {
+        "@type": "Person",
+        "name": "allrecipes.com"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "3 Cups all - purpose flour",
+        "1 tsp salt",
+        "1 tsp baking soda",
+        "1 tsp baking powder",
+        "3 tsp ground cinnamon",
+        "3 eggs",
+        "1 Cup vegetable oil",
+        "2 1/4 Cups white sugar",
+        "3 tsp vanilla extract",
+        "2 Cups grated zucchini",
+        "1 Cup chopped walnuts"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Grease and flour two 8 x 4 inch pans. Preheat oven to 325 degrees F (165 degrees C)."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Sift flour, salt, baking powder, soda, and cinnamon together in a bowl."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Beat eggs, oil, vanilla, and sugar together in a large bowl. Add sifted ingredients to the creamed mixture, and beat well. Stir in zucchini and nuts until well combined. Pour batter into prepared pans."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake for 40 to 60 minutes, or until tester inserted in the center comes out clean. Cool in pan on rack for 20 minutes. Remove bread from pan, and completely cool."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/3671A514-1C82-49BB-B842-F8A855CF46B6.jpg"
+    ]
+}

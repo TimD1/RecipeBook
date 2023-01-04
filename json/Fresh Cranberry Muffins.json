@@ -1,0 +1,42 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Fresh Cranberry Muffins",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "2 Cups all - purpose flour",
+        "2/3 Cup sugar",
+        "2 tsp baking powder",
+        "1/4 tsp salt",
+        "1 Cup chopped fresh cranberries",
+        "2/3 Cup 2 reduced - fat milk",
+        "1/4 Cup butter or stick margarine, melted",
+        "1 tsp grated orange rind",
+        "1/2 tsp vanilla extract",
+        "1 Large egg, lightly beaten",
+        "Cooking spray"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 400."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Lightly spoon flour into dry measuring cups; level with a knife. Combine flour, sugar, baking powder, and salt in a large bowl; stir well with a whisk. Stir in cranberries; make a well in center of mixture. Combine milk, butter, rind, vanilla, and egg; add to flour mixture, stirring just until moist. Spoon batter into 12 muffin cups coated with cooking spray. Bake at 400 for 18 minutes or until muffins spring back when touched lightly in center. Remove muffins from pan immediately; place on a wire rack."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Note: These muffins freeze well. Bake them ahead, cool completely, and store in freezer bags. To serve, thaw at room temperature. Reheat in aluminum foil at 300 for 10 to 15 minutes or until thoroughly heated."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/794FD09B-05AA-4296-BEBA-CE5162929931.jpg"
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Apple Cake",
+    "author": {
+        "@type": "Person",
+        "name": "Carolyn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "4 Cups Sliced apples",
+        "2 Cups Sugar",
+        "3/4 Cup Oil",
+        "2 Eggs",
+        "2 tsp Vanilla",
+        "3 Cups Flour",
+        "1/4 Cup chopped walnuts",
+        "1/4 Cup Raisins",
+        "1 tsp Salt",
+        "2 tsp Cinnamon",
+        "1 1/2 tsp Baking soda"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Dice apples. Beat together eggs, oil, vanilla and sugar. Then add flour, baking soda, salt and cinnamon. Mix well, then add apples, nuts and raisins. Mixture will be thick. Put in well greased (9x13) oblong pan. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake a@ 325 for 45-55 minutes. \nOR:\nCan be made into muffins (~24-36) grease pans. Bake @ 325 for 25 minutes or until done."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/631F9375-BE85-42D8-B385-1DCA7BDCB152.jpg"
+    ]
+}

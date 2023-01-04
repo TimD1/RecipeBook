@@ -1,0 +1,31 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Chicken Noodle Soup",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "Chicken",
+        "Salt",
+        "Pepper",
+        "Canola oil",
+        "Garlic",
+        "Chicken broth",
+        "Celery ribs",
+        "Carrots",
+        "Bay leaves",
+        "Thyme",
+        "Egg noodles",
+        "Parslet",
+        "Lemon juice"
+    ],
+    "recipeInstructions": [],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/"
+    ]
+}

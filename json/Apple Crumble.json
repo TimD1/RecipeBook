@@ -1,0 +1,47 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Apple Crumble",
+    "author": {
+        "@type": "Person",
+        "name": "Recipe Book Selections"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "1 Cup Brown Sugar",
+        "1 Cup Oatmeal",
+        "1/2 Cup Flour",
+        "1/4 Cup Butter",
+        "3 Cups Apples (Sliced)",
+        "3/4 Cup Water",
+        "1/2 Cup Sugar",
+        "1 tsp Cinnamon"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 350."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Mix the first 4 ingredients together to make soft crumbs. Add half of the crumbs to the apples in a 2 qt. baking dish, mixing them together well."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir the water, sugar and cinnamon together and pour over the apples. Top with the remaining crumbs."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake at 350 for 45 minutes or until the apples are done."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Eat warm from the oven - and top with ice cream if you like."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/E7163DFF-CDDE-4384-BD8E-F0143F61D906.jpg"
+    ]
+}

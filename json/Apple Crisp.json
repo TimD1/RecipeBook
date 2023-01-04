@@ -1,0 +1,39 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Apple Crisp",
+    "author": {
+        "@type": "Person",
+        "name": "www.bettycrocker.com"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "4 Medium tart cooking apples, sliced (4 cups)",
+        "3/4 Cup packed brown sugar",
+        "1/2 Cup Gold Medal all - purpose flour",
+        "1/2 Cup quick - cooking or old - fashioned oats",
+        "1/3 Cup butter or margarine, softened",
+        "3/4 teaspoon ground cinnamon",
+        "3/4 teaspoon ground nutmeg",
+        "Cream or Ice cream, if desired"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat oven to 375F. Grease bottom and sides of 8-inch square pan with shortening."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Spread apples in pan. In medium bowl, stir remaining ingredients except cream until well mixed; sprinkle over apples."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake about 30 minutes or until topping is golden brown and apples are tender when pierced with a fork. Serve warm with cream."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/036AEF34-4E38-4DEF-8DEF-5C50000D2AD6.jpg"
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Chocolate Coconut Candies Recipe",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    },
+    "description": "description of recipe",
+    "recipeCategory": "classic, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "1 3/4 Cups confectioners' sugar",
+        "1 3/4 Cups flaked coconut",
+        "1 Cup chopped almonds",
+        "1/2 Cup sweetened condensed milk",
+        "2 Cups semisweet chocolate chips (12 ounces)",
+        "2 Tbsp shortening",
+        "Optional ingredients: flaked coconut, chopped almonds, sliced almonds and sprinkles"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large bowl, combine the confectioners' sugar, coconut, almonds and milk. Shape into 1-in. balls. Refrigerate until firm, about 20 minutes. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": " In a microwave, melt semisweet chips and shortening on high for about 1 minute; stir. Microwave at additional 10- to 20-second intervals, stirring until smooth. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": " Dip balls in chocolate; allow excess to drip off. Coat or garnish with ingredients of your choice. Place on waxed paper; let stand until set. Store in an airtight container. Yield: 2-1/2 dozen."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/DD3E3FDE-4C2A-44FB-BE51-B23527FEC943.jpg"
+    ]
+}
