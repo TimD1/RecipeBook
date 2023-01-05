@@ -23,3 +23,8 @@ https://recipesage.com/#/list/main
 #### Recipe Format
 https://developers.google.com/search/docs/appearance/structured-data/recipe
 https://schema.org/Recipe
+
+#### Questions for Mom
+Coconut Shrimp: 1 cup coconut, 1 cup breadcrumbs, or 2 cups coconut?
+Second Chicken Cordon Bleu?
+Pizza/Mozzerella Bites?
