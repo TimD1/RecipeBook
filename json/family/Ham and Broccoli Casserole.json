@@ -1,0 +1,32 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Ham and Broccoli Casserole",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    },
+    "description": "description of recipe",
+    "recipeCategory": "breakfasts",
+    "recipeYield": "Serves 10-12",
+    "recipeIngredient": [
+        "12 small slices white bread, crusts removed, torn into pieces",
+        "3 cups cooked, cubed ham",
+        "3 cups chopped frozen broccoli, thawed",
+        "8 oz shredded sharp cheddar cheese",
+        "1/2 cup milk",
+        "6 eggs, beaten",
+        "1 1/4 tsp salt",
+        "1 tsp dry mustard",
+        "2 Tbsp melted butter"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a 9x13x2 inch baking dish, put enough of the bread pieces into the bottom of the pan to make a thin layer. Make a layer of ham, broccoli, and cheese. Whisk together milk, eggs, salt, and dry mustard. Pour over top. Toss remaining bread with butter; sprinkle over the top of the casserole. Bake at 325F for 45 minutes. Let cool for about 20 minutes."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/D08AE61F-C771-49C4-8DD1-111FCF4EA38E.jpg"
+    ]
+}

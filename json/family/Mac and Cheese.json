@@ -4,26 +4,26 @@
     "name": "Mac and Cheese",
     "author": {
         "@type": "Person",
-        "name": "allrecipes.com"
+        "name": "Tim Dunn"
     },
     "description": "description of recipe",
-    "recipeCategory": "classic, pies",
+    "recipeCategory": "pastas",
     "recipeYield": "yield",
     "recipeIngredient": [
         "8 oz uncooked elbow macaroni",
-        "2 Cups shredded sharp Cheddar cheese",
-        "1/2 Cup grated Parmesan cheese",
-        "3 Cups milk",
-        "1/4 Cup butter",
-        "2 1/2 Tbsp all - purpose flour",
+        "2 cups shredded sharp cheddar cheese",
+        "1/2 cup grated parmesan cheese",
+        "3 cups milk",
+        "1/4 cup butter",
+        "2 1/2 Tbsp all-purpose flour",
         "2 Tbsp butter",
-        "1/2 Cup bread crumbs",
+        "1/2 cup bread crumbs",
         "1 pinch paprika"
     ],
     "recipeInstructions": [
         {
             "@type": "HowToStep",
-            "text": "Cook macaroni according to the package directions. Drain."
+            "text": "Cook macaroni; drain."
         },
         {
             "@type": "HowToStep",
@@ -35,7 +35,7 @@
         },
         {
             "@type": "HowToStep",
-            "text": "Bake at 350 degrees F (175 degrees C) for 30 minutes. Serve."
+            "text": "Bake at 350F for 30 minutes."
         }
     ],
     "image": [

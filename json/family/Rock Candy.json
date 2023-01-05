@@ -1,0 +1,42 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Rock Candy",
+    "author": {
+        "@type": "Person",
+        "name": "Trey Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "desserts",
+    "recipeYield": "one rock",
+    "recipeIngredient": [
+        "1 cup water",
+        "2 cups of granulated sugar",
+        "candy flavoring (peppermint, cherry, lemon, vanilla)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Tie one end of a piece of string around the middle of a stick or pencil. Cut the string, if necessary, so that it is a little shorter than your jar. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Moisten the string with a little water and roll it in the sugar. Put the paper clip on the end of the string to help it hang straight down. Lay the stick over the top of the glass jar so that the string hangs down inside the jar. The end of the string should not touch the bottom of the jar. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cook the candy mixture: Put the cup of water into the sauce pan and heat until it boils. Add 2 cups of sugar to the boiling water while stirring. Keep stirring until the sugar dissolves (or 240F). Remove pan from heat. If you want to add flavoring or color, stir it in now. Pour the hot mixture into the jar. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Let the sugar water sit for a few days. The crystals will begin to form along the string in a few hours. Let them grow for 3 to 10 days (or more)."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "When you're ready to eat the rock candy, take the candy-covered string out of the jar. Break the pieces apart and enjoy."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/"
+    ]
+}

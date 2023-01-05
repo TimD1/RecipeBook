@@ -7,20 +7,29 @@
         "name": "Sue Dunn"
     },
     "description": "description of recipe",
-    "recipeCategory": "classic, pies",
+    "recipeCategory": "soups",
     "recipeYield": "yield",
     "recipeIngredient": [
-        "1 Sweet onion chopped",
-        "1 Can Cannellini beans drained and rinsed",
-        "1 Can Black beans, canned drained and rinsed",
-        "3 Cans (10 oz) each 3 cans diced tomatoes with green chillies",
-        "1 Packet Taco seasoning (reduced salt)",
-        "1 Can Sweet corn drained (bread and butter)",
-        "3 Skinless, boneless chicken breasts cut lengthwise in half",
-        "3 avocados chopped to use as a topping when being served."
+        "1 sweet onion, chopped",
+        "1 can cannellini beans, drained and rinsed",
+        "1 can black beans, drained and rinsed",
+        "3 (10 oz) cans of diced tomatoes with green chillies",
+        "1 packet taco seasoning",
+        "1 can sweet corn, drained",
+        "3 skinless boneless chicken breasts cut lengthwise in half",
+        "3 avocados, chopped"
     ],
-    "recipeInstructions": [],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Mix everything together in a slow cooker except chicken. Lay chicken on top and cover. Cook on low for 6-8 hours or on high for 4 hours."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "30 minutes before serving, remove chicken and shred. Return shredded chicken to slow cooker and stir in. This is good eaten with cheese, sour cream, or tortilla chips and of course fresh avacados on top."
+        }
+	],
     "image": [
-        "/home/tim/Documents/projects/recipes/img/"
+        "/home/tim/Documents/projects/recipes/img/taco_stew.jpg"
     ]
 }

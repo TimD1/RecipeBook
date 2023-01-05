@@ -1,0 +1,36 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Jalapeno Poppers",
+    "author": {
+        "@type": "Person",
+        "name": "Trey Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "appetizers",
+    "recipeYield": "makes 24 peppers",
+    "recipeIngredient": [
+        "12 jalapeno peppers, cut in half and seeded",
+        "2 packages of cream cheese",
+        "1.5 lb bacon (Wright)",
+        "2 handfuls sharp cheddar cheese",
+        "garlic powder"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat oven to 400F. Prepare peppers."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat cream cheese in microwave until soft (30 seconds). Add cheddar cheese and garlic powder. Combine, and add the mixture into the peppers, filling them to the top."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cut the bacon strips in half and wrap around the pepper, securing with a toothpick. Cook for about 30 minutes or until done."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/"
+    ]
+}

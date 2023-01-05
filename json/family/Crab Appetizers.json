@@ -1,0 +1,37 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Crab Appetizers",
+    "author": {
+        "@type": "Person",
+        "name": "Barb McKinley"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "appetizers",
+    "recipeYield": "makes 24",
+    "recipeIngredient": [
+        "1 can (7 oz) of crab meat (Fancy Lump)",
+        "1 stick of butter, softened",
+        "1 jar (5 oz) Kraft Old English Cheese",
+        "1/2 tsp garlic powder",
+        "2 tsp mayonnaise",
+        "6 English muffins"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Open English muffins, then cut in half again, making 24 quarter pieces. Wash the crab meat, looking for loose pieces of shell."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Mix all ingredients together and place atop English muffins."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake for 20 minutes at 400F."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/"
+    ]
+}

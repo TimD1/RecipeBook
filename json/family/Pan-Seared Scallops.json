@@ -7,27 +7,27 @@
         "name": ""
     },
     "description": "description of recipe",
-    "recipeCategory": "classic, pies",
-    "recipeYield": "yield",
+    "recipeCategory": "seafood",
+    "recipeYield": "4 servings",
     "recipeIngredient": [
         "1 lb fresh sea scallops",
-        "Salt and pepper",
-        "Wegmans Pan Searing Flour",
-        "1 Tbsp Wegmans Pure Olive Oil",
-        "2 Tbsp Wegmans Shallot Thyme Finishing Butter"
+        "salt and pepper",
+        "pan searing flour",
+        "1 Tbsp olive oil",
+        "2 Tbsp shallot-thyme finishing butter"
     ],
     "recipeInstructions": [
         {
             "@type": "HowToStep",
-            "text": "Season scallops with salt and pepper; dust with pan-searing flour. Heat olive oil in pan on MED-HIGH; add scallops. Sear until golden brown 2-3 min. Turn scallops."
+            "text": "Season scallops with salt and pepper; dust with pan-searing flour. Heat olive oil in pan on medium-high; add scallops. Sear until golden brown (2-3 minutes). Turn scallops."
         },
         {
             "@type": "HowToStep",
-            "text": "Reduce heat to MED-LOW. Cook 2-3 min, until internal temp reaches 120 degrees. (Check by inserting thermometer halfway into thickest part of scallops.)"
+            "text": "Reduce heat to medium-low. Cook for 2-3 minutes, until internal temperature reaches 120F."
         },
         {
             "@type": "HowToStep",
-            "text": "Add butter and baste scallops, 1-2 min, until internal temp reaches 130 degrees. Let scallops rest 2 min."
+            "text": "Add butter and baste scallops for 1-2 minutes until internal temp reaches 130F. Let scallops rest for 2 minutes."
         }
     ],
     "image": [

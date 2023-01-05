@@ -4,20 +4,19 @@
     "name": "Coconut Shrimp",
     "author": {
         "@type": "Person",
-        "name": ""
+        "name": "Sue Dunn"
     },
     "description": "description of recipe",
-    "recipeCategory": "classic, pies",
+    "recipeCategory": "seafood",
     "recipeYield": "yield",
     "recipeIngredient": [
-        "2 spray cooking spray",
-        "2 Large egg white",
-        "3/4 Cup all purpose flour",
-        "6 Cups oz beer, about 2/3",
+        "2 large egg whites",
+        "3/4 cup all purpose flour",
+        "6 oz beer",
         "1 1/2 tsp baking powder",
         "1/4 tsp table salt",
-        "2 Cups sweetened coconut flakes",
-        "24 Large uncooked shrimp, peeled and deveined (leave tails on)"
+        "2 cups sweetened coconut flakes",
+        "24 large uncooked shrimp, peeled and deveined (leave tails on)"
     ],
     "recipeInstructions": [
         {
@@ -38,11 +37,7 @@
         },
         {
             "@type": "HowToStep",
-            "text": "Bake until coconut is golden brown and shrimp are bright pink and cooked through, about 10 to 12 minutes."
-        },
-        {
-            "@type": "HowToStep",
-            "text": "Flavor Booster: To put crunch in this dish, reduce the coconut flakes to 1 cup and add 1 cup panko, light Japanese breadcrumbs available in some supermarket fish departments."
+            "text": "Bake until coconut is golden brown and shrimp are bright pink and cooked through (10-12 minutes)."
         }
     ],
     "image": [

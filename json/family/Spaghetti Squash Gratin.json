@@ -4,20 +4,20 @@
     "name": "Spaghetti Squash Gratin",
     "author": {
         "@type": "Person",
-        "name": ""
+        "name": "Sue Dunn"
     },
     "description": "description of recipe",
-    "recipeCategory": "classic, pies",
-    "recipeYield": "yield",
+    "recipeCategory": "pastas",
+    "recipeYield": "5 cups",
     "recipeIngredient": [
-        "1 spaghetti squash , halved, stem to blossom end, seeded (2 - 3 lbs)",
+        "1 (2-3 lb) spaghetti squash, halved and seeded",
         "1 clove garlic, chopped",
-        "1 Tbsp chopped Food You Feel Good About Fresh Thyme",
-        "2 Tbsp chopped Food You Feel Good About Fresh Italian Parsley",
+        "1 Tbsp fresh thyme",
+        "2 Tbsp fresh parsley",
         "1/2 tsp salt",
         "1/4 tsp fresh cracked pepper",
-        "1 pkg Vermont Butter and Cheese Creme Fraiche (Cheese Shop) (8 oz)",
-        "3 oz shredded Asiago cheese (Cheese Shop) (about 1 cup)"
+        "1 (8 oz) pkg creme fraiche",
+        "1 cup shredded asiago cheese"
     ],
     "recipeInstructions": [
         {
@@ -26,7 +26,7 @@
         },
         {
             "@type": "HowToStep",
-            "text": "Place squash, skin side up (one half at a time), on microwave-safe dish; cover with microwave-safe plastic wrap. Microwave on HIGH 10-12 min, until tender. Let rest covered 10-15 min, until cool enough to handle; carefully remove plastic wrap to avoid steam."
+            "text": "Microwave squash (one half at a time, skin side up) on high until tender (10-12 minutes). Set aside, covered, until cool enough to handle (10-15 minutes)."
         },
         {
             "@type": "HowToStep",
@@ -34,11 +34,11 @@
         },
         {
             "@type": "HowToStep",
-            "text": "Combine garlic, thyme, parsley, salt, pepper, creme fraiche, and 2/3 cup cheese in small bowl. Fold into squash; place in shallow ovenproof casserole dish. Top with remaining cheese."
+            "text": "Combine garlic, thyme, parsley, salt, pepper, creme fraiche, and 2/3 cup cheese in small bowl. Fold into squash; place in casserole dish. Top with remaining cheese."
         },
         {
             "@type": "HowToStep",
-            "text": "Bake 20 min or until lightly browned."
+            "text": "Bake 20 minutes or until lightly browned."
         }
     ],
     "image": [

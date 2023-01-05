@@ -1,0 +1,27 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Chocolate Almond Mousse",
+    "author": {
+        "@type": "Person",
+        "name": "Donna Knights"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "desserts",
+    "recipeYield": "4 servings",
+    "recipeIngredient": [
+        "2 cups heavy whipping cream",
+        "1/3 cup dark cocoa powder",
+        "1/3 cup monkfruit sweetener",
+        "2 tsp almond extract"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Mix heavy whipping cream and sweetener until thick. Add cocoa powder and almond extract, and beat until stiff peaks form. Chill."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/"
+    ]
+}

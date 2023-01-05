@@ -7,14 +7,14 @@
         "name": "Aimee Rinere"
     },
     "description": "description of recipe",
-    "recipeCategory": "classic, pies",
+    "recipeCategory": "cookies",
     "recipeYield": "yield",
     "recipeIngredient": [
-        "14 Cups Microwave popcorn, popped (about 2 bags)",
-        "3 Cups Rice Krispies cereal",
-        "2 Cups Mixed salted nuts",
+        "14 cups microwave popcorn, popped (about 2 bags)",
+        "3 cups Rice Krispies cereal",
+        "2 cups mixed salted nuts",
         "1 lb white chocolate",
-        "3 Tbsp Peanut butter"
+        "3 Tbsp peanut butter"
     ],
     "recipeInstructions": [
         {
@@ -23,7 +23,7 @@
         },
         {
             "@type": "HowToStep",
-            "text": "In the microwave melt:\n\nwhite chocolate and peanut butter. Start with 1 minute then stir and repeat until melted and smooth. Pour over the popcorn and mix well. Spread onto wax paper and let set for about 2 hours. Break apart into pieces."
+            "text": "In the microwave, melt the white chocolate and peanut butter. Start with 1 minute then stir and repeat until melted and smooth. Pour over the popcorn and mix well. Spread onto wax paper and let set for about 2 hours. Break apart into pieces."
         }
     ],
     "image": [

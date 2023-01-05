@@ -1,0 +1,47 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Butternut Squash Bisque",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "soups",
+    "recipeYield": "Serves 6",
+    "recipeIngredient": [
+		"2 tsp unsalted butter",
+		"1 1/2 cup onion, chopped",
+		"1 1/2 tsp kosher salt",
+		"2 tsp minced garlic",
+		"1 pinch ground nutmeg",
+		"1 pinch cayenne pepper",
+		"4 lbs uncooked butternut squash, cubed",
+		"4 cups reduced-sodium chicken/vegetable broth",
+		"3 Tbsp plain low fat Greek yogurt",
+		"1 Tbsp packed light brown sugar",
+		"2 tsp fresh sage, chopped",
+		"1/4 tsp black pepper"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat butter in soup pot over medium heat. Add onion and salt; cook, stirring occasionally, until onion is softened (5-7 minutes)."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add garlic, nutmeg and cayenne; stir and cook 1 minute. Add squash and broth; bring to a boil over high heat."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Reduce heat to low and simmer, uncovered, until squash is soft, about 30 minutes; stir in yogurt and sugar."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Remove from heat and puree soup in pot. Serve garnished with fresh sage and black pepper."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/squash_bisque.jpg"
+    ]
+}

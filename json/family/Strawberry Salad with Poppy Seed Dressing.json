@@ -1,0 +1,31 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Strawberry Salad with Poppy Seed Dressing",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "salads",
+    "recipeYield": "Serves 6",
+    "recipeIngredient": [
+        "3 Tbsp sugar",
+        "3 Tbsp mayonnaise",
+        "2 Tbsp milk",
+        "1 Tbsp poppy seeds",
+        "1 Tbsp white wine vinegar",
+        "1 bag (10 oz) romaine lettuce",
+        "1 cup strawberries, sliced",
+        "2 Tbsp toasted slivered almonds"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Combine first 5 ingredients in a small bowl, stirring with a whisk. Place lettuce in a large bowl; add strawberries and almonds, tossing to combine. Divide salad among 6 plates. Drizzle 1 Tbsp dressing over each serving."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/"
+    ]
+}

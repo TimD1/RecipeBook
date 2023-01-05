@@ -4,31 +4,31 @@
     "name": "Spicy White Turkey Chili Soup",
     "author": {
         "@type": "Person",
-        "name": "Dunn Family"
+        "name": "Sue Dunn"
     },
     "description": "description of recipe",
-    "recipeCategory": "classic, pies",
-    "recipeYield": "yield",
+    "recipeCategory": "soups",
+    "recipeYield": "15 cups",
     "recipeIngredient": [
-        "2 Tbsp Butter",
-        "3 Tbsp Olive Oil",
-        "1 1/2 Cups Diced celery and onions",
-        "3/4 Cup Flour (All Purpose)",
-        "3 Tbsp Chili Powder",
-        "1 tsp Cumin",
-        "1/8 tsp Cayenne pepper",
-        "2 Cartons s (32 oz. each) chicken culinary stock",
-        "1 Medium Sweet red pepper, diced small (about 1.5 cups)",
-        "2 Cans (15.5 oz. each) cannellini beans",
-        "1 Medium Green pepper, diced small (about 1.5 cups)",
-        "1 Cup (6 oz) cooked turkey, diced small (buy one thick slice of turkey off-the-bone at deli",
-        "1/4 Cup Heavy cream (light works fine too)",
-        "Salt and pepper to taste"
+        "2 Tbsp butter",
+        "3 Tbsp olive oil",
+        "1 1/2 cups diced celery and onions",
+        "3/4 cup all-purpose flour",
+        "3 Tbsp chili powder",
+        "1 tsp cumin",
+        "1/8 tsp cayenne pepper",
+        "2 (32 oz) cartons chicken culinary stock",
+        "1 red bell pepper, diced",
+        "2 (15.5 oz) cans cannellini beans",
+        "1 green bell pepper, diced",
+        "1 cup (6 oz) cooked turkey, diced",
+        "1/4 cup heavy cream",
+        "salt and pepper to taste"
     ],
     "recipeInstructions": [
         {
             "@type": "HowToStep",
-            "text": "Melt butter and olive oil in large stockpot on Medium, until oil/butter mixture faintly smokes. Add celery and onions. Cool stirring occasionally, 4-5 min, until translucent but not brown. Stir in flour, chili powder, cumin and cayenne. Cook 1 min stirring continuously."
+            "text": "Melt butter and olive oil in large stockpot on medium, until oil/butter mixture faintly smokes. Add celery and onions. Cool, stirring occasionally for 4-5 minutes, until translucent but not brown. Stir in flour, chili powder, cumin and cayenne. Cook 1 more minute, stirring continuously."
         },
         {
             "@type": "HowToStep",

@@ -1,0 +1,51 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Blueberry Maple Muffins",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "desserts",
+    "recipeYield": "12 muffins",
+    "recipeIngredient": [
+		"0.2 cup ground flaxseeds",
+		"1 cup whole-wheat flour",
+		"3/4 cup plus 2 Tbsp all-purpose flour",
+		"1 1/2 tsp baking powder",
+		"1 tsp ground cinnamon",
+		"1/2 tsp baking soda",
+		"1/4 tsp salt",
+		"2 large eggs",
+		"1/2 cup pure maple syrup",
+		"1 cup nonfat buttermilk",
+		"1/4 cup canola oil",
+		"2 tsp freshly grated orange zest",
+		"1 Tbsp orange juice",
+		"1 tsp vanilla extract",
+		"1 1/2 cups blueberries",
+		"1 Tbsp sugar"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 400F. Coat 12 muffin cups with cooking spray."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add whole-wheat flour, all-purpose flour, flaxseed, baking powder, cinnamon, baking soda and salt together; whisk to blend. Whisk eggs and maple syrup in a medium bowl until smooth. Add buttermilk, oil, orange zest, orange juice and vanilla; whisk until blended."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Make a well in the dry ingredients and stir in the wet ingredients with a rubber spatula just until moistened. Fold in blueberries. Scoop the batter into the prepared muffin cups. Sprinkle the tops with sugar."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake the muffins until the tops are golden brown and spring back when touched lightly, 15 to 25 minutes. Let cool in the pan for 5 minutes. Loosen edges and turn muffins out onto a wire rack to cool slightly."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/"
+    ]
+}

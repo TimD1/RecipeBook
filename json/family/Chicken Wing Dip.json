@@ -4,19 +4,23 @@
     "name": "Chicken Wing Dip",
     "author": {
         "@type": "Person",
-        "name": "cooks.com"
+        "name": "Tom Dunn"
     },
     "description": "description of recipe",
-    "recipeCategory": "classic, pies",
+    "recipeCategory": "appetizers",
     "recipeYield": "yield",
     "recipeIngredient": [
-        "4 - 6 oz. Frank's original Hot sauce",
-        "2 , 8 oz Packages regular (not low fat) cream cheese",
-        "8 Oz bottle Ranch or bleu cheese salad dressing",
-        "2 Large Cans chicken, drained and flaked apart with a fork",
-        "8 oz Shredded monterey jack or cheddar cheese"
+        "4-6 oz Frank's original Hot sauce",
+        "2 (8 oz) packages regular (not low fat) cream cheese",
+        "8 oz bottle ranch or bleu cheese salad dressing",
+        "2 cups cooked shredded chicken",
+        "8 oz shredded monterey jack or cheddar cheese"
     ],
     "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Cook and shred chicken."
+        },
         {
             "@type": "HowToStep",
             "text": "In a medium-size saucepan, bring hot sauce to a simmer over medium-low heat. Add cream cheese and stir continuously until fully melted. Stir in dressing."
@@ -27,15 +31,11 @@
         },
         {
             "@type": "HowToStep",
-            "text": "Transfer mixture to a small crockpot and heat on low. Or transfer to a small casserole dish and bake at 350F until bubbly (approximately 20-25 minutes). "
+            "text": "Transfer mixture to a small crockpot and heat on low. Or transfer to a small casserole dish and bake at 350F until bubbly (20-25 minutes). "
         },
         {
             "@type": "HowToStep",
-            "text": "Serve warm with tortilla chips or tortilla scoops."
-        },
-        {
-            "@type": "HowToStep",
-            "text": "Note: You may substitute 2 Cups cooked in shredded chicken in place of canned chicken."
+            "text": "Serve warm with tortilla chips."
         }
     ],
     "image": [

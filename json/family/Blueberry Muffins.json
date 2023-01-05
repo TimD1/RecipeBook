@@ -10,19 +10,19 @@
     "recipeCategory": "classic, pies",
     "recipeYield": "yield",
     "recipeIngredient": [
-        "3 Cups Flour",
-        "1 Cup Sugar",
-        "4 tsp Baking powder",
-        "1 tsp Salt",
-        "2 Eggs, lightly beaten",
-        "1/2 Cup Oil",
-        "1 Cup Milk",
-        "1 1/2 Cups Blueberries"
+        "3 cups flour",
+        "1 cup sugar",
+        "4 tsp baking powder",
+        "1 tsp salt",
+        "2 eggs, lightly beaten",
+        "1/2 cup oil",
+        "1 cup milk",
+        "1 1/2 cups blueberries"
     ],
     "recipeInstructions": [
         {
             "@type": "HowToStep",
-            "text": "Preheat oven to 400"
+            "text": "Preheat oven to 400F."
         },
         {
             "@type": "HowToStep",
@@ -34,7 +34,7 @@
         },
         {
             "@type": "HowToStep",
-            "text": "Bake for 20 minutes"
+            "text": "Bake for 20 minutes."
         }
     ],
     "image": [
