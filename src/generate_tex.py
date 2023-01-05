@@ -49,7 +49,7 @@ def add_recipe(recipe, recipes):
 
 	name_id = recipe["name"].lower().replace(" ", "-")
 	recipes[cat] += r"\noindent\begin{minipage}[t]{\linewidth}%" + "\n"
-	recipes[cat] += r"\vspace{2mm}{\Large\textbf{" + recipe["name"] + r"}} \label{" + name_id + r"}"
+	recipes[cat] += r"{\Large\textbf{" + recipe["name"] + r"}} \label{" + name_id + r"}"
 	recipes[cat] += r"\hfill\textit{" + recipe["author"]["name"] + r"}\\" + "\n"
 	if recipe["description"] != "description of recipe":
 		recipes[cat] += r"\textit{``" + recipe["description"] + r"''}\\" + "\n"
@@ -76,7 +76,7 @@ def add_recipe(recipe, recipes):
 	for step in recipe["recipeInstructions"]:
 		recipes[cat] += r"\item " + step["text"] + "\n"
 	recipes[cat] += r"\end{enumerate}" + "\n"
-	recipes[cat] += r"\end{minipage}" + "\n"
+	recipes[cat] += r"\end{minipage}\vspace{4mm}" + "\n"
 
 
 def write_recipe_book(f, toc, recipes):
@@ -90,10 +90,10 @@ def write_recipe_book(f, toc, recipes):
 	print(r"\maketitle", file=f)
 	print(r"\section*{Table of Contents}", file=f)
 	for cat in categories:
-		print(r"{\\\Large \textbf{" + f"{cat}" + r"}}" + r"\hfill\textbf{\pageref{" + cat.lower() + r"}}" + "\n", file=f)
+		print(r"{~\vspace{2mm}\\ \Large \textbf{" + f"{cat}" + r"}}" + r"\hfill\textbf{\pageref{" + cat.lower() + r"}}" + "\n", file=f)
 		print(toc[cat.lower()], file=f)
 	for cat in categories:
-		print(r"{\\\LARGE \textbf{" + f"{cat}" + r"}} \label{" + cat.lower() + r"}\\", file=f)
+		print(r"{\newpage \LARGE \textbf{" + f"{cat}" + r"}} \label{" + cat.lower() + r"}\\", file=f)
 		print(recipes[cat.lower()], file=f)
 	print(r"\end{document}", file=f)
 
