@@ -4,7 +4,7 @@
     "name": "Rock Candy",
     "author": {
         "@type": "Person",
-        "name": "Trey Dunn"
+        "name": "Bill Nye"
     },
     "description": "description of recipe",
     "recipeCategory": "desserts",
@@ -37,6 +37,6 @@
         }
     ],
     "image": [
-        "/home/tim/Documents/projects/recipes/img/"
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
     ]
 }

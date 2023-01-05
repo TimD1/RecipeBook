@@ -54,7 +54,7 @@ def add_recipe(recipe, recipes):
 	if recipe["description"] != "description of recipe":
 		recipes[cat] += r"\textit{``" + recipe["description"] + r"''}\\" + "\n"
 	if recipe["recipeYield"] != "yield":
-		recipes[cat] += r"\textit{\textbf{Yield:} " + recipe["recipeYield"] + r"}\\" + "\n"
+		recipes[cat] += r"\textbf{Yield:} \textit{" + recipe["recipeYield"] + r"}\\" + "\n"
 
 	recipes[cat] += r"\noindent\begin{minipage}[t]{0.78\linewidth}%" + "\n"
 	recipes[cat] += r"\textbf{Ingredients}:\vspace{-3mm}" + "\n"
@@ -76,7 +76,7 @@ def add_recipe(recipe, recipes):
 	for step in recipe["recipeInstructions"]:
 		recipes[cat] += r"\item " + step["text"] + "\n"
 	recipes[cat] += r"\end{enumerate}" + "\n"
-	recipes[cat] += r"\end{minipage}\vspace{4mm}" + "\n"
+	recipes[cat] += r"\end{minipage}\vspace{8mm}" + "\n"
 
 
 def write_recipe_book(f, toc, recipes):
