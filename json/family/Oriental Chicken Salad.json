@@ -7,20 +7,20 @@
         "name": "Lynn Neff"
     },
     "description": "description of recipe",
-    "recipeCategory": "classic, pies",
+    "recipeCategory": "salads, chicken",
     "recipeYield": "yield",
     "recipeIngredient": [
-        "1 cooked Chicken -shredded",
-        "1/2 Package Wonton shells cut in 1/4\" strips and fried in peanut oil (2-3T in wok)",
-        "2 Heads Lettuce, shredded (romaine is fine)",
-        "8 Green Onions (sliced)",
-        "4 tsp Sliced almonds, toasted @ 350 for 8 minutes",
-        "4 Tbsp Sesame seeds",
-        "1/2 Cup White vinegar",
-        "1/2 Cup ketchup",
-        "1/2 Cup water",
-        "12 Tbsp Sugar",
-        "2 tsp Soy"
+        "1 cooked chicken, shredded",
+        "1/2 package wonton shells, cut in 1/4 inch strips and fried in peanut oil",
+        "2 heads lettuce, shredded",
+        "8 green onions, sliced",
+        "4 tsp sliced almonds, toasted",
+        "4 Tbsp sesame seeds",
+        "1/2 cup white vinegar",
+        "1/2 cup ketchup",
+        "1/2 cup water",
+        "12 Tbsp sugar",
+        "2 tsp soy"
     ],
     "recipeInstructions": [
         {

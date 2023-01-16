@@ -7,16 +7,16 @@
         "name": "Grandma Claire Dunn"
     },
     "description": "description of recipe",
-    "recipeCategory": "classic, pies",
+    "recipeCategory": "cookies",
     "recipeYield": "yield",
     "recipeIngredient": [
-        "1/2 Cup Margarine",
-        "1 Cup Peanut Butter",
-        "3/4 Cup Brown Sugar",
-        "3/4 Cup White Sugar",
-        "2 Eggs",
-        "2 Cups Sifted flour",
-        "2 tsp Baking Soda"
+        "1/2 cup margarine",
+        "1 cup peanut butter",
+        "3/4 cup brown sugar",
+        "3/4 cup white sugar",
+        "2 eggs",
+        "2 cups sifted flour",
+        "2 tsp baking soda"
     ],
     "recipeInstructions": [
         {

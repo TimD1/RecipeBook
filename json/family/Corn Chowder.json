@@ -1,0 +1,51 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Corn Chowder",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "soups",
+    "recipeYield": "18 cups",
+    "recipeIngredient": [
+		"1 pkg (4 oz) Italian Classics Diced Pancetta",
+		"1 cup chopped onion",
+		"1 cup diced celery",
+		"3 cloves garlic, minced",
+		"6 Tbsp salted butter",
+		"1/2 cup all-purpose flour",
+		"2 (32 oz) cartons chicken stock",
+		"8 ears fresh corn, shucked, kernels removed",
+		"1 red bell pepper, diced",
+		"1 large russet potato, peeled, diced",
+		"1 Tbsp chopped thyme",
+		"1 1/4 tsp sea salt",
+		"black pepper",
+		"2 (8 oz) cartons light cream",
+		"1 tsp tabasco sauce",
+		"1 tsp Old Bay seasoning"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Add pancetta to pot on medium. Cook 2-3 min, until crispy. Add onion, celery, and garlic; stir. Cook about 4 min, until soft but not browned."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add butter; stir until melted and it begins to bubble. Add flour, stirring until completely blended. Cook, stirring and scraping bottom of pot every 30 seconds, about 3 min."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Whisk in chicken stock. Add corn; whisk. Add peppers, potato, and thyme; season to taste with sea salt and freshly ground pepper. Increase heat to medium-high. Cook, stirring occasionally, about 10 min until it comes to a boil."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Reduce heat to medium. Simmer 10-15 min until potato is tender. Add cream gradually; stir. Return to simmer, about 2-3 min. Season with Tabasco and Old Bay."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/corn_chowder.jpg"
+    ]
+}

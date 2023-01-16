@@ -7,20 +7,20 @@
         "name": ""
     },
     "description": "description of recipe",
-    "recipeCategory": "classic, pies",
+    "recipeCategory": "cakes",
     "recipeYield": "yield",
     "recipeIngredient": [
-        "2 Cups graham cracker crumbs",
-        "1/4 Cup Sugar",
-        "3/4 Cup Butter (Melted)",
-        "2 1/4 lb Cream cheese, room temperature",
-        "1 2/3 Cups Sugar",
-        "5 Eggs, room temperature",
-        "1 Cup Bauley's Original Irish Cream",
-        "1 Cup semisweet chocolate chips",
-        "1 Cup Chilled Whipping Cream",
-        "2 Tbsp Sugar",
-        "1 tsp Instant coffee powder"
+        "2 cups graham cracker crumbs",
+        "1/4 cup sugar",
+        "3/4 cup butter (melted)",
+        "2 1/4 lb cream cheese, room temperature",
+        "1 2/3 cups sugar",
+        "5 eggs, room temperature",
+        "1 cup bauley's original irish cream",
+        "1 cup semisweet chocolate chips",
+        "1 cup chilled whipping cream",
+        "2 Tbsp sugar",
+        "1 tsp instant coffee powder"
     ],
     "recipeInstructions": [
         {
@@ -33,7 +33,7 @@
         },
         {
             "@type": "HowToStep",
-            "text": "For Cream: beat cream, sugar and coffee powder until peaks form. Spread mixture over cooled cake. \n  Garnish cheesecake with chocolate curls. Cut in thin slices to serve."
+            "text": "For Cream: beat cream, sugar and coffee powder until peaks form. Spread mixture over cooled cake. Garnish cheesecake with chocolate curls. Cut in thin slices to serve."
         }
     ],
     "image": [

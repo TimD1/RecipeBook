@@ -4,19 +4,19 @@
     "name": "Chicken Devan",
     "author": {
         "@type": "Person",
-        "name": "Mom"
+        "name": "Nancy Feth"
     },
     "description": "description of recipe",
-    "recipeCategory": "classic, pies",
+    "recipeCategory": "chicken",
     "recipeYield": "yield",
     "recipeIngredient": [
-        "2 Pkg. Broccoli cuts (i like to used chopped)",
-        "3 Whole Chicken breasts (cooked, boned and cut in pieces)",
-        "2 Cans condensed cream of chicken soup (i use Campbells healthy choice)",
-        "1 Cup mayonnaise (light is fine)",
+        "2 pkg broccoli cuts",
+        "3 whole chicken breasts (cooked, boned and cut in pieces)",
+        "2 cans condensed cream of chicken soup",
+        "1 cup mayonnaise",
         "1 tsp lemon juice",
-        "1/2 tsp Curry powder",
-        "1 Cup shredded Cheddar cheese"
+        "1/2 tsp curry powder",
+        "1 cup shredded cheddar cheese"
     ],
     "recipeInstructions": [
         {

@@ -7,23 +7,23 @@
         "name": "Nancy Feth"
     },
     "description": "description of recipe",
-    "recipeCategory": "classic, pies",
+    "recipeCategory": "cakes",
     "recipeYield": "yield",
     "recipeIngredient": [
-        "1/2 Cup margarine",
-        "1 Cup Sugar",
-        "2 Eggs",
-        "1 tsp Baking powder",
-        "1 tsp Baking soda",
-        "1/2 tsp Salt",
-        "1 Cup sour cream",
-        "1 1/2 -2 cups Flour",
+        "1/2 cup margarine",
+        "1 cup sugar",
+        "2 eggs",
+        "1 tsp baking powder",
+        "1 tsp baking soda",
+        "1/2 tsp salt",
+        "1 cup sour cream",
+        "1 1/2 -2 cups flour",
         "1 tsp of vanilla",
-        "1/2 Cup chopped walnuts",
-        "1/2 Cup brown sugar",
-        "4 Tbsp Sugar",
-        "1 tsp Cinnamon",
-        "2 Tbsp Soft butter"
+        "1/2 cup chopped walnuts",
+        "1/2 cup brown sugar",
+        "4 Tbsp sugar",
+        "1 tsp cinnamon",
+        "2 Tbsp soft butter"
     ],
     "recipeInstructions": [
         {

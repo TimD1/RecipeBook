@@ -7,15 +7,15 @@
         "name": "Nancy Feth (Grandma)"
     },
     "description": "description of recipe",
-    "recipeCategory": "classic, pies",
+    "recipeCategory": "desserts",
     "recipeYield": "yield",
     "recipeIngredient": [
         "12 oz chocolate chips",
-        "1 Cup Evaporated milk",
-        "3 Cups Crushed vanilla wafers",
-        "2 Cups Miniature marshmallows",
-        "1 Cup chopped nuts",
-        "1 Cup powdered sugar",
+        "1 cup evaporated milk",
+        "3 cups crushed vanilla wafers",
+        "2 cups miniature marshmallows",
+        "1 cup chopped nuts",
+        "1 cup powdered sugar",
         "1/2 tsp Salt"
     ],
     "recipeInstructions": [

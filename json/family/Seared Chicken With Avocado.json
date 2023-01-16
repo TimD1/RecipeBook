@@ -7,18 +7,18 @@
         "name": "allrecipes.com"
     },
     "description": "description of recipe",
-    "recipeCategory": "classic, pies",
+    "recipeCategory": "chicken",
     "recipeYield": "yield",
     "recipeIngredient": [
-        "1 1/2 tsp Blackened seasoning",
-        "4 (4 oz) Skinless, boneless chicken breast halves",
-        "1 tsp Olive Oil",
-        "1 Diced, Peeled avocado",
-        "2 Tbsp Chopped fresh cilantro",
-        "1 Jalapeno pepper, seeded and finely chopped",
-        "2 Tbsp Freh lime juice (anout 1 lime)",
-        "1/4 tsp Salt",
-        "1 Lime, cut into quarters"
+        "1 1/2 tsp blackened seasoning",
+        "4 (4 oz) skinless, boneless chicken breast halves",
+        "1 tsp olive oil",
+        "1 diced, peeled avocado",
+        "2 Tbsp chopped fresh cilantro",
+        "1 jalapeno pepper, seeded and finely chopped",
+        "2 Tbsp freh lime juice (anout 1 lime)",
+        "1/4 tsp salt",
+        "1 lime, cut into quarters"
     ],
     "recipeInstructions": [
         {

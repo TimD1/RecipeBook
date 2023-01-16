@@ -7,15 +7,15 @@
         "name": "Grandma Claire Dunn"
     },
     "description": "description of recipe",
-    "recipeCategory": "classic, pies",
+    "recipeCategory": "cakes",
     "recipeYield": "yield",
     "recipeIngredient": [
-        "1 pkg vanilla wafers (12 ounce)",
-        "2 pkg cream cheese (8 ounce)",
-        "3/4 Cup white sugar",
+        "1 pkg vanilla wafers (12 oz)",
+        "2 pkg cream cheese (8 oz)",
+        "3/4 cup white sugar",
         "2 eggs",
         "1 tsp vanilla extract",
-        "1 Can cherry pie filling (21 ounce)"
+        "1 can cherry pie filling (21 oz)"
     ],
     "recipeInstructions": [
         {

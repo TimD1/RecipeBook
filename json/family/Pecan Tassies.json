@@ -7,18 +7,18 @@
         "name": "Nancy Feth"
     },
     "description": "description of recipe",
-    "recipeCategory": "classic, pies",
+    "recipeCategory": "desserts",
     "recipeYield": "yield",
     "recipeIngredient": [
-        "1/2 Cup butter, softened",
-        "3 oz Cream cheese",
-        "1 Cup Flour",
-        "2 Eggs",
-        "7/8 Cup Brown Sugar",
-        "1 tsp Vanilla",
+        "1/2 cup butter, softened",
+        "3 oz cream cheese",
+        "1 cup flour",
+        "2 eggs",
+        "7/8 cup brown sugar",
+        "1 tsp vanilla",
         "1 Tbsp butter, melted",
-        "1 Dash salt",
-        "1/2 Cup Coarsely chopped pecans"
+        "1 dash salt",
+        "1/2 cup coarsely chopped pecans"
     ],
     "recipeInstructions": [
         {

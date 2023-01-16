@@ -1,13 +1,13 @@
 {
     "@context": "https://schema.org",
     "@type": "Recipe",
-    "name": "Flour-less Chocolate Torte (Sachetorte)",
+    "name": "Flourless Chocolate Torte",
     "author": {
         "@type": "Person",
         "name": ""
     },
     "description": "description of recipe",
-    "recipeCategory": "classic, pies",
+    "recipeCategory": "desserts",
     "recipeYield": "yield",
     "recipeIngredient": [
         "1/2 Cup Butter",

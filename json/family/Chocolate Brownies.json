@@ -4,25 +4,21 @@
     "name": "Chocolate Brownies",
     "author": {
         "@type": "Person",
-        "name": "mom"
+        "name": "Sue Dunn"
     },
     "description": "description of recipe",
-    "recipeCategory": "classic, pies",
+    "recipeCategory": "desserts",
     "recipeYield": "yield",
     "recipeIngredient": [
-        "1/4 Cup Water",
-        "2/3 Cup Vegetable oil",
-        "2 Eggs",
-        "1 Bag of Betty Crocker Fudge Brownie Mix"
+        "1/4 cup water",
+        "2/3 cup vegetable oil",
+        "2 eggs",
+        "1 bag of Betty Crocker fudge brownie mix"
     ],
     "recipeInstructions": [
         {
             "@type": "HowToStep",
-            "text": "13\"x9\" - 350 - 24 to 26 minutes\n9\"x9\" - 350 - 38 to 40 minutes\n8\"x8\" - 325 - 52 to 54 minutes"
-        },
-        {
-            "@type": "HowToStep",
-            "text": "Heat oven as directed above. Grease or use cooking spray."
+            "text": "Preheat oven to 350F. Grease or use cooking spray."
         },
         {
             "@type": "HowToStep",

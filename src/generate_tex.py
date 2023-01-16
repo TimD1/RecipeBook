@@ -19,8 +19,7 @@ categories = [
 		"Pies",
 		"Cookies",
 		"Cakes",
-		"Desserts",
-		"Classic"
+		"Desserts"
 ]
 directories = [
         # "ios_app",

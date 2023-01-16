@@ -4,14 +4,14 @@
     "name": "Cookies and Cream Oreo Bark",
     "author": {
         "@type": "Person",
-        "name": ""
+        "name": "Brian Dunn"
     },
     "description": "description of recipe",
-    "recipeCategory": "classic, pies",
+    "recipeCategory": "cookies",
     "recipeYield": "yield",
     "recipeIngredient": [
-        "10oz. Ghirardelli white chocolate chips",
-        "15 regular size Oreos, plus 3 more for topping"
+        "10 oz Ghirardelli white chocolate chips",
+        "15 regular size oreos, plus 3 more for topping"
     ],
     "recipeInstructions": [
         {
@@ -29,18 +29,6 @@
         {
             "@type": "HowToStep",
             "text": "Lift whole bark out of pan by holding onto parchment or wax overhang. Split bark into pieces with a fork."
-        },
-        {
-            "@type": "HowToStep",
-            "text": "To shave off even more time use mini Oreos to bypass chopping regular size ones."
-        },
-        {
-            "@type": "HowToStep",
-            "text": "If white chocolate doesnt suit your taste, use any chocolate that does."
-        },
-        {
-            "@type": "HowToStep",
-            "text": "You can leave the top bare but keep in mind it will look slightly grey from the mix of black Oreo crumbs against the white. To avoid the unappetizing grey tint either drizzle the top with chocolate or sprinkle finely crushed Oreos on top."
         }
     ],
     "image": [

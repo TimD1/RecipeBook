@@ -7,20 +7,20 @@
         "name": "allrecipes.com"
     },
     "description": "description of recipe",
-    "recipeCategory": "classic, pies",
+    "recipeCategory": "breads",
     "recipeYield": "yield",
     "recipeIngredient": [
-        "3 Cups all - purpose flour",
+        "3 cups all-purpose flour",
         "1 tsp salt",
         "1 tsp baking soda",
         "1 tsp baking powder",
         "3 tsp ground cinnamon",
         "3 eggs",
-        "1 Cup vegetable oil",
-        "2 1/4 Cups white sugar",
+        "1 cup vegetable oil",
+        "2 1/4 cups white sugar",
         "3 tsp vanilla extract",
-        "2 Cups grated zucchini",
-        "1 Cup chopped walnuts"
+        "2 cups grated zucchini",
+        "1 cup chopped walnuts"
     ],
     "recipeInstructions": [
         {

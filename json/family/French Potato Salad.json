@@ -1,0 +1,40 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "French Potato Salad",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "salads",
+    "recipeYield": "4-6 servings",
+    "recipeIngredient": [
+        "1 lb small white boiling potatoes",
+        "1 lb small red boiling potatoes",
+        "2 Tbsp dry white wine",
+        "2 Tbsp chicken stock",
+        "3 Tbsp vinegar",
+        "1/2 tsp Dijon mustard",
+        "2 tsp kosher salt",
+        "3/4 tsp ground black pepper",
+        "10 Tbsp olive oil",
+        "1/4 cup minced scallions",
+        "2 Tbsp minced fresh dill",
+        "2 Tbsp minced parsley",
+        "2 Tbsp minced basil"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Cook the white and red potatoes in a large boiling pot of salted water for 20-30 minutes, until cooked through. Drain and place a towel over them, allowing them to steam for 10 more minutes. As soon as you can handle them, cut in half (or smaller) and place in a medium bowl. Toss gently with the wine and chicken stock. Alow the liquids to soak into the warm potatoes before proceeding."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Combine the vinegar, mustard, 1/2 tsp salt, 1/4 tsp pepper and slowly whisk in the olive oil to make an emulsion. Add the vinaigrette to the potatoes. Add the scallions, dill, parsley, basil, 1 1/2 tsp salt, and 1/2 tsp pepper and toss. Serve warm or at room temperature."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/potato_salad.jpg"
+    ]
+}

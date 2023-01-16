@@ -7,20 +7,20 @@
         "name": "Carolyn benjamin"
     },
     "description": "description of recipe",
-    "recipeCategory": "classic, pies",
+    "recipeCategory": "cookies",
     "recipeYield": "yield",
     "recipeIngredient": [
-        "3 Eggs",
-        "1 Cup Brown Sugar",
-        "3/4 tsp Vanilla",
-        "1 Cup Granulated Sugar",
-        "2 tsp Baking Soda",
-        "1/2 Cup Butter",
-        "2 Cups Peanut Butter",
-        "4 1/2 Cups Oatmeal",
-        "1/2 Cup Chocolate Chips (Chocolate Chunks)",
-        "1/2 Cup M and Ms",
-        "1/8 Cup Chopped Nuts"
+        "3 eggs",
+        "1 cup brown sugar",
+        "3/4 tsp vanilla",
+        "1 cup granulated sugar",
+        "2 tsp baking soda",
+        "1/2 cup butter",
+        "2 cups peanut butter",
+        "4 1/2 cups oatmeal",
+        "1/2 cup chocolate chips (chocolate chunks)",
+        "1/2 cup M and Ms",
+        "1/8 cup chopped nuts"
     ],
     "recipeInstructions": [
         {

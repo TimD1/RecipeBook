@@ -7,14 +7,14 @@
         "name": "Aunt Nancy Feth"
     },
     "description": "description of recipe",
-    "recipeCategory": "classic, pies",
+    "recipeCategory": "steak",
     "recipeYield": "yield",
     "recipeIngredient": [
-        "3/4 Cup Kikkoman soy sauce",
-        "1/4 Cup Water or wine (red/white)",
+        "3/4 cup soy sauce",
+        "1/4 cup water or wine",
         "1 tsp garlic powder",
-        "2 tsp Sugar",
-        "1/2 tsp Ginger"
+        "2 tsp sugar",
+        "1/2 tsp ginger"
     ],
     "recipeInstructions": [
         {

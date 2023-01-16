@@ -7,14 +7,14 @@
         "name": "Sue Dunn"
     },
     "description": "description of recipe",
-    "recipeCategory": "classic, pies",
+    "recipeCategory": "pies",
     "recipeYield": "yield",
     "recipeIngredient": [
-        "25 chocolate sandwich cookies",
-        "1/2 Cup butter, melted",
-        "2 Cups marshmallow creme",
-        "1/4 Cup creme de menthe liqueur",
-        "2 Cups whipping cream"
+        "25 oreos",
+        "1/2 cup butter, melted",
+        "2 cups marshmallow creme (Fluff)",
+        "1/4 cup Creme de Menthe liqueur",
+        "2 cups whipping cream"
     ],
     "recipeInstructions": [
         {

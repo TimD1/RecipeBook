@@ -7,12 +7,12 @@
         "name": "Brian Dunn"
     },
     "description": "description of recipe",
-    "recipeCategory": "classic, pies",
+    "recipeCategory": "desserts",
     "recipeYield": "yield",
     "recipeIngredient": [
         "1 lb Oreo cookies (3 sleeves)",
         "8 oz cream cheese, room temperature",
-        "1/2 vanilla extract (optional) (using different extracts allows for subtle flavour changes...I've used mint extract, upped to 1 tsp)",
+        "1 tsp vanilla extract",
         "1 lb milk chocolate",
         "1/2 lb white chocolate"
     ],

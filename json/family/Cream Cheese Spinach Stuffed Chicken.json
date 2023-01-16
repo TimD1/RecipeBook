@@ -1,0 +1,48 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Cream Cheese Spinach Stuffed Chicken",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "Chicken breasts stuffed with a creamy spinach, parmesan, mozerella, and cream cheese filling and pan seared to perfection.",
+    "recipeCategory": "chicken",
+    "recipeYield": "8 servings",
+    "recipeIngredient": [
+        "8 (4 oz) chicken breasts",
+        "2 tsp chili powder",
+        "2 tsp Italian seasoning",
+        "1 tsp black pepper",
+        "1 tsp salt",
+		"1 Tbsp olive oil",
+        "4 cups spinach (or one 10 oz package, thawed and drained)",
+        "8 oz cream cheese (room temp)",
+        "0.5 cup Parmesan cheese",
+        "0.5 cup mozarella cheese",
+        "2 Tbsp minced garlic",
+        "0.5 tsp pepper",
+        "salt to taste"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "To make the filling: in a medium bowl, combine the spinach, cream cheese, parmesan cheese, mozzarella cheese, garlic, salt, and pepper."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "To butterfly the chicken breasts: lay them flat on a sturdy surface. Place one hand on top to hold it in place and slice 3/4 of the way through the chicken breast."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "To stuff the chicken: season the outside of the chicken with chili powder, Italian seasoning, salt, and pepper. Spoon 1/4 of the cheese mixture into the middle of the cut chicken breasts and fold the chicken so the cream cheese is sealed inside. Use toothpicks if necessary."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "To cook: Heat a non-stick skillet on medium-high and add olive oil. Cook the chicken, covering the pan with a lid, for about 9-10 minutes per side or until the chicken is cooked through."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}

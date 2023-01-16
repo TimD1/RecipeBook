@@ -1,0 +1,36 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Sour Cream Salsa Chicken",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "chicken",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "5 boneless chicken breasts",
+        "1 package taco seasoning mix",
+        "1 cup salsa",
+        "2 Tbsp corn starch",
+        "1/4 cup sour cream"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Spray crockpot with cooking spray and line with chicken. Sprinkle taco mix on top and top with salsa, then cook on low for 6-8 hours."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Remove chicken from pot. Mix corn starch with a little water and add to salsa. Stir in sour cream."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Return chicken to pot for 30-45 more minutes or until hot again."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}

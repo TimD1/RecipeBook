@@ -7,24 +7,24 @@
         "name": "Alpha Bakery Children's Book"
     },
     "description": "description of recipe",
-    "recipeCategory": "classic, pies",
+    "recipeCategory": "breads",
     "recipeYield": "yield",
     "recipeIngredient": [
-        "3/4 Cup Sugar",
-        "1 1/2 Cups Mashed bananas (3 large)",
-        "3/4 Cup Vegetable Oil",
-        "2 Eggs",
-        "2 Cups all - purpose flour",
-        "1/2 Cup chocolate chips (or nuts)",
-        "1 tsp Baking soda",
-        "2 tsp Vanilla",
-        "1/2 tsp Baking powder",
-        "1/2 tsp Salt"
+        "3/4 cup sugar",
+        "1 1/2 cups mashed bananas (3 large)",
+        "3/4 cup vegetable oil",
+        "2 eggs",
+        "2 cups all-purpose flour",
+        "1/2 cup chocolate chips",
+        "1 tsp baking soda",
+        "2 tsp vanilla",
+        "1/2 tsp baking powder",
+        "1/2 tsp salt"
     ],
     "recipeInstructions": [
         {
             "@type": "HowToStep",
-            "text": "Heat the oven to 350."
+            "text": "Heat the oven to 350F."
         },
         {
             "@type": "HowToStep",

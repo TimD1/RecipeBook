@@ -1,0 +1,36 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Chicken and Artichoke Bake",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "chicken",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "1 (14 oz) can water-packed artichokes",
+        "3/4 cup grated parmesan cheese",
+        "3/4 cup light mayonnaise",
+        "garlic powder",
+        "6 skinless boneless chicken breasts, cut lengthwise in half"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Drain artichokes. Squeeze all water out of each artichoke. Chop."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Combine artichokes, cheese, mayo, and garlic in a bowl. Mix thoroughly."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place chicken in a greased 11 x 7 inch baking dish. Spread artichoke mixture over chicken. Bake uncovered at 375F for 30-35 minutes."
+        }
+	],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}

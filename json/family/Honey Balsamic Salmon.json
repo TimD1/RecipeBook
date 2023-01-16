@@ -7,17 +7,16 @@
         "name": ""
     },
     "description": "description of recipe",
-    "recipeCategory": "classic, pies",
+    "recipeCategory": "seafood",
     "recipeYield": "yield",
     "recipeIngredient": [
-        "1 Spray(s) cooking spray",
-        "1/4 tsp Olive Oil",
-        "1/2 Cup Leek(s), julienne-cut (about 1 small)",
-        "1 1/2 lb Salmon fillets, with or without skin, four 6-oz. pieces",
-        "1/2 tsp Table salt, divided",
-        "1/4 tsp Black pepper, divided",
-        "1/2 Cup Balsamic vinegar",
-        "1 Tbsp Honey"
+        "1/4 tsp olive oil",
+        "1/2 cup leek(s), julienne-cut (about 1 small)",
+        "1 1/2 lb salmon fillets, with or without skin, four 6-oz. pieces",
+        "1/2 tsp table salt, divided",
+        "1/4 tsp black pepper, divided",
+        "1/2 cup balsamic vinegar",
+        "1 Tbsp honey"
     ],
     "recipeInstructions": [
         {

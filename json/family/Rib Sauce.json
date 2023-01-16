@@ -7,20 +7,20 @@
         "name": "Grandma Claire Dunn"
     },
     "description": "description of recipe",
-    "recipeCategory": "classic, pies",
+    "recipeCategory": "pork",
     "recipeYield": "yield",
     "recipeIngredient": [
-        "1 Cup OJ",
-        "1 Lemon",
-        "1 Cup Brown Sugar",
-        "3/4 Cup Pancake syrup",
-        "Celery",
-        "1 Onion",
-        "1 Tbsp Worcestershire sauce",
-        "3 Tbsp Vinegar",
+        "1 cup OJ",
+        "1 lemon",
+        "1 cup brown sugar",
+        "3/4 cup pancake syrup",
+        "celery",
+        "1 onion",
+        "1 Tbsp worcestershire sauce",
+        "3 Tbsp vinegar",
         "1 Tbsp dry mustard",
-        "Parsley",
-        "1 Cup ketchup"
+        "parsley",
+        "1 cup ketchup"
     ],
     "recipeInstructions": [
         {

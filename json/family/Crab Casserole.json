@@ -4,24 +4,24 @@
     "name": "Crab Casserole",
     "author": {
         "@type": "Person",
-        "name": "mom"
+        "name": "Mom"
     },
     "description": "description of recipe",
-    "recipeCategory": "classic, pies",
+    "recipeCategory": "seafood",
     "recipeYield": "yield",
     "recipeIngredient": [
-        "1 Tbsp Margerine",
-        "2 Scallion (Chopped)",
-        "1 tsp Cornstarch",
-        "1/2 Cup half - and - half cream",
+        "1 Tbsp margerine",
+        "2 scallion, chopped",
+        "1 tsp cornstarch",
+        "1/2 cup half-and-half cream",
         "2 tsp lemon juice",
-        "1/8 tsp Salt",
-        "1/8 tsp Pepper",
-        "2/3 Cup Cooked crabmeat",
-        "4 Mushrooms (Sliced)",
-        "2 Tbsp Dry Bread Crumbs",
+        "1/8 tsp salt",
+        "1/8 tsp pepper",
+        "2/3 cup cooked crabmeat",
+        "4 mushrooms (Sliced)",
+        "2 Tbsp dry bread crumbs",
         "1 1/3 Tbsp grated Parmesan cheese",
-        "1 Tbsp Melted margerine"
+        "1 Tbsp melted margerine"
     ],
     "recipeInstructions": [
         {
@@ -30,35 +30,11 @@
         },
         {
             "@type": "HowToStep",
-            "text": "Mix in cornstarch, stir in half and half, lemon juice, salt and pepper"
+            "text": "Mix in cornstarch, stir in half and half, lemon juice, salt, and pepper. Microwave uncovered for one minute. Stir, and microwave for another minute. Stir in the crab and mushroom."
         },
         {
             "@type": "HowToStep",
-            "text": "Microwave, uncovered 1 minute, stir"
-        },
-        {
-            "@type": "HowToStep",
-            "text": "Microwave 1 min"
-        },
-        {
-            "@type": "HowToStep",
-            "text": "Stir in crab and mushrooms"
-        },
-        {
-            "@type": "HowToStep",
-            "text": "Put in bowl"
-        },
-        {
-            "@type": "HowToStep",
-            "text": "Mix topping"
-        },
-        {
-            "@type": "HowToStep",
-            "text": "Sprinkle on top"
-        },
-        {
-            "@type": "HowToStep",
-            "text": "Cover loosely, microwave until hot."
+            "text": "Mix topping, sprinkle on top, cover loosely, and microwave until hot."
         }
     ],
     "image": [

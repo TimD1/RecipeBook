@@ -7,12 +7,12 @@
         "name": ""
     },
     "description": "description of recipe",
-    "recipeCategory": "classic, pies",
+    "recipeCategory": "cookies",
     "recipeYield": "yield",
     "recipeIngredient": [
-        "Crushed candy canes, to yield 1 cup",
+        "1 cup (crushed) candy canes",
         "2 lb white chocolate",
-        "Peppermint flavorings, optional"
+        "peppermint flavoring (optional)"
     ],
     "recipeInstructions": [
         {

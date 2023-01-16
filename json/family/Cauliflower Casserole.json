@@ -1,0 +1,53 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Cauliflower Casserole",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "pastas",
+    "recipeYield": "8 servings, 1/2 cup each",
+    "recipeIngredient": [
+        "1 large head cauliflower, cut into small florets",
+        "2 Tbsp butter, melted",
+        "sea salt",
+        "black pepper",
+        "2/3 cup sour cream",
+        "1/4 cup heavy cream",
+        "2 cloves garlic, minced",
+        "1 1/2 cup cheddar cheese (shredded)",
+        "6 Tbsp bacon bits",
+        "1/4 cup green onions"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 450F."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a large bowl, toss the cauliflower florets with butter. Season with salt and black pepper."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Roast on a baking sheet for 15-20 minutes, until crisp and tender."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, in the same bowl, whisk together the sour and heavy creams, until smooth. Stir in the minced garlic, half of the cheddar cheese, half of the bacon bits, and half of the green onions. If desired, season sauce with sea salt and black pepper (keep in mind, the cheese will make it saltier as it melts)."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "When the cauliflower is done roasting, take it out and leave the oven on. Add the cauliflower to the bowl and mix with the sauce. Transfer to the casserole dish, and top with the remaining cheese and bacon bits."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake for 5-10 minutes, until the cheese melts. Top with remaining green onions."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/cauliflower.jpg"
+    ]
+}

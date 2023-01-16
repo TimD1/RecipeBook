@@ -1,22 +1,22 @@
 {
     "@context": "https://schema.org",
     "@type": "Recipe",
-    "name": "Blueberry Kuchen Recipe",
+    "name": "Blueberry Kuchen",
     "author": {
         "@type": "Person",
         "name": ""
     },
     "description": "description of recipe",
-    "recipeCategory": "classic, pies",
+    "recipeCategory": "desserts",
     "recipeYield": "yield",
     "recipeIngredient": [
-        "1 Cup Flour",
+        "1 cup flour",
         "1/8 tsp salt",
-        "2 Tbsp Sugar",
-        "1/2 Cup butter, slightly softened and cut into small pieces (8 tablespoons)",
+        "2 Tbsp sugar",
+        "1/2 cup butter, slightly softened and cut into small pieces (8 tablespoons)",
         "1 Tbsp white vinegar",
-        "5 Cups fresh blueberries (725 grams)",
-        "1/2 Cup sugar",
+        "5 cups fresh blueberries",
+        "1/2 cup sugar",
         "1/8 tsp cinnamon",
         "2 Tbsp Flour"
     ],
