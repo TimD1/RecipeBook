@@ -21,7 +21,7 @@
     "recipeInstructions": [
         {
             "@type": "HowToStep",
-            "text": "Preheat oven to 375."
+            "text": "Preheat oven to 375F."
         },
         {
             "@type": "HowToStep",
