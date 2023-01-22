@@ -1,7 +1,7 @@
 {
     "@context": "https://schema.org",
     "@type": "Recipe",
-    "name": "Oriental Cole Slaw Salad Dressing",
+    "name": "Oriental Coleslaw Salad Dressing",
     "author": {
         "@type": "Person",
         "name": "Sue Dunn"
@@ -27,6 +27,6 @@
         }
     ],
     "image": [
-        "/home/tim/Documents/projects/recipes/img/none.jpg"
+        "/home/tim/Documents/projects/recipes/img/coleslaw-salad-dressing.jpeg"
     ]
 }

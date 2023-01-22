@@ -7,7 +7,7 @@
         "name": "Sue Dunn"
     },
     "description": "description of recipe",
-    "recipeCategory": "classic, pies",
+    "recipeCategory": "appetizers",
     "recipeYield": "yield",
     "recipeIngredient": [
 		"unknown"
@@ -19,6 +19,6 @@
         }
     ],
     "image": [
-        "/home/tim/Documents/projects/recipes/img/A8B5D904-A163-40ED-A6AF-9CA1CFB88DE0.jpg"
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
     ]
 }

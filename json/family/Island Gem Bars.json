@@ -6,7 +6,7 @@
         "@type": "Person",
         "name": "Sue Dunn"
     },
-    "description": "description of recipe",
+    "description": "Also known as 7-layer bars.",
     "recipeCategory": "desserts",
     "recipeYield": "yield",
     "recipeIngredient": [
@@ -41,6 +41,6 @@
         }
     ],
     "image": [
-        "/home/tim/Documents/projects/recipes/img/none.jpg"
+        "/home/tim/Documents/projects/recipes/img/island-gem-bars.jpg"
     ]
 }
