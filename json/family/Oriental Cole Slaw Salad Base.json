@@ -1,0 +1,32 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Oriental Cole Slaw Salad Base",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "salads",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+		"1 (16 oz) pkg cole slaw mix",
+		"1-2 bunches of scallions, sliced",
+		"1 pkg sunflower seeds",
+		"1 pkg sliced almonds, toasted",
+		"2 pkgs Ramen noodles, broken up"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Mix all of the above ingredients." 
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Top with dressing (below)."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}

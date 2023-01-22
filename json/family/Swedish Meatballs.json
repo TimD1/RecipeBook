@@ -1,0 +1,35 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Swedish Meatballs",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "appetizers",
+    "recipeYield": "serves 6",
+    "recipeIngredient": [
+		"1 1/2 cups soft bread crumbs, about 3 slices bread",
+		"1/4 cup finely chopped onion",
+		"1 1/2 tsp salt",
+		"1/4 tsp pepper",
+		"1/4 tsp nutmeg",
+		"3/4 cups milk",
+		"2 lbs ground beef",
+		"2 Tbsp butter",
+		"2 Tbsp vegetable oil",
+		"2 Tbsp flour",
+		"1 (10.5 oz) can condensed beef broth",
+		"1 cup half-and-half or light cream"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Combine bread crumbs, onion, salt, pepper, nutmeg and 3/4 cup milk in a large mixing bowl. Let milk soak into crumbs for a few minutes. Gently stir in ground beef until well blended; form into balls about 1 to 1 1/2 inches in diameter. Brown meatballs in butter and oil in a large skillet; remove with a slotted spoon to a 2 1/2-quart baking dish. Drain off all but 2 tablespoons of drippings; stir flour into drippings. Cook, stirring constantly, until bubbly. Stir in beef broth and cream. Continue cooking, stirring constantly, until sauce thickens and boils for a minute. Pour over Swedish meatballs in baking dish. Bake Swedish meatballs at 325F for 35-45 minutes."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/swedish_meatballs.jpg"
+    ]
+}

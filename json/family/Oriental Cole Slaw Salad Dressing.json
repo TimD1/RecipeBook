@@ -1,0 +1,32 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Oriental Cole Slaw Salad Dressing",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "Use oriental seasoning mix, not the high-sodium stuff that comes with the Ramen noodles.",
+    "recipeCategory": "salads",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+		"1/3 cup sugar",
+		"1/4 cup white wine vinegar",
+		"3/4 cup oil",
+		"1 pkg Oriental seasoning mix",
+		"2 pkgs Ramen noodles, broken up"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Mix all of the above ingredients." 
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Just before serving, thoroughly mix the dressing with the salad mixture."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}

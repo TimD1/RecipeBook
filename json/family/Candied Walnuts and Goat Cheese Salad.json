@@ -1,0 +1,41 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Candied Walnut and Goat Cheese Salad",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "salads",
+    "recipeYield": "8 servings",
+    "recipeIngredient": [
+		"candied walnuts",
+        "1/2 cup balsamic vinegar",
+        "1/4 cup pure maple syrup",
+        "1/8 cup minced shallots",
+		"1.5 cups olive oil",
+		"2 tsp salt",
+		"1 tsp pepper",
+		"8 cups assorted baby field greens",
+		"12 slices bacon, cooked and crumbled (optional)",
+		"1/2 cup crumbled goat cheese"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Make candied walnuts (see recipe)."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Combine the vinegar, syrup, shallots, olive oil, salt, and pepper in a jar with a tight-fitting lid. Shake vigorously to mix; chill."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Mix the greens, bacon, cheese, and walnuts in a large salad bowl. Drizzle on vinaigrette, and toss lightly to coat."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}

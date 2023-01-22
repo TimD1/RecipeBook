@@ -1,0 +1,57 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Pumpkin Chocolate Chip Bread",
+    "author": {
+        "@type": "Person",
+        "name": "BLC LYO"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "breads",
+    "recipeYield": "four loaves",
+    "recipeIngredient": [
+		"2 cups sugar",
+		"1/2 cup butter, softened",
+		"3 large eggs",
+		"2 tsp vanilla extract",
+		"1 (15 oz) can pumpkin",
+		"2 3/4 cups all-purpose flour",
+		"3/2 tsp baking powder",
+		"1 1/2 tsp baking soda",
+		"1 tsp salt",
+		"3/4 tsp ground cinnamon",
+		"1/4 tsp ground cloves",
+		"1/4 tsp ground nutmeg",
+		"1/2 cup milk",
+		"12 ounce package chocolate chips"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Grease and flour four mini loaf pans and preheat oven to 350F."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the sugar and butter to a mixing bowl and beat them with an electric mixer until well combined. Add eggs, pumpkin and vanilla and mix."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a separate bowl mix together flour, baking powder, baking soda, salt, cinnamon, cloves, and nutmeg."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add half of the flour mixture to pumpkin mixture, then add milk, then remaining flour mixture. Fold in chocolate chips at the end."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Pour the batter into pans. Bake at 350F for 35-45 minutes or until a toothpick inserted comes out clean. Check every 5 minutes after 35 min."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cool for a few minutes in the pan before inverting onto a wire rack to cool."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}

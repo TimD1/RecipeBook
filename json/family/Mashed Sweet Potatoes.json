@@ -1,7 +1,7 @@
 {
     "@context": "https://schema.org",
     "@type": "Recipe",
-    "name": "Sweet Potatoes Mashed",
+    "name": "Mashed Sweet Potatoes",
     "author": {
         "@type": "Person",
         "name": ""
@@ -10,13 +10,12 @@
     "recipeCategory": "sides",
     "recipeYield": "yield",
     "recipeIngredient": [
-        "5 Medium (4 lb) Sweet potatoes (yams), peeled, 1 in. dice (10 cups)",
-        "1 1/4 Cups Whole milk",
-        "1 Stick (1/2 cup) Wegmans' unsalted butter",
-        "1/3 Cup Brown Sugar",
-        "1 1/2 tsp McCormick Ground Cinnamon",
-        "Salt and pepper to taste",
-        "You'll need: potato masher"
+        "5 medium (4 lb) sweet potatoes, peeled, 1 in. dice (10 cups)",
+        "1 1/4 cups whole milk",
+        "1 stick unsalted butter",
+        "1/3 cup brown sugar",
+        "1 1/2 tsp ground cinnamon",
+        "salt and pepper to taste"
     ],
     "recipeInstructions": [
         {

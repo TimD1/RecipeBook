@@ -1,0 +1,33 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Sweet Potato Soup",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "soups",
+    "recipeYield": "8 servings",
+    "recipeIngredient": [
+        "2 Tbsp flour",
+        "2 Tbsp unsalted butter",
+        "3 cups chicken/vegetable broth",
+        "2 Tbsp light brown sugar",
+        "3 cups cooked sweet potatoes",
+        "1/2 tsp ground ginger",
+        "1/4 tsp ground cinnamon",
+		"1/4 tsp ground nutmeg",
+		"2 cups milk",
+		"salt"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a saucepot, over medium-low heat, cook the flour and butter, stirring constantly until a light caramel color is achieved. Add the broth and brown sugar, bring to a boil, then lower to a simmer. Stir in sweet potatoes and spices, bring to a simmer again, and cook for 5 more minutes. In a blender, puree the soup in batches and return to saucepot. Add the milk, and reheat soup. Season with salt and pepper."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}

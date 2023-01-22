@@ -1,0 +1,59 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "New England Clam Chowder",
+    "author": {
+        "@type": "Person",
+        "name": "Carolyn Benjamin"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "soups",
+    "recipeYield": "8 servings",
+    "recipeIngredient": [
+		"1 lb bacon",
+		"2 cups sweet onions, chopped",
+		"1 1/2 cups celery, chopped",
+		"3/4 cups carrots, chopped",
+		"1/3 cups flour",
+		"2 large potatoes, diced (small)",
+		"10 (6.5 oz) cans of clams, save juice from 8",
+		"2 bay leaves",
+		"1 Tbsp garlic, minced",
+		"1 Tbsp parsley",
+		"1/2 tsp dill",
+		"4 cups half 'n half, or whole milk",
+		"salt and pepper",
+		"Tabasco, to taste",
+		"3 Tbsp butter",
+		"1 lemon, squeezed (optional)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Cook bacon slowly until dark and crispy. Reserve bacon grease for cooking vegetables."
+        },
+        {
+            "@type": "HowToStep",
+            "text": " Chop onions, celery, and carrots."
+        },
+        {
+            "@type": "HowToStep",
+            "text": " Saute vegetables in pot with bacon grease. Slowly add flour."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add potatoes and clam juice. Stir until hot."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add clams, bay leaves, garlic, parsley, and dill. Pour in Half ‘n Half. Stir until potatoes are soft."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add salt, pepper, and tabasco sauce to taste. Add butter and lemon juice. Top with bacon."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}

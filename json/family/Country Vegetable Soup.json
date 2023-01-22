@@ -1,0 +1,42 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Country Vegetable Soup",
+    "author": {
+        "@type": "Person",
+        "name": "Carolyn Benjamin"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "soups",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "1 tsp olive oil",
+        "1 cup chopped onion",
+        "3 garlic cloves, minced",
+        "1/2 cup (1/2 inch thick) sliced carrots",
+        "1/2 cup chopped celery",
+        "2 cups chopped (chunks) red potatoes",
+        "2 cups cubed, peeled acorn squash or cooking pumpkin",
+        "1 tsp dried basil",
+        "1/4 tsp cinnamon",
+        "1/4 tsp dried thyme",
+        "28 oz chopped tomatoes",
+        "2 cans low sodium vegetable or chicken broth",
+        "4 cups chopped kale",
+        "1 can drained chickpeas (garbanzo beans)",
+        "1 can drained cannelini (white kidney beans) beans"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat oil in a Dutch oven over medium-high heat. Add onion and garlic and saute for 3 minutes. Add carrots and the next 6 ingredients (through thyme), stirring to combine. Cook 4 minutes, stirring occasionally. Add tomatoes, cook 2 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir in broth and bring to a boil. Reduce heat, simmer 8 minutes. Add kale, simmer 5 minutes. Add beans, simmer 4 minutes or until potato and kale are tender. "
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/D438F69A-B08F-4D9F-8163-552F4EE4E321.jpg"
+    ]
+}

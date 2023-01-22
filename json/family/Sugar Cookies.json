@@ -1,0 +1,42 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Monster Cookies",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "cookies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "1 1/2 cups butter, softened",
+        "2 cups white sugar",
+        "4 eggs",
+        "1 tsp vanilla extract",
+        "5 cups all-purpose flour",
+        "2 tsp baking powder",
+        "2 tsp salt"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large bowl, cream together butter and sugar until smooth. Beat in eggs and vanilla. Stir in the flour, baking powder, and salt. Cover, and chill dough for at least one hour (or overnight)."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 400F. Roll out dough on floured surface 1/4 to 1/2 inch thick. Cut into shapes with any cookie cutter. Place cookies 1 inch apart on ungreased cookie sheets."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake 6 to 8 minutes in preheated oven. Cool completely."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Optionally, top with icing made with confectioner's sugar and milk."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Beef Tenderloin",
+    "author": {
+        "@type": "Person",
+        "name": "Cheryl Barker"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "steak",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+		"5 lbs beef tenderloin",
+		"1 cup soy sauce",
+		"1/2 cup sherry",
+		"1/2 cup olive oil",
+		"3 cloves garlic, minced"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Combine ingredients into a marinade, and then marinate meat for up to 24 hours. Reserve the liquid." 
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake the tenderloin at 275F for 1 hour and 15 minutes, or internal temperature reaches 120F. Wrap tightly in doubled foil with marinade poured over for 2 hours. Slice thinly and serve."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}

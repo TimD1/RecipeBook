@@ -1,0 +1,30 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Candied Walnuts",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "salads",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "1/4 cup packed brown sugar",
+        "1 cup walnuts",
+        "2 Tbsp water"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Cook the brown sugar in a large heavy skillet over medium-high heat until melted."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the walnuts and water. Cook for 10 minutes or until water evaporates, stirring constantly. Spread the walnuts on a sheet pan to dry."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}

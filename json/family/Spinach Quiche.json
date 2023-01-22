@@ -1,0 +1,40 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Spinach Quiche",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "pies",
+    "recipeYield": "two quiches",
+    "recipeIngredient": [
+        "2 frozen deep dish pie crusts",
+        "2 (12 oz) boxes frozen chopped spinach",
+        "1 diced ham steak",
+        "1 chopped vidalia (white) onion",
+        "2 cups shredded sharp cheddar cheese",
+        "9 eggs",
+        "3/4 cup milk",
+        "1 tsp salt",
+        "pepper"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 375F."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Thaw spinach in microwave. When thawed, totally squeeze out all moisture."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a medium bowl, whisk together the eggs, milk, salt, and pepper. Thoroughly stir in the spinach, cheese, onion, and ham. Pour half into each pie crust, and bake for 30-40 minutes."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/spinach_quiche.jpg"
+    ]
+}

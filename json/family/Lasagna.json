@@ -1,0 +1,47 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Lasagna",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "pastas",
+    "recipeYield": "10 servings",
+    "recipeIngredient": [
+        "1 lb pork sausage or ground beef",
+        "1/2 onion, chopped",
+        "1 clove garlic, minced",
+        "1 (16 oz) can diced tomatoes",
+        "1 (8 oz) can tomato sauce",
+        "1 (6 oz) can tomato paste",
+        "2 tsp dried basil",
+        "1 tsp salt",
+		"1/2 tsp pepper",
+        "8 oz lasagne noodles",
+        "1 Tbsp olive oil",
+        "2 eggs",
+		"2 1/2 cups ricotta cheese",
+		"3/4 cup grated Parmesan",
+		"2 Tbsp dried parsley flakes",
+		"1 lb mozzarella cheese, thinly sliced"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Cook meat, onion, and garlic until meat is browned. Drain fat. Stir in the undrained tomatoes and next four ingredients. Meanwhile, cook noodles until tender in boiling salted water with oil added to water. Drain; rinse noodles. Beat eggs; add ricotta, 1/2 cup of Parmesan, parsley, salt, and pepper."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Layer half of the noodles in a 13 x 9 x 2 inch baking dish; spread with half of ricotta filling. Add half of the mozzarella cheese and half of the meat sauce. Repeat layers. Sprinkle remaining Parmesan on top."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake in a 375F oven for 30-35 minutes or until heated through. Let stand for 10 minutes."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}
