@@ -1,0 +1,44 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Spinach Artichoke Chicken Casserole",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "casseroles, chicken",
+    "recipeYield": "6 servings",
+    "recipeIngredient": [
+        "1 Tbsp butter, salted",
+        "2 Tbsp red onion, diced",
+        "2 cups spinach, raw",
+        "1 (14 oz) can artichoke hearts, chopped",
+        "1/2 jalapeno, chopped",
+        "salt and pepper",
+        "1 (8 oz) pkg cream cheese, softened",
+        "1/3 cup mayonnaise",
+        "1/3 cup sour cream",
+        "1/4 tsp garlic powder",
+		"3 cups chicken breast, cooked",
+		"1 cup mozzarella cheese, shredded",
+		"1/4 cup Parmesan, shredded"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 400F. In a large skillet over medium heat, melt butter and saute onion until translucent. Add spinach, artichokes, and jalapeno. Saute until spinach is wilted. Sprinkle in salt and pepper."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a large bowl, mix cream cheese, mayo, sour cream, and garlic powder until smooth. Add mixture to skillet."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add cooked cubed chicken and mozzarella to skillet. Stir. Pour contents into baking dish or oven-safe skillet. Top with Parmesan and bake for 20 minutes or until bubbly and brown."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}

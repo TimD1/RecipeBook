@@ -1,0 +1,47 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Lemon Chicken With White Wine",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "chicken",
+    "recipeYield": "serves 6",
+    "recipeIngredient": [
+        "3/4 cup flour",
+        "1 1/2 tsp salt",
+        "1 1/2 tsp ground black pepper",
+        "3/4 tsp paprika",
+        "3/4 tsp dried parsley",
+        "3/8 cup butter, unsalted",
+        "3 Tbsp olive oil",
+        "6 chicken breasts, pounded thin",
+        "1 1/2 lemon juice and zest",
+        "1 1/2 lemon, sliced",
+		"3/8 cup white wine",
+		"1 Tbsp honey (optional)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Combine flour, salt, pepper, paprika, and parsley in a shallow bowl. Set aside. Heat oil and butter over medium-high heat. Coat both sides of each chicken breast in the flour mixture and add to the hot skillet. Add the lemon juice, white wine, lemon zest, and rosemary to the skillet."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cook chicken about 3 minutes on each side until no longer pink in center, then remove from skillet and set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Allow the sauce in the skillet to reduce by half. Add the lemon slices after reduced until they're softened."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the chicken back into the skillet to serve. If you want a sweeter sauce, add 1 Tbsp honey. Serve over rice or pasta."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}
