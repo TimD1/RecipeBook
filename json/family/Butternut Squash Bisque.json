@@ -14,14 +14,15 @@
 		"1 1/2 cup onion, chopped",
 		"1 1/2 tsp kosher salt",
 		"2 tsp minced garlic",
-		"1 pinch ground nutmeg",
+		"1 pinch nutmeg",
 		"1 pinch cayenne pepper",
 		"4 lbs uncooked butternut squash, cubed",
-		"4 cups reduced-sodium chicken/vegetable broth",
-		"3 Tbsp plain low fat Greek yogurt",
+		"4 cups chicken/vegetable broth",
+		"3 Tbsp plain Greek yogurt",
 		"1 Tbsp packed light brown sugar",
 		"2 tsp fresh sage, chopped",
-		"1/4 tsp black pepper"
+		"1/4 tsp black pepper",
+		"1 1/2 tsp cinnamon"
     ],
     "recipeInstructions": [
         {
@@ -38,7 +39,7 @@
         },
         {
             "@type": "HowToStep",
-            "text": "Remove from heat and puree soup in pot. Serve garnished with fresh sage and black pepper."
+            "text": "Remove from heat and puree soup in pot. Serve garnished with fresh sage, black pepper, and cinnamon."
         }
     ],
     "image": [

@@ -1,0 +1,52 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Chicken Pot Pie",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "chicken, pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "4 chicken breasts",
+        "1/2 cup butter",
+        "salt and pepper",
+        "2 large carrots, peeled and diced",
+        "1 onion, chopped",
+        "3 cloves garlic, minced",
+        "3/4 cup all-purpose flour",
+        "3 cups low-sodium chicken broth",
+		"1/4 cup heavy cream",
+		"1 cup frozen peas",
+        "2 Tbsp parsley, freshly chopped",
+		"2 tsp thyme, freshly chopped",
+		"egg wash"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Make ``Biscuit Pie Crust''."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 400 F. Grease a large baking dish with butter and grease one side of a large piece of parchment with butter. Season chicken all over with salt and pepper then place in baking dish. Place buttered side of parchment paper over chicken, so that chicken is completely covered. Bake until chicken is cooked through, 30 to 40 minutes. Let rest 10 minutes before cutting into cubes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, start making the filling: In a large pot over medium heat, melt butter. Add onions and carrots and cook until vegetables begin to soften, about 10 minutes. Stir in garlic, then stir in flour and cook until the flour mixture is golden and begins to bubble. Gradually whisk in chicken broth. Bring mixture to a boil and cook until thickened, about 5 minutes. Stir in heavy cream, chicken, peas, parsley, and thyme. Season with salt and pepper."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place half of rolled dough in pie dish. Add filling, then place remaining dough on top. Crimp edges, slit to vent. Brush with egg wash and sprinkle with flaky sea salt."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Reduce heat to 375 F and bake pie until crust is golden, about 45 minutes. Let cool before serving."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Chicken Divan",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "chicken",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "1 lb broccoli cuts",
+        "1 (8 oz) pkg cream cheese",
+        "1 cup mayonnaise",
+        "3/4 cup heavy cream",
+        "1/2 tsp garlic powder",
+        "1/2 tsp onion powder",
+        "1/2 tsp ground mustard",
+        "1 tsp salt",
+		"2 bouillon cubes",
+		"4 cups chicken breast, shredded",
+        "2 cups cheddar cheese, shredded",
+		"cooked rice (optional)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Bring a large pot of water to a rapid boil. Add in broccoli and cook for 3 minutes. Remove from heat and drain. Set broccoli aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a medium bowl, microwave cream cheese, mayo, and heavy cream with spices, salt, and bouillon for 1 minute at a time for up to 3 minutes. Whisk until smooth."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a 9x13 pan, mix together chicken with sauce and broccoli. Top with cheddar cheese and bake at 375 F for 25 minutes. Serve warm over rice."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}

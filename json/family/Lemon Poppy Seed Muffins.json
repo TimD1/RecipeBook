@@ -1,0 +1,56 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Lemon Poppy Seed Muffins",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "desserts",
+    "recipeYield": "12 muffins",
+    "recipeIngredient": [
+        "3 cups all-purpose flour",
+        "1 cup sugar",
+        "2 Tbsp poppy seeds",
+        "1 Tbsp baking powder",
+        "1/2 tsp baking soda",
+		"1/2 tsp salt",
+		"1 1/2 cup plain whole milk yogurt",
+		"2 Tbsp fresh lemon juice",
+		"1 1/2 Tbsp grated lemon zest",
+		"2 eggs",
+		"8 Tbsp unsalted butter, melted and cooled",
+		"1/4 cup sugar",
+		"1/4 cup lemon juice"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Adjust the oven rack to the middle position and heat to 375F. Grease a 12 cup muffin tin."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Whisk flour, sugar, poppy seeds, baking powder, baking soda, and salt together in a large bowl."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a separate bowl, whisk yogurt, lemon zest, and eggs until smooth. Gently fold yogurt mixture into flour mixture until just combined. Fold into melted butter. Do not overmix or else muffins will be dense."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Divide batter evenly among prepared muffin cups. Bake until golden brown and inserted toothpick comes out clean, 20-25 minutes. Rotate muffin tin halfway through baking."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "While muffins bake, simmer sugar and lemon juice together in a small saucepan over medium heat until it turns into a light syrup, about 3-5 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Remove muffin tin from oven. Brush with lemon syrup. Sprinkle with coarse sugar. Let muffins cool before serving."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}

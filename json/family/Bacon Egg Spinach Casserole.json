@@ -1,0 +1,48 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Bacon Egg Spinach Casserole",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "casseroles",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "10 eggs",
+        "2 1/2 cups frozen spinach",
+        "6 slices bacon, cooked and crumbled",
+        "1 cup mushrooms, sliced",
+        "1/2 cup red onion, chopped",
+        "1/2 green pepper, chopped",
+		"1/2 red pepper, chopped",
+		"1 1/4 cup shredded cheddar",
+		"salt and pepper to taste"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 375 F. Spray a 9x13 baking dish with cooking spray."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place a skillet on medium-high heat. Add the chopped veggies (excluding spinach) to the pan. Saute for a few minutes until the veggies are soft. Pour into baking dish."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the spinach, in another layer. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a medium bowl, whisk the eggs. Season with salt and pepper. Pour the egg mixture over the veggies."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add one last layer of bacon and shredded cheese. Bake for 35 minutes."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}

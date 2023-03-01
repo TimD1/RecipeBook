@@ -1,0 +1,45 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Chili",
+    "author": {
+        "@type": "Person",
+        "name": "Doug"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "soups",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "2 (28 oz) cans crushed tomatoes",
+        "1 lb ground beef, cooked and drained",
+        "1 red onion, chopped",
+        "2 stalks celery, chopped",
+        "1 green pepper, chopped",
+		"1 jalapeno, chopped (optional)",
+        "1 1/2 Tbsp chili powder",
+        "4 cloves garlic, chopped",
+        "1 tsp ground cumin",
+        "1/2 tsp red pepper",
+		"1/2 tsp sugar",
+		"1/2 tsp ground mustard",
+		"1/2 tsp tabasco sauce",
+		"1 tsp Worchestershire sauce",
+		"1 can black beans",
+		"1/2 cup sherry",
+		"beer or water for consistency",
+		"salt to taste"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Starting with the tomatoes and ground beef, add the uncooked veggies and spices. Simmer for two hours."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the black beans and sherry, leaving just enough time to heat. Add salt and sugar for taste and beer for consistency as needed."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}

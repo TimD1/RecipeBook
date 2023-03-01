@@ -4,13 +4,13 @@
     "name": "Russian Tea Cakes",
     "author": {
         "@type": "Person",
-        "name": "www.bettycrocker.com"
+        "name": "Sue Dunn"
     },
     "description": "description of recipe",
     "recipeCategory": "cookies",
     "recipeYield": "yield",
     "recipeIngredient": [
-        "1 cup butter or margarine, softened",
+        "1 cup butter, softened",
         "1/2 cup powdered sugar",
         "1 teaspoon vanilla",
         "2 1/4 cups all-purpose flour",

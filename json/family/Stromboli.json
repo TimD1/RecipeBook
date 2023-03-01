@@ -1,0 +1,50 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Stromboli",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "main dishes",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "3/4 cup warm water",
+        "1 Tbsp granulated sugar",
+        "1 1/2 tsp yeast",
+        "1 3/4 cup all-purpose flour",
+        "1/2 tsp salt",
+        "1/2 cup pizza sauce",
+        "1/2 lb sliced pepperoni",
+        "1 1/2 cup shredded mozzarella",
+        "garlic powder",
+		"ricotta cheese (suggested)",
+		"spinach (suggested)",
+		"onion (suggested)",
+		"1 egg, beaten",
+		"1/4 cup shredded parmesan",
+		"parsley"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Whisk together water, sugar, and yeast. Add in flour and salt just until dough comes together. Transfer dough to a lightly-greased bowl and let rise for 1 hour."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 400F. Turn dough out onto lightly-floured parchment paper and roll into large rectangle."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Spread pizza sauce over dough until 1 inch from edges. Top with pepperoni, desired fillings, and sprinkle with cheese."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Roll up dough and transfer to a baking sheet. Brush with egg and sprinkle with parmesan and parsley. Bake for 20-25 minutes until golden. Serve hot with extra pizza sauce."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}

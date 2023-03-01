@@ -4,21 +4,22 @@
     "name": "Blueberry Kuchen",
     "author": {
         "@type": "Person",
-        "name": ""
+        "name": "Sue Dunn"
     },
     "description": "description of recipe",
     "recipeCategory": "desserts",
-    "recipeYield": "yield",
+    "recipeYield": "8 servings",
     "recipeIngredient": [
         "1 cup flour",
         "1/8 tsp salt",
         "2 Tbsp sugar",
-        "1/2 cup butter, slightly softened and cut into small pieces (8 tablespoons)",
+        "1/2 cup butter",
         "1 Tbsp white vinegar",
         "5 cups fresh blueberries",
         "1/2 cup sugar",
         "1/8 tsp cinnamon",
-        "2 Tbsp Flour"
+        "2 Tbsp Flour",
+		"1 tsp almond extract"
     ],
     "recipeInstructions": [
         {

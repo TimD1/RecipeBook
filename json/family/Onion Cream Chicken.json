@@ -1,0 +1,43 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Onion Cream Chicken",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "chicken",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "4 chicken breasts",
+        "salt and pepper",
+        "1/2 tsp garlic powder",
+        "1 Tbsp olive oil",
+        "1/2 cup onions, chopped",
+        "2 Tbsp butter",
+        "1/2 tsp thyme, freshly chopped",
+        "pinch of red pepper flakes",
+        "1 tsp sugar",
+        "2 tsp balsamic vinegar",
+		"1/2 cup chicken broth",
+		"1/2 cup heavy cream"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Cook the chicken: season both sides of the chicken breast with salt, pepper, and garlic powder. Heat the oil in a large skillet over medium-high heat and cook the chicken fully."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Caramelize the onions: add the butter to the skillet along with the onions. Push the onions around the pan so they pick up all the flavor bits left behind by the chicken. Lower the heat to medium-low and allow the onions to cook for 12-15 minutes, stirring them as needed to prevent from sticking. The onions are done when they soften completely and darken in color. Add the thyme, red pepper flakes, sugar, and balsamic vinegar. Let the vinegar cook out for a few minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Make the sauce: Slowly pour in the chicken broth in a steady stream while you whisk; this will help deglaze the pan. Kick up the heat to high and let the sauce reduce for 2-3 minutes or until thicker. Once the sauce reduces, lower the heat again and add in the cream. You don't want the cream to start boiling immediately or the sauce will split. Let the sauce come to a gentle simmer."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Pumpkin Muffins",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "appetizers",
+    "recipeYield": "12 muffins",
+    "recipeIngredient": [
+        "1 3/4 cups all-purpose flour",
+        "1 cup granulated sugar",
+        "1/2 cup brown sugar",
+		"1 tsp baking soda",
+        "1/2 tsp baking powder",
+        "1/2 tsp salt",
+        "2 tsp ground cinnamon",
+        "1/4 tsp ground cloves",
+        "1/4 tsp ground nutmeg",
+        "2 eggs",
+        "1 (15 oz) can pumpkin puree",
+        "1/2 cup coconut oil, melted",
+        "1 Tbsp whole milk",
+        "1 tsp vanilla extract"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 375F. Line a muffin pan with paper liners or grease with non-stick spray."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a medium bowl, combine the flour, sugar, brown sugar, baking soda, baking powder, salt, and spices. Whisk to combine."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a small bowl, combine the eggs, pumpkin puree, coconut oil, mlik, and vanilla extract. Whisk to combine. Pour the wet mixture into the dry ingredients and fold to combine. The batter will be thick."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Scopp the batter mix into the prepared muffin pan. Bake for 22 minutes, or 10 minutes for mini muffins."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}

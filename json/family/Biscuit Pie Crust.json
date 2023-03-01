@@ -1,0 +1,33 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Biscuit Pie Crust",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "pies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+		"2 cups flour",
+		"1 Tbsp baking powder",
+		"3/4 tsp salt",
+		"6 Tbsp unsalted butter, cold",
+		"3/4 cup milk",
+		"2 Tbsp basil, chopped (optional)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Mix the flour, baking powder, and salt thoroughly. Add the butter and mix in until it resembles a coarse meal." 
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the milk and mix until it forms a dough. Split the dough in half and roll out on a well-floured surface one at a time."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}

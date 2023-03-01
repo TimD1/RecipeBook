@@ -8,7 +8,7 @@
     },
     "description": "description of recipe",
     "recipeCategory": "pastas",
-    "recipeYield": "yield",
+    "recipeYield": "4 servings",
     "recipeIngredient": [
         "8 oz uncooked elbow macaroni",
         "2 cups shredded sharp cheddar cheese",
@@ -18,7 +18,8 @@
         "2 1/2 Tbsp all-purpose flour",
         "2 Tbsp butter",
         "1/2 cup bread crumbs",
-        "1 pinch paprika"
+        "1 pinch paprika",
+		"1 pinch nutmeg"
     ],
     "recipeInstructions": [
         {
@@ -31,7 +32,7 @@
         },
         {
             "@type": "HowToStep",
-            "text": "Melt butter or margarine in a skillet over medium heat. Add breadcrumbs and brown. Spread over the macaroni and cheese to cover. Sprinkle with a little paprika."
+            "text": "Melt butter or margarine in a skillet over medium heat. Add breadcrumbs and brown. Spread over the macaroni and cheese to cover. Sprinkle with a little paprika and nutmeg."
         },
         {
             "@type": "HowToStep",

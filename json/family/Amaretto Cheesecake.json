@@ -1,0 +1,54 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Amaretto Cheesecake",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "cakes",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "2 1/2 cups graham cracker crumbs (2 bags)",
+        "1/4 cup plain almonds, ground finely",
+        "1/4 cup sugar",
+        "1/2 cup unsalted butter, melted",
+        "1 Tbsp amaretto",
+        "2 (8 oz) pkgs cream cheese, softened",
+		"2 (8 oz) pkgs Neufchatel cheese, softened",
+		"1 1/2 cups sugar",
+		"4 eggs",
+		"3 Tbsp amaretto",
+		"1 tsp almond extract",
+		"3/4 tsp vanilla extract",
+		"pinch of salt",
+		"1/4 cup almonds, ground finely",
+		"2 oz white chocolate, ground finely",
+		"1 (8 oz) container sour cream",
+		"1/8 cup sugar",
+		"1/2 tsp almond extract",
+		"1/4 cup sliced almonds"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Grease a 9 inch spring-form pan. Preheat oven to 350F. Combine the graham cracker crumbs, melted butter, almonds, sugar, and amaretto for the crust. Spread the curst into the pan evently and halfway up the sides, pressing down firmly."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cream the cheese with the sugar. Add the eggs one at a time, beating just until combined. Add the almonds, amaretto, almond extract, vanilla extract, salt, and white chocolate. Pour the filling into the crust."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake for 55-65 minutes, or until the cheesecake is almost set. Meanwhile, mix together the topping (remaining ingredients) in a small bowl. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Remove the cheesecake from the oven and let cool for 5 minutes before spreading topping. Bake another 5 minutes to set the topping. Remove from oven, garnish with almonds, and refrigerate overnight."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}
