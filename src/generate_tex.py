@@ -14,6 +14,8 @@ categories = [
 		"Steak",
 		"Pork",
 		"Chicken",
+		"Casseroles",
+		"Main Dishes",
 		"Pastas",
 		"Breads",
 		"Pies",
