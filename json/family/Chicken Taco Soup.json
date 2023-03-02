@@ -1,0 +1,36 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Chicken Taco Soup",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "chicken, soup",
+    "recipeYield": "8 servings",
+    "recipeIngredient": [
+        "2 lb chicken breasts",
+        "2 (8 oz) pkg cream cheese",
+        "1 oz ranch dressing",
+        "3 Tbsp Chipotle seasoning",
+        "2 (10 oz) cans diced tomatoes and green chiles",
+        "4 cups chicken broth",
+		"grated cheddar cheese",
+        "cilantro",
+        "sour cream"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Place all ingredients in crockpot. Cook on low for 6-8 hours."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Remove chicken and shred with two forks. Return to crockpot. Serve with cheese, cilantro, and sour cream."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Roasted Cauliflower Soup",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "soups",
+    "recipeYield": "8 bowls",
+    "recipeIngredient": [
+        "2 lb cauliflower florets",
+        "3 Tbsp olive oil",
+        "1 tsp salt",
+        "1/4 tsp cayenne pepper",
+        "1/2 cup onion, diced",
+        "2 cloves garlic, minced",
+        "3-4 cups chicken broth",
+        "1/2 cup heavy cream",
+        "4 oz (1/2 pkg) cream cheese",
+        "2 cups cheddar cheese, grated"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 400F. Place cauliflower on a baking sheet and drizzle with 2 Tbsp olive oil. Sprinkle with salt and cayenne pepper and stir to coat. Roast cauliflower for 20 minutes, stirring once halfway through cooking."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "When cauliflower has roasted, add the remaining tablespoon of olive oil to a large soup pot on medium heat. Add the onion and garlic; cook for 5 minutes until onions are soft. Add the chicken broth to the pot along with the roasted cauliflower and bring to a boil. Reduce to a simmer and cook for 15 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Use a handheld blender to mash the cauliflower. Stir in the heavy cream, cream cheese, and grated cheddar until smooth and creamy."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bring to a boil. Mix together the cornstarch and water before adding to the pan, stirring quickly, until sauce has thickened slightly. Reduce heat and simmer gently for another minute to thicken sauce. Return chicken to the skillet, and sprinkle with extra herbs if desired. Serve immediately."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}

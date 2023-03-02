@@ -1,0 +1,45 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Chicken Cordon Bleu, Baked",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "chicken",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "cooking spray",
+        "12 chicken breasts",
+        "salt and pepper",
+        "1 egg",
+        "2 egg whites",
+        "1 Tbsp water",
+        "1/2 cup seasoned breadcrumbs",
+        "1/4 cup grated Parmesan cheese",
+        "5 oz (6 slices) deli ham",
+        "6 slices Swiss cheese"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 450F. Spray a large baking sheet with cooking spray. Wash and dry chicken cutlets; lightly pound the chicken to make thinner and lightly season with salt and pepper."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Lay the chicken on a working surface and place a slice of ham and cheese on top of the chicken. Roll, then set them aside with the seam down, securing with toothpicks as necessary."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a medium bowl, whisk eggs and whites with water to make an egg wash. In a separate bowl, combine the breadcrumbs and parmesan cheese. Dip the chicken into the egg wash, and then the breadcrumbs."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place chicken onto the baking sheet seams side down. Spray the top of the chicken with cooking spray and bake about 25 minutes, or until cooked."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}

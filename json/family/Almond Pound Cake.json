@@ -1,0 +1,36 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Almond Pound Cake",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "cakes",
+    "recipeYield": "serves 8",
+    "recipeIngredient": [
+        "1 cup sugar",
+        "3/4 cup butter",
+        "3 large eggs",
+        "1 tsp almond extract",
+        "3 Tbsp water",
+        "1 cup flour",
+        "1 cup ground almonds",
+        "1 1/2 tsp baking powder",
+        "1/4 tsp salt"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 325F. Butter and flour a loaf pan. Cream the butter and sugar. Beat in the eggs (individually), almond extract, and water."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir together the flour, ground almonds, and baking powder. Then combine with wet ingredients. Pour evenly into the pan and bake for 45 minutes."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Creamy Pesto Chicken",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "chicken",
+    "recipeYield": "4 servings",
+    "recipeIngredient": [
+        "1 lb chicken breasts",
+        "salt and pepper",
+        "2 Tbsp pesto",
+        "2 Tbsp olive oil",
+        "2 cups cherry tomatoes, halved",
+        "1 Tbsp all-purpose flour",
+        "2 garlic cloves, minced",
+        "1/2 Tbsp pesto",
+        "1 cup evaporated milk",
+		"freshly shaved Parmesan (optional, for garnish)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Season chicken with salt and pepper, and rub chicken with pesto. Heat olive oil in a large skillet. Add chicken to skillet and cook for 5 minutes on each side, or until thoroughly cooked."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In the meantime, prepare the sauce by combining flour, garlic, pesto, evaporated milk, salt, and pepper in a bowl; whisk until thoroughly combined and set aside. Remove chicken from skillet."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Return skillet to heat and stir in the tomatoes. If pan is dry, add more olive oil. Cook the tomatoes over medium-high heat for about a minute, or until beginning to soften. Add the prepared sauce to the skillet and bring to a boil."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place the chicken back in the skillet and cook for 2-3 minutes, or until heated through. Remove from heat and garnish with cheese. Serve with pasta or rice."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Chicken French",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "chicken",
+    "recipeYield": "4 servings",
+    "recipeIngredient": [
+        "1/4 cup all-purpose flour",
+        "salt and pepper",
+        "2 eggs, beaten",
+        "1 Tbsp white sugar",
+        "1 Tbsp grated Parmesan",
+        "2 Tbsp olive oil",
+        "4 chicken breasts",
+        "1/4 cup butter",
+        "2 tsp garlic, minced",
+        "1/4 cup dry sherry",
+		"1/4 cup lemon juice",
+		"2 tsp low-sodium chicken base"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Mix together the flour, salt, and pepper in a shallow bowl. In another bowl, whisk eggs, sugar, and Parmesan cheese until the mixture is thoroughly blended and the sugar has dissolved."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat olive oil over medium heat in a large skillet until the oil shimmers. Dip the chicken breasts in the flour mixture, then into the egg mixture, and gently lay them in the skillet. Pan-fry the chicken breasts until golden brown and no longer pink in the middle, about 6 minutes per side. Remove from the skillet and set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In the same skilled over medium-low heat, melt the butter and stir in garlic, sherry, lemon juice, and chicken base. Bring the sauce to a simmer, and stir until smooth and slightly thickened, about 5 minutes. Be sure to dissolve any brown flavorful bits from the bottom of the skillet as you stir. Return the chicken breasts to the sauce, and gently simmer for about 15 minutes."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}

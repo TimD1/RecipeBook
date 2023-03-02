@@ -1,0 +1,49 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Vegetable Gruyere Quiche",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "stinky cheese quiche",
+    "recipeCategory": "main dishes",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "1 cup leek",
+        "2 cups zucchini",
+        "2 cups yellow squash",
+        "1 cup red bell pepper",
+        "1 1/3 cups all-purpose flour",
+        "1/4 cup butter",
+        "2-3 Tbsp ice water",
+        "2 eggs",
+        "1 egg white",
+        "2 Tbsp milk",
+		"1 tsp Italian seasoning",
+		"1/2 tsp salt",
+		"1/4 tsp pepper",
+		"1/4 cup shredded Gruyere cheese"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Add water to a Dutch oven to a depth of 2 inches; bring to a boil. Add leek; cover and simmer 5 minutes. Add zucchini, squash, and bell pepper; cover and simmer 5 minutes. Drain well; pat vegetables dry with paper towel."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place flour in a bowl; cut in butter with a pastry blender until it resembles coarse meal. Sprinkle ice water over mixture; toss with a fork until moist."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Press mixture gently into a 4 inch circle on heavy-duty plastic wrap; cover with additional wrap. Chill 20 minutes. Roll dough, still covered, into a 12 inch circle. Place dough in freezer 5 unites or until plastic wrap can be easily removed."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 450F. Remove 1 sheet of plastic wrap; fit dough into a 9 inch quiche dish or pie plate coated "
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}

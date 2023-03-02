@@ -1,0 +1,27 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Carrot Cake Frosting",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "cakes",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "1 (8 oz) pkg cream cheese, softened",
+        "1/2 cup unsalted butter, softened",
+        "2 cups powdered sugar",
+        "1 tsp vanilla extract"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large mixing bowl, beat the cream cheese until smooth. Add the butter and mix for one minute until smooth. Add in the powdered sugar and vanilla extract, again mixing until smooth."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}

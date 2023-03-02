@@ -1,0 +1,49 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Carrot Cake Base",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "cakes",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "2 cups all-purpose flour",
+        "2 tsp baking powder",
+        "1 tsp baking soda",
+        "1 1/2 tsp ground cinnamon",
+        "1/2 tsp ground ginger",
+        "1/4 tsp ground nutmeg",
+        "1/2 tsp salt",
+        "3/4 cup vegetable oil",
+        "4 eggs, room temperature",
+        "1 1/2 cups light brown sugar",
+		"1/2 cup granulated sugar",
+		"1/2 cup unsweetened applesauce",
+		"1 tsp vanilla extract",
+		"3 cups grated carrots"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 350F. Spray two 9 inch round cake pans with non-stick spray and set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a large mixing bowl, whisk together the flour, baking powder, baking soda, cinnamon, ginger, nutmeg, and salt until well-combined. Set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a separate large mixing bowl, whisk together the oil, eggs, brown sugar, granulated sugar, applesauce, and vanilla extract until fully combined. Add the grated carrots into the wet ingredients and mix until well combined. Pour the wet ingredients into the dry ingredients and mix until just combined."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Pour the cake batter evenly into both pans. Bake at 350F for 30-35 minutes or until set. Remove from oven and cool on wire rack for 20-25 minutes. Once cooled, layer with cream cheese frosting."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}

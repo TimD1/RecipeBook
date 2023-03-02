@@ -1,0 +1,56 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Buffalo Chicken Mac and Cheese",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "chicken",
+    "recipeYield": "serves 8",
+    "recipeIngredient": [
+        "7 Tbsp unsalted butter",
+        "salt",
+        "1 lb elbow macaroni",
+        "1 onion, finely chopped",
+        "2 stalks celery, finely chopped",
+        "3 cups shredded chicken (rotisserie)",
+        "2 cloves garlic, minced",
+        "3/4 cup hot sauce (Frank's or Louisiana)",
+        "2 Tbsp all-purpose flour",
+        "2 tsp dry mustard",
+		"2 1/2 cups half-and-half",
+		"1 lb sharp cheddar, cubed",
+		"8 oz pepper jack cheese, shredded",
+		"2/3 cup sour cream",
+		"1 cup Panko breadcrumbs",
+		"3/4 cup crumbled blue cheese",
+		"2 Tbsp parsley, freshly chopped"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 350F and butter a 9x13 baking dish. Bring a large pot of salted water to a boil; add the pasta and cook until al dente, about 7 minutes. Drain."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, melt 3 Tbsp butter in a saucepan over medium heat. Add the onion and celery and cook until soft, about 5 minutes. Stir in the chicken and garlic and cook 2 minutes, then add 1/2 cup hot sauce and simmer until slightly thickened, about one more minute."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir in the flour and mustard until smooth. Whisk in the half-and-half, then add the remaining 1/4 cup hot sauce and stir until thick, about 2 minutes. Whisk in the cheddar and pepper jack cheeses, then whisk in the sour cream until smooth."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Spread half of the macaroni in the prepared baking dish, then top with the chicken mixture and the remaining macaroni. Pour the cheese sauce evenly on top."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Melt the remaining 2 Tbsp butter, then stir in the breadcrumbs, blue cheese, and parsley. Sprinkle over the macaroni and bake until bubbly, 30-40 minutes. Let rest for 10 minutes before serving."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}
