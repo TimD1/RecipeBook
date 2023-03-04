@@ -5,27 +5,27 @@ f = open("../tex/recipes.tex", "w")
 json_dir = "../json"
 categories = [
 		"Appetizers",
-		"Salads",
-		"Soups",
-		"Sides",
-		"Breakfasts",
-		"Dips",
-		"Seafood",
-		"Steak",
-		"Pork",
-		"Chicken",
-		"Casseroles",
-		"Main Dishes",
-		"Pastas",
 		"Breads",
-		"Pies",
-		"Cookies",
+		"Breakfasts",
 		"Cakes",
-		"Desserts"
+		"Casseroles",
+		"Chicken",
+		"Cookies",
+		"Desserts",
+		"Pastas",
+		"Pies",
+		"Pizzas",
+		"Pork",
+		"Salads",
+		"Seafood",
+		"Sides",
+		"Soups",
+		"Steak",
+		"Quiches"
 ]
 directories = [
-        # "ios_app",
-		"family"
+		"family",
+		"tim"
 		]
 
 
@@ -33,9 +33,6 @@ def add_to_toc(recipe, table_of_contents):
 	cats = recipe["recipeCategory"].split(", ")
 	classic = False
 	for cat in cats:
-		if cat == "classic":
-			classic = True
-			continue
 		if len(table_of_contents[cat]):
 			table_of_contents[cat] += "\n"
 		name_id = recipe["name"].lower().replace(" ", "-")
@@ -44,9 +41,7 @@ def add_to_toc(recipe, table_of_contents):
 
 def add_recipe(recipe, recipes):
 	cats = recipe["recipeCategory"].split(", ")
-	for cat in cats:
-		if cat == "classic":
-			continue
+	cat = cats[0]
 
 	name_id = recipe["name"].lower().replace(" ", "-")
 	recipes[cat] += r"\noindent\begin{minipage}[t]{\linewidth}%" + "\n"
@@ -94,7 +89,7 @@ def write_recipe_book(f, toc, recipes):
 		print(r"{~\vspace{2mm}\\ \Large \textbf{" + f"{cat}" + r"}}" + r"\hfill\textbf{\pageref{" + cat.lower() + r"}}" + "\n", file=f)
 		print(toc[cat.lower()], file=f)
 	for cat in categories:
-		print(r"{\newpage \LARGE \textbf{" + f"{cat}" + r"}} \label{" + cat.lower() + r"}\\", file=f)
+		print(r"{\newpage \LARGE \textbf{" + f"{cat}" + r"}} \label{" + cat.lower() + r"}\vspace{4mm}\\", file=f)
 		print(recipes[cat.lower()], file=f)
 	print(r"\end{document}", file=f)
 
