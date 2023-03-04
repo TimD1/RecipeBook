@@ -4,9 +4,9 @@
     "name": "Banana Bread",
     "author": {
         "@type": "Person",
-        "name": "Alpha Bakery Children's Book"
+        "name": "Sue Dunn"
     },
-    "description": "description of recipe",
+    "description": "from the Alpha Bakery Children's (ABC) cookbook",
     "recipeCategory": "breads",
     "recipeYield": "yield",
     "recipeIngredient": [
@@ -24,11 +24,7 @@
     "recipeInstructions": [
         {
             "@type": "HowToStep",
-            "text": "Heat the oven to 350F."
-        },
-        {
-            "@type": "HowToStep",
-            "text": "Grease a loaf pan, either 9x5x3 or 8 1/2 x4 1/2 x2 1/2 inches, with shortening, using a pastry brush."
+            "text": "Heat the oven to 350F. Grease a 9x5x3 loaf pan."
         },
         {
             "@type": "HowToStep",

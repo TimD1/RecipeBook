@@ -1,0 +1,27 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Almond Braid Icing",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "breads",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "1 cup confectioner's sugar",
+        "1 tsp butter, softened",
+        "1/8 tsp almond extract",
+        "4 tsp warm water"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Mix all ingredients in a small bowl until smooth."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}

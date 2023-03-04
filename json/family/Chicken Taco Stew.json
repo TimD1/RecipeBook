@@ -10,14 +10,15 @@
     "recipeCategory": "soups",
     "recipeYield": "yield",
     "recipeIngredient": [
-        "1 sweet onion, chopped",
-        "1 can cannellini beans, drained and rinsed",
-        "1 can black beans, drained and rinsed",
+        "1 onion, chopped",
+        "1 (16 oz) can cannellini beans, drained and rinsed",
+        "1 (16 oz) can black beans, drained and rinsed",
+		"1 (16 oz) can sweet corn, drained",
         "3 (10 oz) cans of diced tomatoes with green chillies",
         "1 packet taco seasoning",
-        "1 can sweet corn, drained",
-        "3 chicken breasts cut lengthwise in half",
-        "3 avocados, chopped"
+        "3 chicken breasts, cut lengthwise in half",
+		"2 avocados",
+		"sour cream"
     ],
     "recipeInstructions": [
         {
@@ -26,7 +27,7 @@
         },
         {
             "@type": "HowToStep",
-            "text": "30 minutes before serving, remove chicken and shred. Return shredded chicken to slow cooker and stir in. This is good eaten with cheese, sour cream, or tortilla chips and of course fresh avacados on top."
+            "text": "30 minutes before serving, remove chicken and shred. Return shredded chicken to slow cooker and stir in. Serve with sour cream and avocado."
         }
 	],
     "image": [

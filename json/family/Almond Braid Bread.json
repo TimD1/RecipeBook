@@ -1,0 +1,71 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Almond Braid Bread",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "breads",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "2 packages active dry yeast",
+        "1 cup warm (105-115F) water",
+        "1/2 cup sugar",
+        "3/4 cup warm (105-115F) milk",
+        "1 tsp salt",
+        "1 tsp vanilla extract",
+        "1/4 cup butter, softened",
+        "5 cups flour",
+        "2 eggs",
+        "1 egg white",
+		"1 tsp water",
+		"sliced almonds"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Sprinkle yeast over the water in a large bowl. Add 1 Tbsp sugar. Let stand until yeast is soft (5 minutes)."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add remaining sugar, milk, salt, vanilla, and butter."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add half the flour. Mix to blend, then beat at meduim speed until smooth and elastic (5 minutes). Beat in eggs, one at a time, beating until smooth after each addition. Stir in about 2 cups more flour to make a soft dough."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Turn dough out onto a board coated with some of the remaining flour. Knead until dough is smooth and satiny and small bubbles form just under surface (15-20 minutes), adding just enough flour to prevent dough from being sticky."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Turn dough in a greased bowl. Cover with plastic wrap and a towel; let rise in a warm place until doubled in bulk (1 - 1 1/2 hours). While dough rises, prepare ``Almond Braid Filling''."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Punch dough down. Cover with inverted bowl and let rest for 10 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Divide dough into three equal portions. Roll each out to a 6 x 18 inch rectangle. Spread a third of the filling down the center of each, leaving about a 1/2 inch margin all the way around. Starting from an 18 inch side, roll each strip; pinch ends and long edges to seal."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place filled rolls side by side on a large greased baking sheet; braid, being careful not to stretch strands. Pinch ends of braid and tuck under slightly to seal."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Let rise until almost doubled in bulk (35-45 minutes). Preheat oven to 350F."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Make egg white mixture: add teaspoon of water to beaten egg white. Brush braid lightly with egg white mixture. Bake until braid is richly browned and sounds hollow when tapped (35-45 minutes). Slide carefully onto a wire rack. Drizzle warm braid with ``Almond Braid Icing''; decorate with sliced almonds. Let cool to room temperature before slicing."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}

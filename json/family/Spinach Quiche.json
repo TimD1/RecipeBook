@@ -7,18 +7,18 @@
         "name": "Sue Dunn"
     },
     "description": "description of recipe",
-    "recipeCategory": "pies",
-    "recipeYield": "two quiches",
+    "recipeCategory": "quiches",
+    "recipeYield": "2 quiches",
     "recipeIngredient": [
         "2 frozen deep dish pie crusts",
         "2 (12 oz) boxes frozen chopped spinach",
-        "1 diced ham steak",
+        "1 ham steak, diced",
         "1 chopped vidalia (white) onion",
-        "2 cups shredded sharp cheddar cheese",
+        "2 cups cheddar cheese, shredded",
         "9 eggs",
         "1 cup milk",
         "1 tsp salt",
-        "pepper"
+        "ground pepper"
     ],
     "recipeInstructions": [
         {

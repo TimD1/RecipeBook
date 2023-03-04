@@ -1,0 +1,49 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Blueberry Cobbler",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "desserts",
+    "recipeYield": "8-10 servings",
+    "recipeIngredient": [
+        "6 cups fresh blueberries",
+        "1 cup granulated sugar",
+        "2 tsp lemon zest",
+        "3 Tbsp all-purpose flour",
+        "1 cup, 5 Tbsp all-purpose flour",
+        "6 Tbsp granulated sugar",
+        "1 1/2 tsp baking powder",
+        "1/4 tsp salt",
+        "6 Tbsp unsalted butter",
+		"1 egg, beaten",
+		"1 tsp vanilla extract",
+		"1 Tbsp granulated sugar",
+		"1 tsp ground cinnamon",
+		"1/2 tsp ground nutmeg"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Arrange oven rack in lower third and preheat to 375F. Lightly butter 10 inch pie plate."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Prepare the blueberry filling: Place blueberries into prepared baking dish. In a small bowl, combine the sugar and lemon zest. Add 3 Tbsp flour and whisk until thoroughly combined. Sprinkle mixture evenly over berries in prepared baking dish and toss gently. Set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Prepare the crumble topping: In a medium bowl, whisk together flour, sugar, baking powder, and salt until well-combined. Using a pastry blender, cut buttler into flour mixure until it resembles a coarse meal. In a small bowl, whisk vanilla into beaten egg. With a fork, gently toss beaten egg and vanilla into flour mixture until moistened and dough starts to hold together."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake the cobbler: Sprinkle biscuit crumble topping evenly over fruit filling. Sprinkle biscuit crumble topping with sugar and dust with nutmeg/cinnamon. Bake until golden brown and bubbly, about 40-45 minutes. To prevent over-browning of topping, cover with sheet of aluminum foil after 25 minutes."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}

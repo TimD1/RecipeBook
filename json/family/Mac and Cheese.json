@@ -4,21 +4,21 @@
     "name": "Mac and Cheese",
     "author": {
         "@type": "Person",
-        "name": "Tim Dunn"
+        "name": "Sue Dunn"
     },
     "description": "description of recipe",
     "recipeCategory": "pastas",
-    "recipeYield": "4 servings",
+    "recipeYield": "6 servings",
     "recipeIngredient": [
-        "8 oz uncooked elbow macaroni",
-        "2 cups shredded sharp cheddar cheese",
-        "1/2 cup grated parmesan cheese",
-        "3 cups milk",
-        "1/4 cup butter",
-        "2 1/2 Tbsp all-purpose flour",
-        "2 Tbsp butter",
-        "1/2 cup bread crumbs",
-        "1 pinch paprika",
+        "1 lb elbow macaroni",
+        "4 cups shredded sharp cheddar cheese",
+        "1 cup grated parmesan cheese",
+        "6 cups milk",
+        "1/2 cup butter",
+        "5 Tbsp all-purpose flour",
+        "4 Tbsp butter",
+        "1 cup bread crumbs",
+        "2 pinch paprika",
 		"1 pinch nutmeg"
     ],
     "recipeInstructions": [

@@ -1,0 +1,43 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Oatmeal Peanut Butter Chocolate Chip Cookies",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "cookies",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "2 cups all-purpose flour",
+        "2 tsp baking powder",
+        "1/2 tsp salt",
+        "1 cup (2 sticks) butter, softened",
+        "3/4 cup peanut butter",
+        "1 cup granulated sugar",
+        "1 cup light brown sugar",
+        "1 tsp vanilla extract",
+        "2 eggs",
+        "2 cups (12 oz pkg) chocolate chips",
+		"1/4 cup dark chocolate morsels",
+		"1 1/2 cup quick oats"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 375F. Combine flour, baking powder, and salt in small bowl."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Beat butter, peanut butter, granulated sugar, brown sugar, and vanilla extract in large mixer bowl until creamy. Add eggs, one at a time, beating well after each addition. Gradually beat in flour mixture. Stir in chocolate, morsels and oats. Drop by tablespoon onto baking sheets."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake for 10-12 minutes until light golden brown. Cool on baking sheets for 2 minutes."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Chocolate Lava Cakes",
+    "author": {
+        "@type": "Person",
+        "name": "Brian Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "cakes",
+    "recipeYield": "4 cakes",
+    "recipeIngredient": [
+        "1 stick unsalted butter",
+        "6 oz bittersweet chocolate",
+        "2 eggs",
+        "2 egg yolks",
+        "1/4 cup sugar",
+        "pinch of salt",
+        "2 Tbsp all-purpose flour"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 450F. Butter and lightly flour four ramekins; tap out the excess flour. Set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a double boiler, melt the butter with the chocolate. In a medium bowl, beat the eggs with the yolks, sugar, and salt at high speed until thickened."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Whisk the chocolate until smooth. Quickly fold it into the egg mixture along with the flour. Spoon the batter into the prepared ramekins and bake for 12 minutes, or until the sides are firm but center is soft. Le the cakes cool for 1 minute, then cover each with an inverted dinner plate. Carefully turn each over, let stand for 10 seconds, then unmold. Serve immediately."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}

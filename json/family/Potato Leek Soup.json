@@ -8,14 +8,14 @@
     },
     "description": "description of recipe",
     "recipeCategory": "soups",
-    "recipeYield": "Serves 8-10",
+    "recipeYield": "serves 8-10",
     "recipeIngredient": [
         "1/4 cup unsalted butter",
-        "2 lb leeks, white portions only, trimmed, carefully washed and thinly sliced",
+        "2 lb leeks, white portions only, trimmed, washed, sliced",
         "6 cups chicken/vegetable stock",
-        "2 lb baking potatoes, peeled, quartered lengthwise and thinly sliced",
+        "2 lb baking potatoes, peeled, quartered lengthwise, sliced",
 		"salt and white pepper",
-        "2 Tbsp finely chopped fresh chives"
+        "2 Tbsp fresh chives, chopped"
     ],
     "recipeInstructions": [
         {

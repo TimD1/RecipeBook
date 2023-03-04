@@ -1,0 +1,30 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Almond Braid Filling",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "breads",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "1 1/2 cups unblanched almonds",
+        "1/4 cup fine dry bread crumbs",
+        "3/4 cup sugar",
+        "1/4 cup butter, melted",
+        "3/4 tsp almond extract",
+        "1/2 tsp vanilla extract",
+        "1 egg, slightly beaten"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Whirl almonds in food processor or blender until powdery. Mix almonds, crumbs, and sugar to combine thoroughly. Stir in butter and almond and vanilla extracts. Mix in egg to moisten mixture evenly."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}

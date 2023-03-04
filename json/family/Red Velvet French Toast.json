@@ -1,0 +1,46 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Red Velvet French Toast",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "breakfasts",
+    "recipeYield": "4 servings",
+    "recipeIngredient": [
+        "4 eggs",
+        "1 cup buttermilk",
+        "2 Tbsp sugar",
+        "2 tsp vanilla extract",
+        "2 Tbsp cocoa powder",
+        "2 Tbsp red food coloring (optional)",
+        "8 slices bread, halved",
+        "1 (8 oz) pkg cream cheese",
+        "2 Tbsp sugar",
+        "1 tsp vanilla bean paste",
+		"fresh raspberries"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Whisk together eggs, buttermilk, sugar, vanilla, coloring, and cocoa in a shallow bowl until smooth. In place of buttermilk, you can combine 1 cup milk with 1 Tbsp vinegar and allow to sour for 5 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Dip bread slices into egg wash and press lightly a few times to soak through completely. Flip each slice and repeat until evenly coated."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat a larget nonstick skillet over low-medium heat and fry the bread in batches of 3 or 4, turning once until just cooked through. Remove and place on warmed plate."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "While frying french toash, make the cheesecake filling. Combine the cream cheese, sugar, and vanilla paste in a medium sized bowl and whip until light and fluffy. Spoon 1-2 Tbsp of filling onto 6 toast halves; spread to evenly coat; top with remaining halves to create a sandwich. Drizzle with melted chocolate, top with remaining cream, dust with confectioner's sugar, and serve with berries."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}

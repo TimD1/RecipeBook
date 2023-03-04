@@ -1,0 +1,43 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Twice Baked Potatoes",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "sides",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "4 large baking potatoes",
+        "8 slices bacon",
+        "1 cup sour cream",
+        "1/2 cup milk",
+        "1/2 tsp salt",
+        "1/2 tsp pepper",
+        "1 cup cheddar, shredded",
+        "8 green onions, sliced"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 350F. Bake potatoes in preheated oven until easily pierced with fork, about 1 hour. Cool for 10 minutes, leaving oven on."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, cook bacon in a large skillet over medium heat until evenly browned. Drain, crumble, and set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Slice potatoes in half lengthwise and scoop flesh into a large bowl, saving the skins. Mix in sour cream, milk, salt, pepper, half the cheddar, and half the green onions. Blend with a handheld mixer until creamy. Spoon back into potatos skins and top with remaining cheese, green onions, and bacon."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake in oven until filling is hot and cheese is melted, about 15 minutes."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}

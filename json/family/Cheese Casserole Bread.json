@@ -1,0 +1,46 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Cheese Casserole Bread",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "breads",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "2 Tbsp sugar",
+        "2 tsp salt",
+        "2 packages active dry yeast",
+        "5 cups all-purpose flour",
+        "2 1/4 cups milk",
+        "1 cup cheddar, shredded",
+        "1 Tbsp butter, melted"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large bowl, combine sugar, salt, yeast, and 2 cups flour. In 2 quart saucepan over low heat, heat milk and cheese until very warm (120-130F). The cheese doesn't need to melt."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Slowly beat liquid mixture into dry ingredients until just blended. At medium speed, beat 2 minutes, scraping bowl with rubber spatula. Beat in 1 cup flour to make a thick batter; beat 2 minutes more, scraping bowl often. Stir in enough additional flour (2 cups) to make a stiff dough that leaves the sides of the bowl."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cover bowl with towel; let rise in warm place until doubled, about 45 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir down dough; turn into casserole dish. Cover; let rise in warm place until doubled, about 45 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 375F. Brush loaf with melted butter. Bake 30-35 minutes until golden."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}

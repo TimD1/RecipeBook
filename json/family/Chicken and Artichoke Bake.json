@@ -6,7 +6,7 @@
         "@type": "Person",
         "name": "Sue Dunn"
     },
-    "description": "description of recipe",
+    "description": "The leftovers make a delicious panini sandwich with rosemary olive oil bread and fontina cheese.",
     "recipeCategory": "chicken",
     "recipeYield": "yield",
     "recipeIngredient": [
@@ -14,7 +14,7 @@
         "3/4 cup grated parmesan cheese",
         "3/4 cup light mayonnaise",
         "dash of garlic powder",
-        "4 chicken breasts (1lb), cut lengthwise in half"
+        "4 chicken breasts, cut lengthwise in half"
     ],
     "recipeInstructions": [
         {
@@ -27,7 +27,7 @@
         },
         {
             "@type": "HowToStep",
-            "text": "Place chicken in a greased 11 x 7 inch baking dish. Spread artichoke mixture over chicken. Bake uncovered at 375F for 30-35 minutes."
+            "text": "Place chicken in a greased 11x7 inch baking dish. Spread artichoke mixture over chicken. Bake uncovered at 375F for 30-35 minutes."
         }
 	],
     "image": [

@@ -10,28 +10,20 @@
     "recipeCategory": "soups",
     "recipeYield": "yield",
     "recipeIngredient": [
-        "3 Cups Chicken stock (college inn)",
-        "1 Egg (Beaten)",
-        "1 Scallion (Chopped)",
+        "3 cups chicken stock",
+        "1 egg, beaten",
+        "1 scallion, chopped",
         "1 Tbsp cornstarch",
-        "1 Tbsp Water"
+        "1 Tbsp water"
     ],
     "recipeInstructions": [
         {
             "@type": "HowToStep",
-            "text": "Put stock on high heat."
+            "text": "Put stock on high heat. While boiling, stir in cornstarch until stock thickens and becomes clear."
         },
         {
             "@type": "HowToStep",
-            "text": "While boiling, stir in cornstarch until stock thickens and becomes clear."
-        },
-        {
-            "@type": "HowToStep",
-            "text": "Slowly pour in egg and stir once gently."
-        },
-        {
-            "@type": "HowToStep",
-            "text": "Turn off heat. Pour in bowls and top with chopped scallions."
+            "text": "Slowly pour in egg and stir once gently. Turn off heat. Pour in bowls and top with chopped scallions."
         }
     ],
     "image": [

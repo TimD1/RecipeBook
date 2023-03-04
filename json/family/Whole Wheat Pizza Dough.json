@@ -1,0 +1,42 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Whole Wheat Pizza Dough",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "pizzas",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "2 1/2 cups bread flour",
+        "1/3 cup whole wheat flour",
+        "1 package active dry yeast",
+        "1/2 tsp salt",
+        "1 cup hot (115-125F) water",
+        "1 tsp honey",
+        "2 tsp olive oil"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large bowl, combine 1 2/3 cups of the bread flour, whole wheat flour, yeast, and salt. Stir to blend dry ingredients thoroughly."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a small bowl combine hot water, honey, and oil; stir to blend well. Add water mixture to flour mixture. Mix to blend, then beat at medium speed until smooth and elastic (about 5 minutes). Stir in about 1/3 cup more bread flour to make a soft dough."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Turn dough out onto a well-floured board or pastry cloth. Knead until dough is smooth under surface (5-10 minutes), adding just enough bread flour ( up to 1/3 cup) to prevent dough from being sticky."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Turn dough in a greased bowl. Cover with plastic wrap and a towel and let rise in a warm place until doubled in bulk (30-40 minutes). Punch dough down, cover with inverted bowl, and let rest 10 minutes; then use as directed in recipe."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/none.jpg"
+    ]
+}

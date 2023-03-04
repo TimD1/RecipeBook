@@ -6,7 +6,7 @@
         "@type": "Person",
         "name": "Sue Dunn"
     },
-    "description": "description of recipe",
+    "description": "from the ABC cookbook",
     "recipeCategory": "cookies",
     "recipeYield": "48 cookies",
     "recipeIngredient": [
