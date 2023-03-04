@@ -1,0 +1,40 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Egg Avocado Toast",
+    "author": {
+        "@type": "Person",
+        "name": "Tim Dunn"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "breakfasts",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "olive oil",
+        "2 slices bread",
+        "3 eggs",
+        "salt and pepper",
+        "Italian seasoning",
+		"fresh mozzarella",
+		"1/2 - 1 avocado",
+		"1/4 - 1/2 tomato",
+		"cheddar cheese, shredded"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Coat a small skillet in olive oil and heat. Toast the bread."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Crack the eggs into the heated skillet. Add seasonings. While it cooks, layer the bread with sliced mozzarella, avocado, and tomato."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Flip the eggs, and immediately grate cheddar cheese on top. Once cooked, remove the eggs from the skillet and place as the final layer on the toast."
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/egg-avocado-toast.jpg"
+    ]
+}

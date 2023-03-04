@@ -1,0 +1,36 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Coconut Chicken Curry",
+    "author": {
+        "@type": "Person",
+        "name": "Cameron Behar"
+    },
+    "description": "description of recipe",
+    "recipeCategory": "chicken",
+    "recipeYield": "yield",
+    "recipeIngredient": [
+        "6 cloves garlic",
+        "chili powder",
+        "sriracha (optional)",
+        "2 cans coconut milk",
+        "cilantro",
+		"1/2 onion",
+		"1 red bell pepper",
+		"1 orange bell pepper",
+		"1 zucchini",
+		"3 chicken breasts",
+        "lime juice",
+		"1 (4 oz) jar curry paste",
+		"2 Tbsp tomato paste"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "TBD"
+        }
+    ],
+    "image": [
+        "/home/tim/Documents/projects/recipes/img/coconut-chicken-curry.jpg"
+    ]
+}
